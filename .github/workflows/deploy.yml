@@ -1,6 +1,6 @@
 name: Build and Deploy Next.js (Static Export)
 
-# Запуск вручную и через repository_dispatch (для WordPress webhook)
+# Запуск вручную и через repository_dispatch (WordPress webhook)
 on:
   workflow_dispatch:
   repository_dispatch:
@@ -24,22 +24,22 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # 4️⃣ Строим проект и экспортируем статический сайт
+      # 4️⃣ Строим проект (Next.js 15+ с output: 'export' автоматически создаёт статическую папку)
       - name: Build Next.js (static export)
         run: npm run build
 
-      # 5️⃣ Проверяем, что папка out существует и содержит файлы
+      # 5️⃣ Проверяем, что папка out/ существует и содержит файлы
       - name: Check local export folder
-        run: ls -la ./out
+        run: ls -la ./out/
 
-      # 6️⃣ Dry-run деплой на FTP (только проверка)
+      # 6️⃣ Dry-run деплой на FTP (проверка без реального заливания)
       - name: Dry-run FTP deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./out
+          local-dir: ./out/
           server-dir: /public_html/
           dry-run: true
 
@@ -50,5 +50,5 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./out
+          local-dir: ./out/
           server-dir: /public_html/
