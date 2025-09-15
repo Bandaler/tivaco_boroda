@@ -1,8 +1,6 @@
-
-
 name: Build and Deploy Next.js (Static Export)
 
-# Запуск вручную и через repository_dispatch (WordPress webhook)
+# Запуск вручную и через repository_dispatch (для WordPress webhook)
 on:
   workflow_dispatch:
   repository_dispatch:
@@ -26,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # 4️⃣ Строим и экспортируем сайт
+      # 4️⃣ Строим проект и экспортируем статический сайт
       - name: Build and export Next.js
         run: npm run build && npm run export
 
