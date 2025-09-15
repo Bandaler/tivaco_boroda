@@ -25,8 +25,8 @@ jobs:
         run: npm ci
 
       # 4️⃣ Строим проект и экспортируем статический сайт
-      - name: Build and export Next.js
-        run: npm run build && npm run export
+      - name: Build Next.js (static export)
+        run: npm run build
 
       # 5️⃣ Проверяем, что папка out существует и содержит файлы
       - name: Check local export folder
