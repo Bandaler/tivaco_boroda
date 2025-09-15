@@ -1,6 +1,5 @@
 name: Build and Deploy Next.js (Static Export)
 
-# Запуск вручную и через repository_dispatch (WordPress webhook)
 on:
   workflow_dispatch:
   repository_dispatch:
@@ -10,29 +9,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Забираем код из репозитория
+      # 1️⃣ Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2️⃣ Устанавливаем Node.js
+      # 2️⃣ Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 20
 
-      # 3️⃣ Устанавливаем зависимости
+      # 3️⃣ Install dependencies
       - name: Install dependencies
         run: npm ci
 
-      # 4️⃣ Строим проект (Next.js 15+ с output: 'export' автоматически создаёт статическую папку)
-      - name: Build Next.js (static export)
+      # 4️⃣ Build Next.js (static export)
+      - name: Build Next.js
         run: npm run build
 
-      # 5️⃣ Проверяем, что папка out/ существует и содержит файлы
-      - name: Check local export folder
-        run: ls -la ./out/
+      # 5️⃣ Проверяем, что папка out/ существует
+      - name: Check export folder
+        run: |
+          echo "Current folder: $(pwd)"
+          ls -la
+          ls -la ./out/
 
-      # 6️⃣ Dry-run деплой на FTP (проверка без реального заливания)
+      # 6️⃣ Dry-run FTP deploy
       - name: Dry-run FTP deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
@@ -43,7 +45,7 @@ jobs:
           server-dir: /public_html/
           dry-run: true
 
-      # 7️⃣ Настоящий деплой на FTP
+      # 7️⃣ Deploy to server via FTP
       - name: Deploy to server via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
