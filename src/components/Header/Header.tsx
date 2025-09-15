@@ -1,11 +1,21 @@
-import he from 'he';
-import Link from 'next/link';
-import Image from 'next/image';
+// import he from 'he';
+// import Link from 'next/link';
+// import Image from 'next/image';
 import NavMenu from './NavMenu';
 
+
+// type MenuItem = {
+//   id: number;
+//   title: string;
+//   url: string;
+//   parent: string;
+//   order: number;
+// };
+
+
 export default async function Header() {
-  const res = await fetch('http://tivaco.borodadigital.com/wp-json/custom/v1/menu/menu-header');
-  const menu = await res.json();
+  // const res = await fetch('http://tivaco.borodadigital.com/wp-json/custom/v1/menu/menu-header');
+  // const menu = await res.json();
 
   return (
     <header>
@@ -16,10 +26,11 @@ export default async function Header() {
               <Image src="/logo.svg" width={1000} height={1000} alt="logo" />
             </Link> */}
 
-            <NavMenu menu={menu.map((item:MenuItem) => ({
+            {/* <NavMenu menu={menu.map((item:MenuItem) => ({
               ...item,
               title: he.decode(item.title)
-            }))} />
+            }))} /> */}
+             <NavMenu/>
 
             {/* <div className="nav-right">
               <button className="header-btn">AI assistant</button>

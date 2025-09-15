@@ -1,16 +1,18 @@
+import Mainscreen from "@/components/news/mainscreen/Mainscreen";
+
 
 
 export default async function News() {
-  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/pages/30', { cache: 'no-store' });
-  const page = await res.json();
+  // const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/pages/26', { cache: 'force-cache' });
+  // const page = await res.json();
 
   return (
-    <div >
-      <main >
-        <div className="title">{page.acf?.hm_title}</div>
-        <div className="description">{page.acf?.hm_description}</div>
+    <>
+      <main className="scroll-container">
+        <section className="section light portfolio-section__parent">
+          <Mainscreen />
+        </section>
       </main>
-      <footer></footer>
-    </div>
+    </>
   );
 }

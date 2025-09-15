@@ -1,9 +1,10 @@
+import MotionSection from "@/hooks/MotionSection";
 import Image from "next/image";
 import Link from "next/link";
 
 
 export default async function Services() {
-  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/pages/9');
+  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/pages/9', { cache: 'force-cache' });
   const page = await res.json();
   return (
     <>
@@ -15,14 +16,22 @@ export default async function Services() {
             <Image src={'/s-bg.png'} width={1500} height={1500} alt="img" />
           </div>
           <div className="services-block__content">
-            <div className="hero-block__title">{page.acf?.hm_serv_title}</div>
-            <div className="hero-block__description small">{page.acf?.hm_serv_small_descr}</div>
+            <MotionSection animation="fade-left">
+              <div className="hero-block__title">{page.acf?.hm_serv_title}</div>
+            </MotionSection>
+            <MotionSection animation="fade-right">
+              <div className="hero-block__description small">{page.acf?.hm_serv_small_descr}</div>
+            </MotionSection>
           </div>
-          <div className="hero-block__description lg">{page.acf?.hm_serv_lg_descr}</div>
-          <div className="service-btns">
-            <Link className="learn-more green-btn" href={'javascript:void(0)'} >Learn more</Link>
-            <Link className="consultation blue-btn" href={'javascript:void(0)'}> request a consultation </Link>
-          </div>
+          <MotionSection animation="fade-right">
+            <div className="hero-block__description lg">{page.acf?.hm_serv_lg_descr}</div>
+          </MotionSection>
+          <MotionSection animation="fade-up">
+            <div className="service-btns">
+              <Link className="learn-more green-btn" href={'javascript:void(0)'} >Learn more</Link>
+              <Link className="consultation blue-btn" href="#consult"> request a consultation </Link>
+            </div>
+          </MotionSection>
         </div>
       </div>
     </>

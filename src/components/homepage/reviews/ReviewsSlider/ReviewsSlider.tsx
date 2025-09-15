@@ -47,6 +47,20 @@ export default function ReviewsSlider({ slides }: { slides: ReviewSlide[] }) {
           el: paginationEl,
           clickable: true,
         }}
+        breakpoints={{
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 16,
+          },
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 24,
+          },
+          992: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+        }}
       >
         {slides.map((item, index) => (
           <SwiperSlide key={index}>

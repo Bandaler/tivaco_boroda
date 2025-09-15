@@ -1,10 +1,9 @@
 import Link from 'next/link';
 import WorkflowTabs from './WorkflowTabs';
+import MotionSection from '@/hooks/MotionSection';
 
 export default async function Workflow() {
-  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/pages/9', {
-    cache: 'no-store' // или 'force-cache', если хочешь кэшировать
-  });
+  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/pages/9', { cache: 'force-cache' });
   const page = await res.json();
 
   const tabs = page.acf?.hm_workflow_tabs || [];
@@ -19,12 +18,15 @@ export default async function Workflow() {
         <div className="workflow-block">
           <div className="container">
             <div className="workflow-block__inner">
-              <div className="workflow-small">{smallText}</div>
-              <div className="workflow-block__title">{title}</div>
+              <MotionSection animation="fade-up">
+                <div className="workflow-small">{smallText}</div>
+                <div className="workflow-block__title">{title}</div>
+              </MotionSection>
+              <MotionSection animation="fade-left">
+                <WorkflowTabs tabs={tabs} />
 
-              <WorkflowTabs tabs={tabs} />
-
-              <Link className="blue-btn" href="#">request a consultation</Link>
+                <Link className="blue-btn" href="#consult">request a consultation</Link>
+              </MotionSection>
             </div>
           </div>
         </div>
