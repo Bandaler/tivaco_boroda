@@ -2,9 +2,7 @@ import EventsSlider from "../slider/EventsSlider";
 import Image from "next/image";
 
 export default async function EventsHomepage() {
-  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/events-list?_embed', {
-    next: { revalidate: 60 } // обновление кеша каждую минуту
-  } );
+  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/events-list?_embed', { cache: 'force-cache' });
   // { cache: 'force-cache' }
 
   const eventsList = await res.json();
