@@ -1,29 +1,52 @@
+
+
 name: Build and Deploy Next.js (Static Export)
 
+# Запуск вручную и через repository_dispatch (WordPress webhook)
 on:
-  workflow_dispatch: # запуск руками из GitHub
-  repository_dispatch: # запуск по вебхуку из WordPress
+  workflow_dispatch:
+  repository_dispatch:
 
 jobs:
-  build-deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      # 1️⃣ Забираем код из репозитория
+      - name: Checkout repository
         uses: actions/checkout@v3
 
+      # 2️⃣ Устанавливаем Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 20
 
+      # 3️⃣ Устанавливаем зависимости
       - name: Install dependencies
         run: npm ci
 
-      - name: Build Next.js static site
+      # 4️⃣ Строим и экспортируем сайт
+      - name: Build and export Next.js
         run: npm run build && npm run export
 
-      - name: Deploy via FTP
+      # 5️⃣ Проверяем, что папка out существует и содержит файлы
+      - name: Check local export folder
+        run: ls -la ./out
+
+      # 6️⃣ Dry-run деплой на FTP (только проверка)
+      - name: Dry-run FTP deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./out
+          server-dir: /public_html/
+          dry-run: true
+
+      # 7️⃣ Настоящий деплой на FTP
+      - name: Deploy to server via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: ${{ secrets.FTP_SERVER }}
