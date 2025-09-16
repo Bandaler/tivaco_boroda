@@ -41,7 +41,7 @@ jobs:
           username: "sic4burv_tivacossh"
           password: ${{ secrets.FTP_PASSWORD }}       # SSH private key stored as a secret
           source: "./out/*"                # files/directories to copy
-          target: "~/public_html/"           # target directory on remote server
+          target: "~/"           # target directory on remote server
 
 
 
