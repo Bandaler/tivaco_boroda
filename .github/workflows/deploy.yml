@@ -40,8 +40,9 @@ jobs:
           host: ${{ secrets.FTP_SERVER }}
           username: "sic4burv_tivacossh"
           password: ${{ secrets.FTP_PASSWORD }}       # SSH private key stored as a secret
-          source: "./out/*"                # files/directories to copy
-          target: "~/"           # target directory on remote server
+          source: "./out/"                # files/directories to copy
+          target: "~"           # target directory on remote server
+          strip_components: 1
 
 
 
