@@ -44,13 +44,5 @@ jobs:
           target: "~"           # target directory on remote server
           strip_components: 1
 
-      - name: Set target permissions to 700
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
-          password: ${{ secrets.SSH_PASSWORD }}   
-          script: chmod -R 700 .
-
 
 
