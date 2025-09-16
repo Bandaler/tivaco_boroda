@@ -38,9 +38,8 @@ jobs:
         uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
+          username: "sic4burv_tivacossh"
           password: ${{ secrets.FTP_PASSWORD }}       # SSH private key stored as a secret
-          port: ${{ secrets.PORT }}         # optional, default is 22
           source: "./out/*"                # files/directories to copy
           target: "/public_html/"           # target directory on remote server
 
