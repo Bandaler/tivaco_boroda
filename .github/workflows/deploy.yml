@@ -37,12 +37,20 @@ jobs:
       - name: Copy files via SCP
         uses: appleboy/scp-action@master
         with:
-          host: ${{ secrets.FTP_SERVER }}
-          username: "sic4burv_tivacossh"
-          password: ${{ secrets.FTP_PASSWORD }}       # SSH private key stored as a secret
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          password: ${{ secrets.SSH_PASSWORD }}       # SSH private key stored as a secret
           source: "./out/*"                # files/directories to copy
           target: "~"           # target directory on remote server
           strip_components: 1
+
+      - name: Set target permissions to 700
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          password: ${{ secrets.SSH_PASSWORD }}   
+          script: chmod -R 700 .
 
 
 
