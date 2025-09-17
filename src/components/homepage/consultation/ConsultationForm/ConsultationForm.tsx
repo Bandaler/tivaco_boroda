@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { applyPhoneMaskToInput } from '@/utils/phoneMask';
+import Link from 'next/link';
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({ name: '', phone: '', email: '', message: '' });
@@ -103,7 +104,7 @@ export default function ContactForm() {
             onChange={(e: React.ChangeEvent<HTMLInputElement>) => setIsAccepted(e.target.checked)}
           />
           <span className="checkbox-mark"></span>
-          <span className="checkbox-label">consent to the terms of the privacy Policy</span>
+          <span className="checkbox-label">consent to the terms of the <Link href={'#'}>privacy Policy</Link></span>
         </label>
       </div>
 

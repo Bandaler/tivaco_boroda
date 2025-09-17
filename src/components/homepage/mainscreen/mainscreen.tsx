@@ -1,6 +1,6 @@
 
 
-// import Image from "next/image";
+import Image from "next/image";
 import LottieArrow from "./littiearrow/LottieArrow";
 
 export default async function Mainscreen() {
@@ -10,14 +10,18 @@ export default async function Mainscreen() {
     <>
      <div className="main-bg"></div>
       <div className="secondary-bg"></div>
-      {/* <div className="arrow">
+      <div className="arrow">
         <Image src={'/arrow.png'} width={1000} height={1000} alt="image" />
-      </div> */}
+      </div>
        <LottieArrow />
       <div className="page-content">
         <div className="hero-block">
           <div className="hero-block__title" data-aos="fade-up" data-aos-delay="3000">{page.acf?.hm_title}</div>
           <div className="hero-block__description" data-aos="fade-up" data-aos-delay="3000">{page.acf?.hm_description}</div>
+        </div>
+        <div className="scroll-info">
+          <span>Scroll down to see our services</span>
+          <Image src={'/scr.svg'} width={34} height={34} alt="img" />
         </div>
       </div>
     </>

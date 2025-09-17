@@ -46,7 +46,7 @@ export default function Breadcrumbs({ current }: { current?: string }) {
       {crumbs.map((crumb, i) => (
         <span className="breadcrumbs-item" key={i}>
           {crumb.href ? <Link href={crumb.href}>{crumb.label}</Link> : <span>{crumb.label}</span>}
-          {i < crumbs.length - 1 && ' / '}
+          {i < crumbs.length - 1 && ' > '}
         </span>
       ))}
     </nav>

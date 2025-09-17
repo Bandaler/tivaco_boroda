@@ -48,8 +48,8 @@ const CommissionertSans = Commissioner({
 });
 
 export const metadata: Metadata = {
-  title: "Next.js App",
-  description: "Fullpage + AOS Example",
+  title: "TIVACO OFFICIAL SITE",
+  description: "FValuations that hold up in court — and stand out in disputes",
 };
 
 export default function RootLayout({

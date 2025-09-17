@@ -24,26 +24,39 @@ import { useState, useEffect } from 'react';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 export default function LottieArrow() {
-  const [src, setSrc] = useState('/arrow2.json');
+  const [isMobile, setIsMobile] = useState(false);
+  const [visible, setVisible] = useState(true);
 
   useEffect(() => {
-    const updateSrc = () => {
-      if (window.innerWidth <= 992) {
-        setSrc('/arrow-mob.json'); // для экранов 992 и меньше
-      } else {
-        setSrc('/arrow2.json'); // для десктопа
-      }
+    const checkScreen = () => {
+      setIsMobile(window.innerWidth <= 992);
     };
 
-    updateSrc(); // проверка при монтировании
-    window.addEventListener('resize', updateSrc);
+    checkScreen();
+    window.addEventListener('resize', checkScreen);
 
-    return () => window.removeEventListener('resize', updateSrc);
-  }, []);
+    if (!isMobile) {
+      // таймер для скрытия только на десктопе
+      const timer = setTimeout(() => {
+        setVisible(false);
+      }, 4000);
+
+      return () => clearTimeout(timer);
+    }
+
+    return () => window.removeEventListener('resize', checkScreen);
+  }, [isMobile]);
+
+  if (!visible && !isMobile) return null;
 
   return (
     <div className="arrow">
-      <DotLottieReact src={src} loop={false} autoplay />
+      {isMobile ? (
+        <img src="/arrow.png" alt="Arrow" />
+      ) : (
+        <DotLottieReact src="/arrow2.json" loop={false} autoplay />
+      )}
     </div>
   );
 }
+
