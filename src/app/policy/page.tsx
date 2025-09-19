@@ -33,7 +33,7 @@ export default async function Consultation() {
               dangerouslySetInnerHTML={{ __html: data.content.rendered }}
             />
 
-            <Link href={"/consult"} className="back-consult">
+            <Link href={"/"} className="back-consult">
               <Image src={'/back.svg'} width={34} height={34} alt="img" />
               <span>
                 back

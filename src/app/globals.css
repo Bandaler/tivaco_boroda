@@ -4868,7 +4868,8 @@ html {
     background: var(--Burquoise, #3CE7B6);
     padding: 16px 119px;
     align-self: flex-start;
-    width: 100%;
+    
+    text-align: center;
 
     @media(max-width: 700px) {
       display: flex;
@@ -4876,6 +4877,7 @@ html {
       justify-content: center;
       padding-left: 50px;
       padding-right: 50px;
+      width: 100%;
     }
   }
 }
