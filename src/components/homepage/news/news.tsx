@@ -41,18 +41,23 @@ export default async function NewsScreen() {
               <div className='news-items'>
                 {newsItems.map((item: NewsItem) => (
                   <div key={item.id} className="news-item">
-                    <div className="news-item__image">
-                      <Image
-                        src={item.acf.news_image}
-                        width={390}
-                        height={240}
-                        alt={item.title.rendered}
-                      />
-                    </div>
-                    <div className="news-item__body">
-                      <div className="news-item__name">
-                        {item.title.rendered}
+                    <Link href={item.link}>
+                      <div className="news-item__image">
+                        <Image
+                          src={item.acf.news_image || "/no-image.png"}
+                          width={390}
+                          height={240}
+                          alt={item.title.rendered}
+                        />
                       </div>
+                    </Link>
+
+                    <div className="news-item__body">
+                      <Link href={item.link}>
+                        <div className="news-item__name">
+                          {item.title.rendered}
+                        </div>
+                      </Link>
                       <div className="news-item__description">
                         {item.acf.news_descr_preview}
                       </div>

@@ -11,11 +11,11 @@ export default async function Mainscreen() {
      <div className="main-bg"></div>
       <div className="secondary-bg"></div>
       <div className="arrow">
-        <Image src={'/arrow.png'} width={1000} height={1000} alt="image" />
+        <Image src={'/arrow.png'} width={1000} height={1000} alt="image" className="static-arrow" />
       </div>
        <LottieArrow />
       <div className="page-content">
-        <div className="hero-block">
+        <div className="hero-block ms">
           <div className="hero-block__title" data-aos="fade-up" data-aos-delay="3000">{page.acf?.hm_title}</div>
           <div className="hero-block__description" data-aos="fade-up" data-aos-delay="3000">{page.acf?.hm_description}</div>
         </div>

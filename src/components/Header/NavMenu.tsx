@@ -21,7 +21,7 @@ export default function NavMenu() {
   useEffect(() => setMounted(true), []);
   const isLight = useMenuHighlight(mounted);
   const menuTree = useMenuTree(staticMenu);
-  
+
 
   // --- Клик вне меню закрывает сабменю ---
   useEffect(() => {
@@ -43,6 +43,18 @@ export default function NavMenu() {
       </Link>
 
       <ul ref={menuRef} className={`nav-menu ${isLight ? 'nav-light' : ''} ${isOpen ? 'active' : ''}`}>
+        <Link href="/"
+          className="logo-mobile"
+          onClick={() => {
+            setIsOpen(false);
+            setOpenSubmenuId(null);
+          }}
+        >
+          <Image src={"/logo.svg"} width={1000} height={1000} alt="logo" />
+        </Link>
+        <button className={`lang-switcher-mobile`}>
+          <Image src={'/globe2.svg'} width={34} height={34} alt='img' />
+        </button>
         {menuTree.map(item => (
           <li key={item.id}>
             {item.children && item.children.length > 0 ? (

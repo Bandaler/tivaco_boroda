@@ -72,96 +72,97 @@ export default function EventsSlider({ eventsList }: { eventsList: Event[] }) {
   }, []);
 
   return (
-  <div className="slider-team-wrapper courses-slider-wrapper events-slider-wrapper">
-    <div className="slider-team__head">
-      <div className="container">
-        <Breadcrumbs />
-        <div className="slider-team__head-inner courses-slider-arr" ref={topContainerRef}>
-          <div className="courses-title events-title">Events</div>
+    <div className="slider-team-wrapper courses-slider-wrapper events-slider-wrapper">
+      <div className="slider-team__head">
+        <div className="container">
+          <Breadcrumbs />
+          <div className="slider-team__head-inner courses-slider-arr" ref={topContainerRef}>
+            <div className="courses-title events-title">Events</div>
 
-          {eventsList.length > 0 && (
-            <div className="reviews-arrows" ref={arrowsRef} style={{ marginBottom: 20 }}>
-              <div ref={prevRef} className="arrow-slider arrow-prev review-arrow" style={{ cursor: 'pointer' }}>
-                <Image src="/prev-arr-w.svg" width={20} height={5} alt="prev" />
+            {eventsList.length > 0 && (
+              <div className="reviews-arrows" ref={arrowsRef} style={{ marginBottom: 20 }}>
+                <div ref={prevRef} className="arrow-slider arrow-prev review-arrow" style={{ cursor: 'pointer' }}>
+                  <Image src="/prev-arr-w.svg" width={20} height={5} alt="prev" />
+                </div>
+                <div ref={paginationRef} className="pagination swiper-pagination" />
+                <div ref={nextRef} className="arrow-slider arrow-next review-arrow" style={{ cursor: 'pointer' }}>
+                  <Image src="/next-arr-w.svg" width={20} height={5} alt="next" />
+                </div>
               </div>
-              <div ref={paginationRef} className="pagination swiper-pagination" />
-              <div ref={nextRef} className="arrow-slider arrow-next review-arrow" style={{ cursor: 'pointer' }}>
-                <Image src="/next-arr-w.svg" width={20} height={5} alt="next" />
-              </div>
-            </div>
-          )}
+            )}
+          </div>
         </div>
       </div>
+
+      {eventsList.length === 0 ? (
+        <div className="no-events">
+          No events are planned in the near future
+        </div>
+      ) : (
+        <Swiper
+          modules={[Navigation, Pagination]}
+          spaceBetween={30}
+          slidesPerView={3}
+          loop={true}
+          navigation={{
+            prevEl: navigationPrevEl,
+            nextEl: navigationNextEl,
+          }}
+          pagination={{
+            el: paginationEl,
+            clickable: true,
+          }}
+          breakpoints={{
+            320: { slidesPerView: 'auto', spaceBetween: 18 },
+            768: { slidesPerView: 'auto' },
+            1024: { slidesPerView: 1 },
+            1300: { slidesPerView: 3 },
+          }}
+
+        >
+          {eventsList.map((event) => {
+
+            return (
+              <SwiperSlide key={event.id}>
+                <div className="event-card">
+                  <div className="event-card__head">
+                    {event.acf?.event_date && (
+                      <div className="event-date">
+                        {event.acf.event_date}
+                      </div>
+                    )}
+                    {event.acf?.event_time && (
+                      <div className="event-time">
+                        {event.acf.event_time}
+                      </div>
+                    )}
+                    {event.acf?.event_location && (
+                      <div className="event-location">
+                        {event.acf.event_location}
+                      </div>
+                    )}
+                  </div>
+                  <div className="event-card__body">
+                    <div className="event-title" dangerouslySetInnerHTML={{ __html: event.title.rendered }} />
+                    {event.acf?.short_ppreview && (
+                      <div className="event-description">
+                        {event.acf.short_ppreview}
+                      </div>
+                    )}
+                    <Link href={`/events/${event.slug}`} className="read-more">
+                      <span>read more</span>
+                      <Image src={'/news-arr.svg'} width={34} height={34} alt="img" />
+                    </Link>
+                  </div>
+                </div>
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      )}
+
+      <div className="slider-team__bottom-nav mobile-ev__nav" ref={bottomContainerRef}></div>
     </div>
-
-    {eventsList.length === 0 ? (
-      <div className="no-events">
-        No events are planned in the near future
-      </div>
-    ) : (
-      <Swiper
-        modules={[Navigation, Pagination]}
-        spaceBetween={30}
-        slidesPerView={3}
-        loop={true}
-        navigation={{
-          prevEl: navigationPrevEl,
-          nextEl: navigationNextEl,
-        }}
-        pagination={{
-          el: paginationEl,
-          clickable: true,
-        }}
-        breakpoints={{
-          320: { slidesPerView: 1 },
-          768: { slidesPerView: 1 },
-          1024: { slidesPerView: 1 },
-          1600: { slidesPerView: 3 },
-        }}
-      >
-        {eventsList.map((event) => {
-
-          return (
-            <SwiperSlide key={event.id}>
-              <div className="event-card">
-                <div className="event-card__head">
-                  {event.acf?.event_date && (
-                    <div className="event-date">
-                      {event.acf.event_date}
-                    </div>
-                  )}
-                  {event.acf?.event_time && (
-                    <div className="event-time">
-                      {event.acf.event_time}
-                    </div>
-                  )}
-                  {event.acf?.event_location && (
-                    <div className="event-location">
-                      {event.acf.event_location}
-                    </div>
-                  )}
-                </div>
-                <div className="event-card__body">
-                  <div className="event-title" dangerouslySetInnerHTML={{ __html: event.title.rendered }} />
-                  {event.acf?.short_ppreview && (
-                    <div className="event-description">
-                      {event.acf.short_ppreview}
-                    </div>
-                  )}
-                  <Link href={`/events/${event.slug}`} className="read-more">
-                    <span>read more</span>
-                    <Image src={'/news-arr.svg'} width={34} height={34} alt="img" />
-                  </Link>
-                </div>
-              </div>
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
-    )}
-
-    <div className="slider-team__bottom-nav mobile-ev__nav" ref={bottomContainerRef}></div>
-  </div>
-);
+  );
 
 }

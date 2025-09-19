@@ -16,6 +16,8 @@ const MAIN_CRUMBS: Record<string, string> = {
   portfolio: 'Portfolio',
   'news-articles': 'News & Articles',
   events: 'Events',
+  contacts: 'Contacts', // 
+  policy: 'Privacy-policy', // 
 };
 
 export default function Breadcrumbs({ current }: { current?: string }) {

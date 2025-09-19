@@ -100,8 +100,8 @@ export default function SliderTeam({ teamList }: { teamList: TeamMember[] }) {
             clickable: true,
           }}
           breakpoints={{
-            320: { slidesPerView: 1 },
-            768: { slidesPerView: 1 },
+            320: { slidesPerView: 'auto', spaceBetween: 18 },
+            768: { slidesPerView: 'auto', spaceBetween: 18 },
             1024: { slidesPerView: 1 },
             1600: { slidesPerView: 4 },
           }}

@@ -35,7 +35,7 @@ export default async function WhyWe() {
     <>
       <div className="main-bg dark"></div>
       <div className="secondary-bg light-bg"></div>
-      <div className="page-content">
+      <div className="page-content why">
         <div className="w-bg">
           <Image src={'/w-bg.png'} width={4000} height={4000} alt="bg" />
         </div>

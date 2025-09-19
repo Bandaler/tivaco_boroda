@@ -104,7 +104,7 @@ export default function ContactForm() {
             onChange={(e: React.ChangeEvent<HTMLInputElement>) => setIsAccepted(e.target.checked)}
           />
           <span className="checkbox-mark"></span>
-          <span className="checkbox-label">consent to the terms of the <Link href={'#'}>privacy Policy</Link></span>
+          <span className="checkbox-label">consent to the terms of the <Link href={'/policy'}>privacy Policy</Link></span>
         </label>
       </div>
 

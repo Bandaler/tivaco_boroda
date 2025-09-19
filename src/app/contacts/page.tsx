@@ -1,3 +1,4 @@
+import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
 import Marquee from "@/components/contacts/marquee/Marquee"
 import Link from "next/link"
 
@@ -28,7 +29,9 @@ export default async function Consultation() {
       <div className="secondary-bg"></div>
       <div className="page-content">
         <div className="container">
+          
           <div className="contacts-inner">
+            <Breadcrumbs />
             <h1 className="h1">{data.acf?.hm_title || "Contact us"}</h1>
 
             <div className="contacts-items">

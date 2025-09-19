@@ -17,7 +17,7 @@ interface Service {
 
 export default async function Mainscreen() {
   const res = await fetch(
-    "http://tivaco.borodadigital.com/wp-json/wp/v2/services-list?per_page=100",
+    "http://tivaco.borodadigital.com/wp-json/wp/v2/services-list?per_page=100&orderby=date&order=asc",
     { cache: "force-cache" }
   );
 

@@ -1,7 +1,7 @@
-import Link from "next/link";
+// import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
 import PortfolioTabs from "./PortfolioTabs/PortfolioTabs";
-import Image from "next/image";
+// import Image from "next/image";
 // import MotionSection from "@/hooks/MotionSection";
 
 interface Portfolio {
@@ -43,12 +43,12 @@ export default async function Mainscreen() {
             {/* <MotionSection animation="fade-up"> */}
               <div className="hero-block__title portfolio-title">
                 <h1 className="h1">Portfolio</h1>
-                <Link href={'/portfolio/partners'}>
+                {/* <Link href={'/portfolio/partners'}>
                   <span>
                     view partners
                   </span>
                   <Image src={'/next-nav.svg'} width={34} height={34} alt='img' />
-                </Link>
+                </Link> */}
               </div>
             {/* </MotionSection> */}
             {/* <MotionSection animation="zoom-out"> */}

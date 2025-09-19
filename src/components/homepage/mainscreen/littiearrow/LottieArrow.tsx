@@ -22,7 +22,7 @@
 
 import { useState, useEffect } from 'react';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
-
+import Image from 'next/image';
 export default function LottieArrow() {
   const [isMobile, setIsMobile] = useState(false);
   const [visible, setVisible] = useState(true);
@@ -50,9 +50,9 @@ export default function LottieArrow() {
   if (!visible && !isMobile) return null;
 
   return (
-    <div className="arrow">
+    <div className="arrow" >
       {isMobile ? (
-        <img src="/arrow.png" alt="Arrow" />
+        <Image src="/arrow.png" className='static-arrow' alt="Arrow" />
       ) : (
         <DotLottieReact src="/arrow2.json" loop={false} autoplay />
       )}

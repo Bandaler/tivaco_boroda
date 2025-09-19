@@ -15,7 +15,7 @@ export default async function EventsHomepage() {
         <div className="w-bg">
           <Image src="/w-bg.png" width={4000} height={4000} alt="bg" />
         </div>
-        <div className="container">
+        <div className="container custom-container">
           <EventsSlider eventsList={eventsList} />
         </div>
 

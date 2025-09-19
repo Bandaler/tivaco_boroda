@@ -113,21 +113,23 @@ export default function CoursesSlider({ courseList }: { courseList: Course[] }) 
           return (
             <SwiperSlide key={course.id}>
               <div className="course-card">
-                <div className="course-image">
-                  {course.acf?.course_preview_image ? (
-                    <Image
-                      src={imageUrl}
-                      width={400}
-                      height={250}
-                      alt={altText}
-                      style={{ objectFit: 'cover', borderRadius: '8px' }}
-                    />
-                  ) : (
-                    <div style={{ width: 400, height: 250, backgroundColor: '#ddd' }}>
-                      Нет изображения
-                    </div>
-                  )}
-                </div>
+                <Link href={`/services/courses/${course.slug}`}>
+                  <div className="course-image">
+                    {course.acf?.course_preview_image ? (
+                      <Image
+                        src={imageUrl}
+                        width={400}
+                        height={250}
+                        alt={altText}
+                        style={{ objectFit: 'cover', borderRadius: '8px' }}
+                      />
+                    ) : (
+                      <div style={{ width: 400, height: 250, backgroundColor: '#ddd' }}>
+                        Нет изображения
+                      </div>
+                    )}
+                  </div>
+                </Link>
                 <div className="courses-body">
                   <Link href={`/services/courses/${course.slug}`}>
                     <div className="course-title" dangerouslySetInnerHTML={{ __html: course.title.rendered }} />
