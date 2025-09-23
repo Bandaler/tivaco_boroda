@@ -4,7 +4,6 @@ import Tabs from '@/components/team/Tabs/Tabs';
 import Image from 'next/image';
 import Breadcrumbs from '@/components/Breadcrumbs/Breadcrumbs';
 import { notFound } from 'next/navigation';
-import MotionSection from '@/hooks/MotionSection';
 
 interface Team {
   id: number;
@@ -93,7 +92,6 @@ export default async function TeamPage({
         <div className="container">
           <div className="single-service__inner team-inner">
             <Breadcrumbs current={team.title.rendered} />
-            <MotionSection animation="fade-up">
               <div className="hero-block__title team-head">
                 <div className="team-photo">
                   <Image src={team.acf?.team_photo || '/placeholder.png'} width={203} height={203} alt="img" />
@@ -108,10 +106,7 @@ export default async function TeamPage({
                   </div>
                 </div>
               </div>
-            </MotionSection>
-            <MotionSection animation="fade-down">
               {tabs.length > 0 && <Tabs tabs={tabs} themeColor={team.acf?.theme_color} />}
-            </MotionSection>
           </div>
         </div>
       </div>

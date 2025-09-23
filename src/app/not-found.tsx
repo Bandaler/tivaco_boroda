@@ -24,7 +24,7 @@ export default function NotFound() {
                   This page is still in post-production.
                 </p>
                 <Link className="nf-back" href="/">
-                  back to main
+                  back to main page
                 </Link>
               </div>
             </div>

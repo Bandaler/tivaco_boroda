@@ -21,20 +21,25 @@ interface Course {
   };
 }
 
-
 export default function CoursesSlider({ courseList }: { courseList: Course[] }) {
-  const prevRef = useRef<HTMLDivElement>(null);
-  const nextRef = useRef<HTMLDivElement>(null);
-  const paginationRef = useRef<HTMLDivElement>(null);
-  const arrowsRef = useRef<HTMLDivElement>(null);
-  const topContainerRef = useRef<HTMLDivElement>(null);
-  const bottomContainerRef = useRef<HTMLDivElement>(null);
+  const prevRef = useRef<HTMLDivElement | null>(null);
+  const nextRef = useRef<HTMLDivElement | null>(null);
+  const paginationRef = useRef<HTMLDivElement | null>(null);
+  const arrowsRef = useRef<HTMLDivElement | null>(null);
+  const topContainerRef = useRef<HTMLDivElement | null>(null);
+  const bottomContainerRef = useRef<HTMLDivElement | null>(null);
 
   const [navigationPrevEl, setNavigationPrevEl] = useState<HTMLDivElement | null>(null);
   const [navigationNextEl, setNavigationNextEl] = useState<HTMLDivElement | null>(null);
   const [paginationEl, setPaginationEl] = useState<HTMLDivElement | null>(null);
 
+  // показывать контролы только если >= 4 слайда
+  const showControls = courseList.length >= 4;
+
+  // Перемещение блока стрелок между top и bottom (только если отображаем контролы)
   useEffect(() => {
+    if (!showControls) return;
+
     const moveArrows = () => {
       if (!arrowsRef.current || !topContainerRef.current || !bottomContainerRef.current) return;
 
@@ -54,15 +59,17 @@ export default function CoursesSlider({ courseList }: { courseList: Course[] }) 
     moveArrows();
     window.addEventListener('resize', moveArrows);
     return () => window.removeEventListener('resize', moveArrows);
-  }, []);
+  }, [showControls]);
 
+  // Устанавливаем элементы навигации/пагинации для Swiper (только если контролы нужны)
   useEffect(() => {
+    if (!showControls) return;
     if (prevRef.current && nextRef.current && paginationRef.current) {
       setNavigationPrevEl(prevRef.current);
       setNavigationNextEl(nextRef.current);
       setPaginationEl(paginationRef.current);
     }
-  }, []);
+  }, [showControls]);
 
   return (
     <div className="slider-team-wrapper courses-slider-wrapper">
@@ -71,15 +78,31 @@ export default function CoursesSlider({ courseList }: { courseList: Course[] }) 
           <div className="slider-team__head-inner courses-slider-arr" ref={topContainerRef}>
             <div className="courses-title">Courses</div>
 
-            <div className="reviews-arrows" ref={arrowsRef} style={{ marginBottom: 20 }}>
-              <div ref={prevRef} className="arrow-slider arrow-prev review-arrow" style={{ cursor: 'pointer' }}>
-                <Image src="/prev-arr-w.svg" width={20} height={5} alt="prev" />
+            {showControls && (
+              <div
+                className="reviews-arrows"
+                ref={arrowsRef}
+                style={{ marginBottom: 20 }}
+              >
+                <div
+                  ref={prevRef}
+                  className="arrow-slider arrow-prev review-arrow"
+                  style={{ cursor: 'pointer' }}
+                >
+                  <Image src="/prev-arr-w.svg" width={20} height={5} alt="prev" />
+                </div>
+
+                <div ref={paginationRef} className="pagination swiper-pagination" />
+
+                <div
+                  ref={nextRef}
+                  className="arrow-slider arrow-next review-arrow"
+                  style={{ cursor: 'pointer' }}
+                >
+                  <Image src="/next-arr-w.svg" width={20} height={5} alt="next" />
+                </div>
               </div>
-              <div ref={paginationRef} className="pagination swiper-pagination" />
-              <div ref={nextRef} className="arrow-slider arrow-next review-arrow" style={{ cursor: 'pointer' }}>
-                <Image src="/next-arr-w.svg" width={20} height={5} alt="next" />
-              </div>
-            </div>
+            )}
           </div>
         </div>
       </div>
@@ -88,15 +111,23 @@ export default function CoursesSlider({ courseList }: { courseList: Course[] }) 
         modules={[Navigation, Pagination]}
         spaceBetween={30}
         slidesPerView={3}
-        loop={true}
-        navigation={{
-          prevEl: navigationPrevEl,
-          nextEl: navigationNextEl,
-        }}
-        pagination={{
-          el: paginationEl,
-          clickable: true,
-        }}
+        loop={showControls} // loop только если показываем контролы
+        navigation={
+          showControls
+            ? {
+                prevEl: navigationPrevEl,
+                nextEl: navigationNextEl,
+              }
+            : undefined
+        }
+        pagination={
+          showControls
+            ? {
+                el: paginationEl,
+                clickable: true,
+              }
+            : undefined
+        }
         breakpoints={{
           320: { slidesPerView: 1 },
           768: { slidesPerView: 1 },
@@ -108,7 +139,7 @@ export default function CoursesSlider({ courseList }: { courseList: Course[] }) 
           const imageUrl = course.acf?.course_preview_image || '';
           const altText = course.title?.rendered
             ? course.title.rendered.replace(/<[^>]+>/g, '')
-            : 'team image';
+            : 'course image';
 
           return (
             <SwiperSlide key={course.id}>
@@ -130,15 +161,18 @@ export default function CoursesSlider({ courseList }: { courseList: Course[] }) 
                     )}
                   </div>
                 </Link>
+
                 <div className="courses-body">
                   <Link href={`/services/courses/${course.slug}`}>
                     <div className="course-title" dangerouslySetInnerHTML={{ __html: course.title.rendered }} />
                   </Link>
+
                   {course.acf?.course_preview_description && (
                     <div className="course-description">
                       {course.acf.course_preview_description}
                     </div>
                   )}
+
                   <Link href={`/services/courses/${course.slug}`} className="read-more">
                     <span>read more</span>
                     <Image src={'/news-arr.svg'} width={34} height={34} alt="img" />
@@ -146,13 +180,11 @@ export default function CoursesSlider({ courseList }: { courseList: Course[] }) 
                 </div>
               </div>
             </SwiperSlide>
-
-
           );
         })}
       </Swiper>
 
-      <div className="slider-team__bottom-nav" ref={bottomContainerRef}></div>
+      {showControls && <div className="slider-team__bottom-nav" ref={bottomContainerRef} />}
     </div>
   );
 }

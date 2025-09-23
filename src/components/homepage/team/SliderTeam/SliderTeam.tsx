@@ -8,11 +8,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import Link from 'next/link';
 import Image from 'next/image';
-// import MotionSection from '@/hooks/MotionSection';
 
 interface TeamMember {
   id: number;
-  slug: string; // <-- добавлено
+  slug: string;
   link: string;
   title: {
     rendered: string;
@@ -35,7 +34,12 @@ export default function SliderTeam({ teamList }: { teamList: TeamMember[] }) {
   const [navigationNextEl, setNavigationNextEl] = useState<HTMLDivElement | null>(null);
   const [paginationEl, setPaginationEl] = useState<HTMLDivElement | null>(null);
 
+  // Проверка количества слайдов
+  const showControls = teamList.length >= 4;
+
   useEffect(() => {
+    if (!showControls) return; // если стрелки не нужны — не двигаем блок навигации
+
     const moveArrows = () => {
       if (!arrowsRef.current || !topContainerRef.current || !bottomContainerRef.current) return;
 
@@ -55,23 +59,25 @@ export default function SliderTeam({ teamList }: { teamList: TeamMember[] }) {
     moveArrows();
     window.addEventListener('resize', moveArrows);
     return () => window.removeEventListener('resize', moveArrows);
-  }, []);
+  }, [showControls]);
 
   useEffect(() => {
+    if (!showControls) return;
+
     if (prevRef.current && nextRef.current && paginationRef.current) {
       setNavigationPrevEl(prevRef.current);
       setNavigationNextEl(nextRef.current);
       setPaginationEl(paginationRef.current);
     }
-  }, []);
+  }, [showControls]);
 
   return (
     <div className="slider-team-wrapper">
       <div className="slider-team__head">
         <div className="container">
-          {/* <MotionSection animation="fade-up"> */}
-            <div className="slider-team__head-inner" ref={topContainerRef}>
-              <div className="team-block__title">OUR TEAM</div>
+          <div className="slider-team__head-inner" ref={topContainerRef}>
+            <div className="team-block__title">OUR TEAM</div>
+            {showControls && (
               <div className="reviews-arrows" ref={arrowsRef} style={{ marginBottom: 20 }}>
                 <div ref={prevRef} className="arrow-slider arrow-prev review-arrow" style={{ cursor: 'pointer' }}>
                   <Image src="/prev-arr-w.svg" width={20} height={5} alt="prev" />
@@ -81,73 +87,78 @@ export default function SliderTeam({ teamList }: { teamList: TeamMember[] }) {
                   <Image src="/next-arr-w.svg" width={20} height={5} alt="next" />
                 </div>
               </div>
-            </div>
-          {/* </MotionSection> */}
+            )}
+          </div>
         </div>
       </div>
-      {/* <MotionSection animation="zoom-in"> */}
-        <Swiper
-          modules={[Navigation, Pagination]}
-          spaceBetween={30}
-          slidesPerView={3}
-          loop={true}
-          navigation={{
-            prevEl: navigationPrevEl,
-            nextEl: navigationNextEl,
-          }}
-          pagination={{
-            el: paginationEl,
-            clickable: true,
-          }}
-          breakpoints={{
-            320: { slidesPerView: 'auto', spaceBetween: 18 },
-            768: { slidesPerView: 'auto', spaceBetween: 18 },
-            1024: { slidesPerView: 1 },
-            1600: { slidesPerView: 4 },
-          }}
-        >
-          {teamList.map((member) => {
-            const imageUrl = member.acf?.team_photo || '';
-            const altText = member.title?.rendered
-              ? member.title.rendered.replace(/<[^>]+>/g, '')
-              : 'team image';
 
-            return (
-              <SwiperSlide key={member.id}>
-                <div className="team-card">
-                  <Link href={`/about/team/${member.slug}`}>
-                    <div className="team-arrow">
-                      <Image src={'/tar.svg'} width={44} height={44} alt={member.title.rendered} />
+      <Swiper
+        modules={[Navigation, Pagination]}
+        spaceBetween={30}
+        slidesPerView={3}
+        loop={showControls} // loop только если >= 4
+        navigation={
+          showControls
+            ? {
+                prevEl: navigationPrevEl,
+                nextEl: navigationNextEl,
+              }
+            : undefined
+        }
+        pagination={
+          showControls
+            ? {
+                el: paginationEl,
+                clickable: true,
+              }
+            : undefined
+        }
+        breakpoints={{
+          320: { slidesPerView: 'auto', spaceBetween: 18 },
+          768: { slidesPerView: 'auto', spaceBetween: 18 },
+          1024: { slidesPerView: 1 },
+          1600: { slidesPerView: 4 },
+        }}
+      >
+        {teamList.map((member) => {
+          const imageUrl = member.acf?.team_photo || '';
+          const altText = member.title?.rendered
+            ? member.title.rendered.replace(/<[^>]+>/g, '')
+            : 'team image';
+
+          return (
+            <SwiperSlide key={member.id}>
+              <div className="team-card">
+                <Link href={`/about/team/${member.slug}`}>
+                  <div className="team-arrow">
+                    <Image src={'/tar.svg'} width={44} height={44} alt={member.title.rendered} />
+                  </div>
+                  <div className="team-info">
+                    <div className="team-name" dangerouslySetInnerHTML={{ __html: member.title.rendered }} />
+                    <div className="team-position">{member.acf?.position}</div>
+                  </div>
+                  <div className="t-bg"></div>
+                  {member.acf?.team_photo ? (
+                    <Image
+                      src={imageUrl}
+                      width={200}
+                      height={200}
+                      alt={altText}
+                      style={{ objectFit: 'cover', borderRadius: '8px' }}
+                    />
+                  ) : (
+                    <div style={{ width: 200, height: 200, backgroundColor: '#ddd' }}>
+                      Нет изображения
                     </div>
-                    <div className="team-info">
-                      <div className="team-name" dangerouslySetInnerHTML={{ __html: member.title.rendered }} />
-                      <div className="team-position">{member.acf?.position}</div>
-                    </div>
-                    <div className="t-bg"></div>
-                    {member.acf?.team_photo ? (
-                      <Image
-                        src={imageUrl}
-                        width={200}
-                        height={200}
-                        alt={altText}
-                        style={{ objectFit: 'cover', borderRadius: '8px' }}
-                      />
-                    ) : (
-                      <div style={{ width: 200, height: 200, backgroundColor: '#ddd' }}>
-                        Нет изображения
-                      </div>
-                    )}
-                  </Link>
-                </div>
-              </SwiperSlide>
+                  )}
+                </Link>
+              </div>
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
 
-            );
-          })}
-        </Swiper>
-      {/* </MotionSection> */}
-
-
-      <div className="slider-team__bottom-nav" ref={bottomContainerRef}></div>
+      {showControls && <div className="slider-team__bottom-nav" ref={bottomContainerRef}></div>}
     </div>
   );
 }
