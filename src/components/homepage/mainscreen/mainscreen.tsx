@@ -16,8 +16,8 @@ export default async function Mainscreen() {
        <LottieArrow />
       <div className="page-content">
         <div className="hero-block ms">
-          <div className="hero-block__title" data-aos="fade-up" data-aos-delay="500">{page.acf?.hm_title}</div>
-          <div className="hero-block__description" data-aos="fade-up" data-aos-delay="500">{page.acf?.hm_description}</div>
+          <div className="hero-block__title" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000">{page.acf?.hm_title}</div>
+          <div className="hero-block__description" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000">{page.acf?.hm_description}</div>
         </div>
         <div className="scroll-info">
           <span>Scroll down to see our services</span>

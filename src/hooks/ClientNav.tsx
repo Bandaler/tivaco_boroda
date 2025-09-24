@@ -2,14 +2,16 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation';
 
 interface ClientNavProps {
   children: React.ReactNode;
-  containerId?: string; // id кастомного скролл-контейнера
+  containerId?: string;
 }
 
 export default function ClientNav({ children, containerId = 'fullpage-container' }: ClientNavProps) {
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname(); // следим за маршрутом
 
   useEffect(() => {
     const container = document.getElementById(containerId);
@@ -20,10 +22,10 @@ export default function ClientNav({ children, containerId = 'fullpage-container'
     };
 
     container.addEventListener('scroll', handleScroll, { passive: true });
-    handleScroll(); // проверка при монтировании
+    handleScroll(); // проверка при монтировании / возврате
 
     return () => container.removeEventListener('scroll', handleScroll);
-  }, [containerId]);
+  }, [containerId, pathname]); // зависимость от маршрута
 
   return <div className={`nav-wrapper ${scrolled ? 'scrolled' : ''}`}>{children}</div>;
 }

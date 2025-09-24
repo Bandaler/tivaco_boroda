@@ -115,7 +115,7 @@ export default function EventsSlider({ eventsList }: { eventsList: Event[] }) {
           breakpoints={{
             320: { slidesPerView: 'auto', spaceBetween: 18 },
             768: { slidesPerView: 'auto' },
-            1024: { slidesPerView: 1 },
+            1024: { slidesPerView: 3 },
             1300: { slidesPerView: 3 },
           }}
 
