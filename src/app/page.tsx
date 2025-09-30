@@ -57,6 +57,14 @@ import WhyWe from "@/components/homepage/whywe/whywe";
 import TeamHomepage from "@/components/homepage/team/team";
 import NewsScreen from "@/components/homepage/news/news";
 import Consultation from "@/components/homepage/consultation/consultation";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Oficcial site | Tivaco",
+  description: "page 404",
+};
+
+
 
 export default async function Home() {
   return (

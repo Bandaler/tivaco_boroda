@@ -1,4 +1,12 @@
 import Mainscreen from "@/components/portfolio/mainscreen/mainscreen";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Portfolio | Tivaco",
+  description: "page events",
+};
+
+
 
 
 

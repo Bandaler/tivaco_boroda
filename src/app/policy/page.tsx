@@ -1,6 +1,14 @@
 import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Policy | Tivaco",
+  description: "page policy",
+};
+
+
 
 // interface Policy {
 //   title: string;

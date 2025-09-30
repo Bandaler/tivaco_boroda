@@ -479,6 +479,7 @@ nav {
       margin-right: calc(50vw - clamp(320px, 80vw, 1280px) / 2);
       /* padding-top: 9rem; */
     }
+
     @media(max-width: 700px) {
       padding-top: 11rem;
     }
@@ -678,6 +679,9 @@ div:has(.service-btns) {
   transform: translate(-150%, 150%) rotate(90deg) scale(0.5);
   transform-origin: bottom left;
   animation: diagonalArc 3s forwards cubic-bezier(0.42, 0, 0.58, 1);
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+
 
   @media(max-width: 992px) {
     /* width: 140%;
@@ -714,14 +718,15 @@ div:has(.service-btns) {
 @keyframes diagonalArc {
   0% {
     opacity: 0;
-    transform: translate(-150%, 150%) rotate(90deg) scale(0.5);
+    transform: translate3d(-150%, 150%, 0) rotate(90deg) scale(0.5);
   }
 
   100% {
     opacity: 1;
-    transform: translate(0, 0) rotate(0deg) scale(1);
+    transform: translate3d(0, 0, 0) rotate(0deg) scale(1);
   }
 }
+
 
 .arrow:has(.static-arrow) {
   z-index: 1;
@@ -1100,7 +1105,7 @@ div:has(.service-btns) {
           height: 47px;
         }
 
-         @media(max-width: 700px) {
+        @media(max-width: 700px) {
           height: 33px;
         }
 
@@ -2542,7 +2547,11 @@ div:has(.service-btns) {
   display: flex;
   flex-direction: column;
   height: 100dvh;
-  padding-top: 8rem;
+  padding-top: 11rem;
+
+  /* @media(min-width: 1600px) {
+    padding-top: 11rem;
+  } */
 
   @media(max-width: 1150px) {
     padding-top: 11rem;
@@ -2594,7 +2603,7 @@ div:has(.service-btns) {
       gap: 22px;
     }
 
-      @media(min-width: 1750px) {
+    @media(min-width: 1750px) {
       gap: 90px;
     }
 
@@ -2613,7 +2622,7 @@ div:has(.service-btns) {
       max-width: 215px;
 
       @media(max-width: 1750px) {
-       max-width: 167px; 
+        max-width: 167px;
       }
 
 
@@ -2671,10 +2680,32 @@ div:has(.service-btns) {
 
     .tab-content__item {
       display: none;
+      max-height: 400px;
+      overflow: auto;
+      scrollbar-width: thin;
+      /* Firefox */
+      scrollbar-color: #031285 transparent;
+
+      /* цвет ползунка и фона */
+      &::-webkit-scrollbar {
+        height: 4px;
+        /* высота полосы при горизонтальном скролле */
+      }
+
+      &::-webkit-scrollbar-track {
+        background: transparent;
+        /* фон под треком */
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: #999;
+        /* цвет полосы */
+        border-radius: 2px;
+      }
 
       @media(max-width: 992px) {
         overflow: auto;
-        max-height: 309px;
+        max-height: 260px;
       }
 
       & p {
@@ -2877,7 +2908,11 @@ div:has(.service-btns) {
   position: relative;
   z-index: 3;
   height: 100dvh;
-  padding-top: 8rem;
+  padding-top: 11rem;
+
+  @media(max-width: 700px) {
+    padding-top: 8rem;
+  }
 
   & .h1 {
     color: var(--Dark, #03002A);
@@ -5304,4 +5339,37 @@ ol {
 
 .o-hidden {
   overflow: hidden;
+}
+
+.navigation-team {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: 68px;
+
+  @media(max-width: 700px) {
+    margin-bottom: 25px;
+  }
+
+  & .navigation-team-arr {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 120%;
+    /* 28.8px */
+    text-transform: lowercase;
+    color: #B6B2F0;
+
+    @media(max-width: 992px) {
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 120%;
+      /* 14.4px */
+      text-transform: lowercase;
+    }
+  }
 }

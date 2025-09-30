@@ -168,6 +168,32 @@ export async function generateStaticParams() {
   }));
 }
 
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+
+  const res = await fetch(
+    `http://tivaco.borodadigital.com/wp-json/wp/v2/portfolio-list?slug=${slug}`,
+    { cache: 'force-cache' }
+  );
+
+  if (!res.ok) return { title: "Team | Tivaco" };
+
+  const data: Portfolio[] = await res.json();
+  const portfolio = data[0];
+
+  if (!portfolio) return { title: "Team not found | Tivaco" };
+
+  return {
+    title: `${portfolio.title.rendered} | Tivaco`,
+    description: portfolio.content.rendered || "Event page",
+  };
+}
+
 export default async function PortfolioPage({
  params,
 }: {

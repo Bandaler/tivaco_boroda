@@ -1,4 +1,9 @@
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "About | Tivaco",
+  description: "page about",
+};
 
 export default async function About() {
   const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/pages/24', { cache: 'force-cache' });

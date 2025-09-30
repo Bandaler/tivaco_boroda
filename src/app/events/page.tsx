@@ -1,4 +1,11 @@
 import EventsHomepage from "@/components/events/mainscreen/Mainscreen";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Events | Tivaco",
+  description: "page events",
+};
+
 
 
 

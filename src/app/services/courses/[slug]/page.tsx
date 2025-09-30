@@ -18,6 +18,33 @@ export async function generateStaticParams() {
     slug: course.slug,
   }));
 }
+
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+
+  const res = await fetch(
+    `http://tivaco.borodadigital.com/wp-json/wp/v2/courses-list?slug=${slug}`,
+    { cache: 'force-cache' }
+  );
+
+  if (!res.ok) return { title: "Team | Tivaco" };
+
+  const data: Course[] = await res.json();
+  const course = data[0];
+
+  if (!course) return { title: "Team not found | Tivaco" };
+
+  return {
+    title: `${course.title.rendered} | Tivaco`,
+    description: course.content.rendered || "Event page",
+  };
+}
+
 export default async function CoursePage({
   params,
 }: {

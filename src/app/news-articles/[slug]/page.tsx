@@ -4,6 +4,7 @@
 import Image from 'next/image';
 import Breadcrumbs from '@/components/Breadcrumbs/Breadcrumbs';
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 
 interface News {
   id: number;
@@ -32,6 +33,32 @@ export async function generateStaticParams() {
     slug: service.slug,
   }));
 }
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+
+  const res = await fetch(
+    `http://tivaco.borodadigital.com/wp-json/wp/v2/news-list?slug=${slug}`,
+    { cache: 'force-cache' }
+  );
+
+  if (!res.ok) return { title: "Team | Tivaco" };
+
+  const data: News[] = await res.json();
+  const news = data[0];
+
+  if (!news) return { title: "Team not found | Tivaco" };
+
+  return {
+    title: `${news.title.rendered} | Tivaco`,
+    description: news.content.rendered || "Event page",
+  };
+}
+
 export default async function PortfolioPage({
   params,
 }: {
@@ -47,6 +74,8 @@ export default async function PortfolioPage({
 
   const data = await res.json();
   const news = data[0];
+
+    if (!news) return notFound();
   // const author = portfolio.acf?.portfolio_author;
 
   // Получаем список всех записей

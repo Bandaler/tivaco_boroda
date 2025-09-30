@@ -1,6 +1,13 @@
 import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
 import Marquee from "@/components/contacts/marquee/Marquee"
 import Link from "next/link"
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contacts | Tivaco",
+  description: "our contacts",
+};
+
 
 
 interface Contact {

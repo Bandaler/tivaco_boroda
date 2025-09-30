@@ -1,4 +1,11 @@
 import CoursesHomepage from "@/components/courses/mainscreen/mainscreen";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Courses | Tivaco",
+  description: "page courses",
+};
+
 
 
 

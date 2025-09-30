@@ -37,6 +37,32 @@ export async function generateStaticParams() {
     slug: service.slug,
   }));
 }
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+
+  const res = await fetch(
+    `http://tivaco.borodadigital.com/wp-json/wp/v2/services-list?slug=${slug}`,
+    { cache: 'force-cache' }
+  );
+
+  if (!res.ok) return { title: "Team | Tivaco" };
+
+  const data: Service[] = await res.json();
+  const service = data[0];
+
+  if (!service) return { title: "Team not found | Tivaco" };
+
+  return {
+    title: `${service.title.rendered} | Tivaco`,
+    description: service.content.rendered || "Event page",
+  };
+}
+
 export default async function ServicePage({
   params,
 }: {
