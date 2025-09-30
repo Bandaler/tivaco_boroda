@@ -69,7 +69,7 @@ export default async function PortfolioPage({
         <div className={`secondary-bg light-bg`}></div>
         <div className="page-content">
 
-          <div className="container">
+          <div className="container padding-0">
             <div className="single-service__inner portfolio-page__inner news-page__inner detail-page-news">
               <Breadcrumbs current={news.title.rendered} />
               <div className="news-page__content">

@@ -89,7 +89,7 @@ export default async function TeamPage({
           </div>
         )}
 
-        <div className="container">
+        <div className="container padding-0">
           <div className="single-service__inner team-inner">
             <Breadcrumbs current={team.title.rendered} />
               <div className="hero-block__title team-head">

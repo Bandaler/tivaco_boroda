@@ -16,7 +16,7 @@ export default async function Workflow() {
       <div className="secondary-bg"></div>
       <div className="page-content">
         <div className="workflow-block">
-          <div className="container">
+          <div className="container padding-0">
             <div className="workflow-block__inner">
               <MotionSection animation="fade-up">
                 <div className="workflow-small">{smallText}</div>

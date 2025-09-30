@@ -29,7 +29,7 @@ export default async function Reviews() {
         <div className="mark-decor">
           <Image src={'/mark.svg'} width={4000} height={4000} alt="bg" />
         </div>
-        <div className="container">
+        <div className="container padding-0">
           <div className="reviews-block">
             <MotionSection animation="fade-up">
               <div className="reviews-block__small">

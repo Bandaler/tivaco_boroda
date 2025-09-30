@@ -39,7 +39,7 @@ export default async function WhyWe() {
         <div className="w-bg">
           <Image src={'/w-bg.png'} width={4000} height={4000} alt="bg" />
         </div>
-        <div className="container">
+        <div className="container padding-0">
           <div className="why-block">
             <MotionSection animation="fade-up">
               <div className="why-block__small">

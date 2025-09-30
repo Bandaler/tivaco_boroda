@@ -42,7 +42,7 @@ export default async function Mainscreen() {
         <div className="w-bg">
           <Image src="/w-bg.png" width={4000} height={4000} alt="bg" />
         </div>
-        <div className="container">
+        <div className="container padding-0">
           <div className="services-page__inner news-page__inner">
             <Breadcrumbs />
             <div className="hero-block__title">

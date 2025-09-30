@@ -1,0 +1,1354 @@
+{
+  "posts": {
+    "%d0%bf%d1%80%d0%b8%d0%b2%d0%b5%d1%82-%d0%bc%d0%b8%d1%80": {
+      "title": "Привет, мир!",
+      "content": "\n<p>Добро пожаловать в WordPress. Это ваша первая запись. Отредактируйте или удалите ее, затем начинайте создавать!</p>\n",
+      "acf": []
+    }
+  },
+  "pages": {
+    "privacy-policy": {
+      "title": "Privacy policy",
+      "content": "<div></div>\n<h2>1. Collecting information</h2>\n<p>We may collect information about you when you visit our website, register, fill out forms, or interact with us in other ways. This information may include:</p>\n<p>• Personal information (such as name, email address, phone number)<br />\n• Information about website usage (such as IP address, browser type, access time)<br />\n• Cookies and similar technologies</p>\n<h2>2. Use of information</h2>\n<p>We use the collected information for the following purposes:</p>\n<p>• Processing your requests and providing services<br />\n• Improvements to our website and user experience<br />\n• Sending you information materials and news<br />\n• Conducting research and analysis</p>\n<h2>3. Information protection</h2>\n<p>We take reasonable measures to protect your information from unauthorized access, use, or disclosure. However, no Internet transmission method or electronic storage method is absolutely secure. We cannot guarantee the absolute security of your information.</p>\n<h2>4. Disclosure of information to third parties</h2>\n<p>We do not sell, exchange or transfer your personal information to third parties without your consent, except in cases where this is required by law or to fulfill our obligations to you.</p>\n<h2>5. Your rights</h2>\n<p>You have the right to access, correct, or delete your personal information. If you would like to exercise these rights, please contact us using the contact information provided below.</p>\n<h2>6. Changes to the Privacy Policy</h2>\n<p>We reserve the right to make changes to this Privacy Policy. All changes will be posted on this page with the effective date. We recommend that you check this page periodically for updates.</p>\n",
+      "acf": []
+    },
+    "%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%b0%d1%8f-%d0%bc%d0%b0%d0%bb%d0%b0%d0%b9%d1%81%d0%ba%d0%b8%d0%b9": {
+      "title": "Главная Малайский",
+      "content": "",
+      "acf": {
+        "hm_title": "Fair value.\r\nCLEAR GROUND.",
+        "hm_description": "Valuations that hold up in court — and stand out in disputes",
+        "hm_serv_title": "Our services",
+        "hm_serv_small_descr": "Expert Work in International Disputes\r\nValuation and Strategic Financial Analysis\r\nTransactions and Insurance\r\nTraining and Development",
+        "hm_serv_lg_descr": "We deliver independent, reliable, and transparent valuations for arbitration and high-stakes disputes.",
+        "hm_adv_title": "when the stakes are hight? clarity is crucial.",
+        "hm_adv_description": "Our clients — lawyers, business owners-involve us when uncertainty is at its highest",
+        "advantages_list": [
+          {
+            "advantages_list_image": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/06/Icon-1.svg",
+            "advantages_list_descr": "internetional arbitration"
+          },
+          {
+            "advantages_list_image": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/06/Group-2883-1.svg",
+            "advantages_list_descr": "compiex negotlations "
+          },
+          {
+            "advantages_list_image": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/06/Icon-3.svg",
+            "advantages_list_descr": "loss claims"
+          },
+          {
+            "advantages_list_image": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/06/Icon-4.svg",
+            "advantages_list_descr": "corporate disputes  "
+          }
+        ],
+        "hm_workflow_small": "How we work",
+        "hm_workflow_title": "Transparent. Independent. Accurate.",
+        "hm_workflow_tabs": [
+          {
+            "hm_workflow_tabs_title": "Defensible findings",
+            "hm_workflow_description": "Our reports hold up under scrutiny."
+          },
+          {
+            "hm_workflow_tabs_title": "Courtroom credibility",
+            "hm_workflow_description": "Our reports hold up under scrutiny.2"
+          },
+          {
+            "hm_workflow_tabs_title": "Commercial perspective",
+            "hm_workflow_description": "Our reports hold up under scrutiny.3"
+          }
+        ],
+        "hm_slider_title_section_reviews_small": "Why choose us",
+        "hm_slider_title_section_reviews": "people you can trust",
+        "hm_slider_title_reviews": "Peers and clients say:",
+        "hm_slider_review": [
+          {
+            "slider_review_text": "Tigran is very thorough, analytical and clear when expressing his views",
+            "slider_review_author": "Arbitration"
+          },
+          {
+            "slider_review_text": "He displays exceptional sharpness of mind with his questions and answers",
+            "slider_review_author": "Arbitration"
+          },
+          {
+            "slider_review_text": "Tigran is very thorough, analytical and clear when expressing his views",
+            "slider_review_author": "Arbitration"
+          },
+          {
+            "slider_review_text": "Tigran is very thorough, analytical and clear when expressing his views",
+            "slider_review_author": "Arbitration"
+          }
+        ],
+        "hm_why_small": "Why choose us",
+        "hm_why_list": [
+          {
+            "hm_why_icon": {
+              "ID": 87,
+              "id": 87,
+              "title": "Group 2868",
+              "filename": "Group-2868.svg",
+              "filesize": 6430,
+              "url": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2868.svg",
+              "link": "http://tivaco.borodadigital.com/%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%b0%d1%8f/group-2868/",
+              "alt": "",
+              "author": "1",
+              "description": "",
+              "caption": "",
+              "name": "group-2868",
+              "status": "inherit",
+              "uploaded_to": 9,
+              "date": "2025-07-02 19:10:17",
+              "modified": "2025-07-02 19:10:17",
+              "menu_order": 0,
+              "mime_type": "image/svg+xml",
+              "type": "image",
+              "subtype": "svg+xml",
+              "icon": "http://tivaco.borodadigital.com/wordpress/wp-includes/images/media/default.png",
+              "width": 0,
+              "height": 0,
+              "sizes": {
+                "thumbnail": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2868.svg",
+                "thumbnail-width": 1,
+                "thumbnail-height": 1,
+                "medium": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2868.svg",
+                "medium-width": 1,
+                "medium-height": 1,
+                "medium_large": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2868.svg",
+                "medium_large-width": 1,
+                "medium_large-height": 1,
+                "large": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2868.svg",
+                "large-width": 1,
+                "large-height": 1,
+                "1536x1536": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2868.svg",
+                "1536x1536-width": 1,
+                "1536x1536-height": 1,
+                "2048x2048": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2868.svg",
+                "2048x2048-width": 1,
+                "2048x2048-height": 1
+              }
+            },
+            "hm_why_title": "LEXOLOGY INDEX",
+            "hm_why_sublist_link": "#",
+            "hm_why_sublist_link_text": "Checkout lexology rating",
+            "hm_why_sublist": [
+              {
+                "hm_why_sublist_item": "Global elite tought leader"
+              },
+              {
+                "hm_why_sublist_item": "Ranked in 4 chapters"
+              },
+              {
+                "hm_why_sublist_item": "Top 5% of experts globally"
+              }
+            ]
+          },
+          {
+            "hm_why_icon": {
+              "ID": 90,
+              "id": 90,
+              "title": "Group 2875",
+              "filename": "Group-2875.svg",
+              "filesize": 11413,
+              "url": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2875.svg",
+              "link": "http://tivaco.borodadigital.com/%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%b0%d1%8f/group-2875/",
+              "alt": "",
+              "author": "1",
+              "description": "",
+              "caption": "",
+              "name": "group-2875",
+              "status": "inherit",
+              "uploaded_to": 9,
+              "date": "2025-07-02 19:11:50",
+              "modified": "2025-07-02 19:11:50",
+              "menu_order": 0,
+              "mime_type": "image/svg+xml",
+              "type": "image",
+              "subtype": "svg+xml",
+              "icon": "http://tivaco.borodadigital.com/wordpress/wp-includes/images/media/default.png",
+              "width": 0,
+              "height": 0,
+              "sizes": {
+                "thumbnail": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2875.svg",
+                "thumbnail-width": 1,
+                "thumbnail-height": 1,
+                "medium": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2875.svg",
+                "medium-width": 1,
+                "medium-height": 1,
+                "medium_large": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2875.svg",
+                "medium_large-width": 1,
+                "medium_large-height": 1,
+                "large": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2875.svg",
+                "large-width": 1,
+                "large-height": 1,
+                "1536x1536": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2875.svg",
+                "1536x1536-width": 1,
+                "1536x1536-height": 1,
+                "2048x2048": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2875.svg",
+                "2048x2048-width": 1,
+                "2048x2048-height": 1
+              }
+            },
+            "hm_why_title": "HIGH-STAKE DISPUTES",
+            "hm_why_sublist_link": "",
+            "hm_why_sublist_link_text": "",
+            "hm_why_sublist": [
+              {
+                "hm_why_sublist_item": "Highest claim value: $ 8bn + "
+              },
+              {
+                "hm_why_sublist_item": "Multiple appointments in \r\nmulti-billion disputes"
+              }
+            ]
+          },
+          {
+            "hm_why_icon": {
+              "ID": 91,
+              "id": 91,
+              "title": "Group 2870",
+              "filename": "Group-2870.svg",
+              "filesize": 6042,
+              "url": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2870.svg",
+              "link": "http://tivaco.borodadigital.com/%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%b0%d1%8f/group-2870/",
+              "alt": "",
+              "author": "1",
+              "description": "",
+              "caption": "",
+              "name": "group-2870",
+              "status": "inherit",
+              "uploaded_to": 9,
+              "date": "2025-07-02 19:12:05",
+              "modified": "2025-07-02 19:12:05",
+              "menu_order": 0,
+              "mime_type": "image/svg+xml",
+              "type": "image",
+              "subtype": "svg+xml",
+              "icon": "http://tivaco.borodadigital.com/wordpress/wp-includes/images/media/default.png",
+              "width": 0,
+              "height": 0,
+              "sizes": {
+                "thumbnail": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2870.svg",
+                "thumbnail-width": 1,
+                "thumbnail-height": 1,
+                "medium": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2870.svg",
+                "medium-width": 1,
+                "medium-height": 1,
+                "medium_large": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2870.svg",
+                "medium_large-width": 1,
+                "medium_large-height": 1,
+                "large": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2870.svg",
+                "large-width": 1,
+                "large-height": 1,
+                "1536x1536": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2870.svg",
+                "1536x1536-width": 1,
+                "1536x1536-height": 1,
+                "2048x2048": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2870.svg",
+                "2048x2048-width": 1,
+                "2048x2048-height": 1
+              }
+            },
+            "hm_why_title": "GEOGRAPHIC COVERAGE",
+            "hm_why_sublist_link": "",
+            "hm_why_sublist_link_text": "",
+            "hm_why_sublist": [
+              {
+                "hm_why_sublist_item": "Disputes seated from US to Australia"
+              },
+              {
+                "hm_why_sublist_item": "Assets valued: from Americas to Asia-Pacific"
+              }
+            ]
+          },
+          {
+            "hm_why_icon": {
+              "ID": 92,
+              "id": 92,
+              "title": "Group 2876",
+              "filename": "Group-2876.svg",
+              "filesize": 4363,
+              "url": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2876.svg",
+              "link": "http://tivaco.borodadigital.com/%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%b0%d1%8f/group-2876/",
+              "alt": "",
+              "author": "1",
+              "description": "",
+              "caption": "",
+              "name": "group-2876",
+              "status": "inherit",
+              "uploaded_to": 9,
+              "date": "2025-07-02 19:12:19",
+              "modified": "2025-07-02 19:12:19",
+              "menu_order": 0,
+              "mime_type": "image/svg+xml",
+              "type": "image",
+              "subtype": "svg+xml",
+              "icon": "http://tivaco.borodadigital.com/wordpress/wp-includes/images/media/default.png",
+              "width": 0,
+              "height": 0,
+              "sizes": {
+                "thumbnail": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2876.svg",
+                "thumbnail-width": 1,
+                "thumbnail-height": 1,
+                "medium": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2876.svg",
+                "medium-width": 1,
+                "medium-height": 1,
+                "medium_large": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2876.svg",
+                "medium_large-width": 1,
+                "medium_large-height": 1,
+                "large": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2876.svg",
+                "large-width": 1,
+                "large-height": 1,
+                "1536x1536": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2876.svg",
+                "1536x1536-width": 1,
+                "1536x1536-height": 1,
+                "2048x2048": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2876.svg",
+                "2048x2048-width": 1,
+                "2048x2048-height": 1
+              }
+            },
+            "hm_why_title": "DISPUTE CONTEXT",
+            "hm_why_sublist_link": "",
+            "hm_why_sublist_link_text": "",
+            "hm_why_sublist": [
+              {
+                "hm_why_sublist_item": "M&A"
+              },
+              {
+                "hm_why_sublist_item": "Intellectual property"
+              },
+              {
+                "hm_why_sublist_item": "Shareholder / JV conflicts"
+              },
+              {
+                "hm_why_sublist_item": "Investor-state / \r\ninvestment arbitration"
+              },
+              {
+                "hm_why_sublist_item": "Loss of oportunity"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%b0%d1%8f-%d1%80%d1%83%d1%81%d1%81%d0%ba%d0%b8%d0%b9": {
+      "title": "Главная &#8212; Русский",
+      "content": "",
+      "acf": []
+    },
+    "partners": {
+      "title": "Partners",
+      "content": "",
+      "acf": {
+        "partners_logos": [
+          {
+            "partners_logo": false
+          },
+          {
+            "partners_logo": false
+          },
+          {
+            "partners_logo": false
+          },
+          {
+            "partners_logo": false
+          }
+        ]
+      }
+    },
+    "contacts": {
+      "title": "contact us",
+      "content": "",
+      "acf": {
+        "hm_title": "contacts page",
+        "hm_description": "",
+        "contacts": [
+          {
+            "contacts_city": "Singapore",
+            "contacts_phone": "",
+            "contacts_mail": "info@tivaco.expert",
+            "contacts_address": "Robinson Road, 14-04, Singapore 068914, Singapore"
+          },
+          {
+            "contacts_city": "Milan, Italy",
+            "contacts_phone": "",
+            "contacts_mail": "info@tivaco.expert",
+            "contacts_address": ""
+          }
+        ]
+      }
+    },
+    "events": {
+      "title": "events",
+      "content": "",
+      "acf": {
+        "hm_title": "events page",
+        "hm_description": ""
+      }
+    },
+    "news-articles": {
+      "title": "news &#038; articles",
+      "content": "",
+      "acf": {
+        "hm_title": "news page",
+        "hm_description": ""
+      }
+    },
+    "portfolio": {
+      "title": "portfolio",
+      "content": "",
+      "acf": {
+        "hm_title": "portfolio page",
+        "hm_description": ""
+      }
+    },
+    "services": {
+      "title": "services",
+      "content": "",
+      "acf": {
+        "hm_title": "services page",
+        "hm_description": ""
+      }
+    },
+    "about": {
+      "title": "about",
+      "content": "",
+      "acf": {
+        "hm_title": "about page",
+        "hm_description": ""
+      }
+    },
+    "team": {
+      "title": "Команда",
+      "content": "",
+      "acf": {
+        "hm_title": "test",
+        "hm_description": ""
+      }
+    },
+    "%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%b0%d1%8f": {
+      "title": "Главная",
+      "content": "",
+      "acf": {
+        "hm_title": "Fair value.\r\nCLEAR GROUND.",
+        "hm_description": "Valuations that hold up in court — and stand out in disputes",
+        "hm_serv_title": "Our services",
+        "hm_serv_small_descr": "Expert Work in International Disputes\r\nValuation and Strategic Financial Analysis\r\nTransactions and Insurance\r\nTraining and Development",
+        "hm_serv_lg_descr": "We deliver independent, reliable, and transparent valuations for arbitration and high-stakes disputes.",
+        "hm_adv_title": "when the stakes are hight? clarity is crucial.",
+        "hm_adv_description": "Our clients — lawyers, business owners-involve us when uncertainty is at its highest",
+        "advantages_list": [
+          {
+            "advantages_list_image": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/06/Icon-1.svg",
+            "advantages_list_descr": "internetional arbitration"
+          },
+          {
+            "advantages_list_image": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/06/Group-2883-1.svg",
+            "advantages_list_descr": "compiex negotlations "
+          },
+          {
+            "advantages_list_image": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/06/Icon-3.svg",
+            "advantages_list_descr": "loss claims"
+          },
+          {
+            "advantages_list_image": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/06/Icon-4.svg",
+            "advantages_list_descr": "corporate disputes  "
+          }
+        ],
+        "hm_workflow_small": "How we work",
+        "hm_workflow_title": "Transparent. Independent. Accurate.",
+        "hm_workflow_tabs": [
+          {
+            "hm_workflow_tabs_title": "Defensible findings",
+            "hm_workflow_description": "We stand behind our logic and numbers"
+          },
+          {
+            "hm_workflow_tabs_title": "Courtroom credibility",
+            "hm_workflow_description": "Our reports hold up under scrutiny"
+          },
+          {
+            "hm_workflow_tabs_title": "Commercial perspective",
+            "hm_workflow_description": "We know there are commercial consequences behind every valuation"
+          }
+        ],
+        "hm_slider_title_section_reviews_small": "Why choose us",
+        "hm_slider_title_section_reviews": "people you can trust",
+        "hm_slider_title_reviews": "Peers and clients say:",
+        "hm_slider_review": [
+          {
+            "slider_review_text": "\"Tigran is very thorough, analytical and clear when expressing his views\"\r\n\"He displays exceptional sharpness of mind with his questions and answers\"\r\n\"Tigran is a responsive and multilingual claim valuation expert\"",
+            "slider_review_author": "Thought Leaders - Arbitration"
+          },
+          {
+            "slider_review_text": "\"Tigran Ter-Martirosyan is named \"the best expert in the market\", with peers and clients praising his damages valuation practice. One market source says: \"he is creative, very convincing and always delivers\", while the other admires \"the clarity and conciseness of his writing”.",
+            "slider_review_author": "Thought Leaders - Commercial Litigation"
+          },
+          {
+            "slider_review_text": "\"Tigran Ter-Martirosyan is a distinguished expert witness and adviser in complex litigation with vast experience in business valuation and accounting issues.\"",
+            "slider_review_author": "Commercial Litigation"
+          },
+          {
+            "slider_review_text": "\"Tigran Ter-Martirosyan enjoys market recognition thanks to \"his technically sound services\" and \"reliable and user-friendly approach to oral testimony\". He performs valuations and damages assessments before all existing arbitral institutions.\"",
+            "slider_review_author": "Southeast Asia"
+          },
+          {
+            "slider_review_text": "\"Tigran Ter-Martirosyan comes highly recommended for his extensive experience providing expert testimony in complex litigation proceedings. Sources say, “He is able to get into the detail when calculating lost profit.”",
+            "slider_review_author": "Thought Leaders - Global Elite"
+          }
+        ],
+        "hm_why_small": "Why choose us",
+        "hm_why_list": [
+          {
+            "hm_why_icon": {
+              "ID": 87,
+              "id": 87,
+              "title": "Group 2868",
+              "filename": "Group-2868.svg",
+              "filesize": 6430,
+              "url": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2868.svg",
+              "link": "http://tivaco.borodadigital.com/%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%b0%d1%8f/group-2868/",
+              "alt": "",
+              "author": "1",
+              "description": "",
+              "caption": "",
+              "name": "group-2868",
+              "status": "inherit",
+              "uploaded_to": 9,
+              "date": "2025-07-02 19:10:17",
+              "modified": "2025-07-02 19:10:17",
+              "menu_order": 0,
+              "mime_type": "image/svg+xml",
+              "type": "image",
+              "subtype": "svg+xml",
+              "icon": "http://tivaco.borodadigital.com/wordpress/wp-includes/images/media/default.png",
+              "width": 0,
+              "height": 0,
+              "sizes": {
+                "thumbnail": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2868.svg",
+                "thumbnail-width": 1,
+                "thumbnail-height": 1,
+                "medium": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2868.svg",
+                "medium-width": 1,
+                "medium-height": 1,
+                "medium_large": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2868.svg",
+                "medium_large-width": 1,
+                "medium_large-height": 1,
+                "large": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2868.svg",
+                "large-width": 1,
+                "large-height": 1,
+                "1536x1536": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2868.svg",
+                "1536x1536-width": 1,
+                "1536x1536-height": 1,
+                "2048x2048": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2868.svg",
+                "2048x2048-width": 1,
+                "2048x2048-height": 1
+              }
+            },
+            "hm_why_title": "LEXOLOGY INDEX",
+            "hm_why_sublist_link": "https://www.lexology.com/firms/1346813/tigran_ter_martirosyan",
+            "hm_why_sublist_link_text": "Checkout lexology rating",
+            "hm_why_sublist": [
+              {
+                "hm_why_sublist_item": "Global elite tought leader"
+              },
+              {
+                "hm_why_sublist_item": "Ranked in 4 chapters"
+              },
+              {
+                "hm_why_sublist_item": "Top 5% of experts globally"
+              }
+            ]
+          },
+          {
+            "hm_why_icon": {
+              "ID": 90,
+              "id": 90,
+              "title": "Group 2875",
+              "filename": "Group-2875.svg",
+              "filesize": 11413,
+              "url": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2875.svg",
+              "link": "http://tivaco.borodadigital.com/%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%b0%d1%8f/group-2875/",
+              "alt": "",
+              "author": "1",
+              "description": "",
+              "caption": "",
+              "name": "group-2875",
+              "status": "inherit",
+              "uploaded_to": 9,
+              "date": "2025-07-02 19:11:50",
+              "modified": "2025-07-02 19:11:50",
+              "menu_order": 0,
+              "mime_type": "image/svg+xml",
+              "type": "image",
+              "subtype": "svg+xml",
+              "icon": "http://tivaco.borodadigital.com/wordpress/wp-includes/images/media/default.png",
+              "width": 0,
+              "height": 0,
+              "sizes": {
+                "thumbnail": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2875.svg",
+                "thumbnail-width": 1,
+                "thumbnail-height": 1,
+                "medium": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2875.svg",
+                "medium-width": 1,
+                "medium-height": 1,
+                "medium_large": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2875.svg",
+                "medium_large-width": 1,
+                "medium_large-height": 1,
+                "large": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2875.svg",
+                "large-width": 1,
+                "large-height": 1,
+                "1536x1536": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2875.svg",
+                "1536x1536-width": 1,
+                "1536x1536-height": 1,
+                "2048x2048": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2875.svg",
+                "2048x2048-width": 1,
+                "2048x2048-height": 1
+              }
+            },
+            "hm_why_title": "HIGH-STAKE DISPUTES",
+            "hm_why_sublist_link": "",
+            "hm_why_sublist_link_text": "",
+            "hm_why_sublist": [
+              {
+                "hm_why_sublist_item": "Highest claim value: $ 8bn + "
+              },
+              {
+                "hm_why_sublist_item": "Multiple appointments in \r\nmulti-billion disputes"
+              }
+            ]
+          },
+          {
+            "hm_why_icon": {
+              "ID": 91,
+              "id": 91,
+              "title": "Group 2870",
+              "filename": "Group-2870.svg",
+              "filesize": 6042,
+              "url": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2870.svg",
+              "link": "http://tivaco.borodadigital.com/%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%b0%d1%8f/group-2870/",
+              "alt": "",
+              "author": "1",
+              "description": "",
+              "caption": "",
+              "name": "group-2870",
+              "status": "inherit",
+              "uploaded_to": 9,
+              "date": "2025-07-02 19:12:05",
+              "modified": "2025-07-02 19:12:05",
+              "menu_order": 0,
+              "mime_type": "image/svg+xml",
+              "type": "image",
+              "subtype": "svg+xml",
+              "icon": "http://tivaco.borodadigital.com/wordpress/wp-includes/images/media/default.png",
+              "width": 0,
+              "height": 0,
+              "sizes": {
+                "thumbnail": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2870.svg",
+                "thumbnail-width": 1,
+                "thumbnail-height": 1,
+                "medium": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2870.svg",
+                "medium-width": 1,
+                "medium-height": 1,
+                "medium_large": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2870.svg",
+                "medium_large-width": 1,
+                "medium_large-height": 1,
+                "large": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2870.svg",
+                "large-width": 1,
+                "large-height": 1,
+                "1536x1536": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2870.svg",
+                "1536x1536-width": 1,
+                "1536x1536-height": 1,
+                "2048x2048": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2870.svg",
+                "2048x2048-width": 1,
+                "2048x2048-height": 1
+              }
+            },
+            "hm_why_title": "GEOGRAPHIC COVERAGE",
+            "hm_why_sublist_link": "",
+            "hm_why_sublist_link_text": "",
+            "hm_why_sublist": [
+              {
+                "hm_why_sublist_item": "Disputes seated from US to Australia"
+              },
+              {
+                "hm_why_sublist_item": "Assets valued: from Americas to Asia-Pacific"
+              }
+            ]
+          },
+          {
+            "hm_why_icon": {
+              "ID": 92,
+              "id": 92,
+              "title": "Group 2876",
+              "filename": "Group-2876.svg",
+              "filesize": 4363,
+              "url": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2876.svg",
+              "link": "http://tivaco.borodadigital.com/%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%b0%d1%8f/group-2876/",
+              "alt": "",
+              "author": "1",
+              "description": "",
+              "caption": "",
+              "name": "group-2876",
+              "status": "inherit",
+              "uploaded_to": 9,
+              "date": "2025-07-02 19:12:19",
+              "modified": "2025-07-02 19:12:19",
+              "menu_order": 0,
+              "mime_type": "image/svg+xml",
+              "type": "image",
+              "subtype": "svg+xml",
+              "icon": "http://tivaco.borodadigital.com/wordpress/wp-includes/images/media/default.png",
+              "width": 0,
+              "height": 0,
+              "sizes": {
+                "thumbnail": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2876.svg",
+                "thumbnail-width": 1,
+                "thumbnail-height": 1,
+                "medium": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2876.svg",
+                "medium-width": 1,
+                "medium-height": 1,
+                "medium_large": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2876.svg",
+                "medium_large-width": 1,
+                "medium_large-height": 1,
+                "large": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2876.svg",
+                "large-width": 1,
+                "large-height": 1,
+                "1536x1536": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2876.svg",
+                "1536x1536-width": 1,
+                "1536x1536-height": 1,
+                "2048x2048": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Group-2876.svg",
+                "2048x2048-width": 1,
+                "2048x2048-height": 1
+              }
+            },
+            "hm_why_title": "DISPUTE CONTEXT",
+            "hm_why_sublist_link": "",
+            "hm_why_sublist_link_text": "",
+            "hm_why_sublist": [
+              {
+                "hm_why_sublist_item": "M&A"
+              },
+              {
+                "hm_why_sublist_item": "Intellectual property"
+              },
+              {
+                "hm_why_sublist_item": "Shareholder / JV conflicts"
+              },
+              {
+                "hm_why_sublist_item": "Investor-state / \r\ninvestment arbitration"
+              },
+              {
+                "hm_why_sublist_item": "Loss of oportunity"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "courses-list": {
+    "the-course-name": {
+      "title": "The course name.",
+      "content": "",
+      "acf": {
+        "course_preview_image": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/unsplash_yCdPU73kGSc.jpg",
+        "course_preview_description": "Specialists with extensive industry experience and knowledge, providing clients with insights ",
+        "course_ms_title": "test 3",
+        "course_ms_description": "",
+        "course_ms_hours": "",
+        "course_ms_long": "",
+        "course_structure_tabs": false,
+        "course_lectors": false,
+        "course_materials": false
+      }
+    },
+    "the-detailed-course-name-is-in-one-two-lines": {
+      "title": "The detailed course name is in one, two lines.",
+      "content": "",
+      "acf": {
+        "course_preview_image": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/markus-spiske-yK0hQ5h3g-M-unsplash-1.jpg",
+        "course_preview_description": "Specialists with extensive industry experience and knowledge, providing clients with insights ",
+        "course_ms_title": "test",
+        "course_ms_description": "We deliver independent, reliable, and transparent valuations for arbitration and high-stakes disputes.",
+        "course_ms_hours": "40 hours ",
+        "course_ms_long": "3 months",
+        "course_structure_tabs": false,
+        "course_lectors": false,
+        "course_materials": false
+      }
+    },
+    "the-detailed-course-name-is-in-one-two-or-three-lines-in-one-two-or-three-lines": {
+      "title": "The detailed course name is in one, two or three lines. In one, two or three lines.",
+      "content": "",
+      "acf": {
+        "course_preview_image": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/unsplash_1VqHRwxcCCw.jpg",
+        "course_preview_description": "Specialists with extensive industry experience and knowledge, providing clients with insights ",
+        "course_ms_title": "Course Headline",
+        "course_ms_description": "We deliver independent, reliable, and transparent valuations for arbitration and high-stakes disputes.",
+        "course_ms_hours": "40 hours ",
+        "course_ms_long": "3 months",
+        "course_structure_tabs": [
+          {
+            "course_structure_tab_name": "Lecture 1",
+            "course_structure_tab_description": "We provide independent expert opinions on business valuation, damages, and financial matters for use in:",
+            "course_structure_tab_points": [
+              {
+                "course_structure_tab_point": "International commercial arbitration (SIAC, ICC, LCIA, HKIAC, etc.)"
+              },
+              {
+                "course_structure_tab_point": "Investor-state disputes (ICSID, UNCITRAL etc.)"
+              },
+              {
+                "course_structure_tab_point": "Court litigation (Singapore, Australia, UK etc.)"
+              },
+              {
+                "course_structure_tab_point": "Mediation and pre-dispute negotiations"
+              },
+              {
+                "course_structure_tab_point": "Expert determination"
+              }
+            ]
+          },
+          {
+            "course_structure_tab_name": "Lecture 2",
+            "course_structure_tab_description": "We provide independent expert opinions on business valuation, damages, and financial matters for use in:",
+            "course_structure_tab_points": [
+              {
+                "course_structure_tab_point": "International commercial arbitration (SIAC, ICC, LCIA, HKIAC, etc.)"
+              },
+              {
+                "course_structure_tab_point": "Investor-state disputes (ICSID, UNCITRAL etc.)"
+              }
+            ]
+          },
+          {
+            "course_structure_tab_name": "Lecture 3",
+            "course_structure_tab_description": "We provide independent expert opinions on business valuation, damages, and financial matters for use in:",
+            "course_structure_tab_points": [
+              {
+                "course_structure_tab_point": "International commercial arbitration (SIAC, ICC, LCIA, HKIAC, etc.)"
+              },
+              {
+                "course_structure_tab_point": "Investor-state disputes (ICSID, UNCITRAL etc.)"
+              },
+              {
+                "course_structure_tab_point": "Investor-state disputes (ICSID, UNCITRAL etc.)"
+              }
+            ]
+          },
+          {
+            "course_structure_tab_name": "Lecture 4",
+            "course_structure_tab_description": "We provide independent expert opinions on business valuation, damages, and financial matters for use in:",
+            "course_structure_tab_points": [
+              {
+                "course_structure_tab_point": "International commercial arbitration (SIAC, ICC, LCIA, HKIAC, etc.)"
+              },
+              {
+                "course_structure_tab_point": "Investor-state disputes (ICSID, UNCITRAL etc.)"
+              },
+              {
+                "course_structure_tab_point": "Investor-state disputes (ICSID, UNCITRAL etc.)"
+              },
+              {
+                "course_structure_tab_point": "Investor-state disputes (ICSID, UNCITRAL etc.)"
+              }
+            ]
+          },
+          {
+            "course_structure_tab_name": "Lecture 5",
+            "course_structure_tab_description": "We provide independent expert opinions on business valuation, damages, and financial matters for use in:",
+            "course_structure_tab_points": [
+              {
+                "course_structure_tab_point": "International commercial arbitration (SIAC, ICC, LCIA, HKIAC, etc.)"
+              },
+              {
+                "course_structure_tab_point": "Investor-state disputes (ICSID, UNCITRAL etc.)"
+              }
+            ]
+          },
+          {
+            "course_structure_tab_name": "Lecture 6",
+            "course_structure_tab_description": "We provide independent expert opinions on business valuation, damages, and financial matters for use in:",
+            "course_structure_tab_points": [
+              {
+                "course_structure_tab_point": "International commercial arbitration (SIAC, ICC, LCIA, HKIAC, etc.)"
+              },
+              {
+                "course_structure_tab_point": "Investor-state disputes (ICSID, UNCITRAL etc.)"
+              },
+              {
+                "course_structure_tab_point": "Investor-state disputes (ICSID, UNCITRAL etc.)"
+              }
+            ]
+          }
+        ],
+        "course_lectors": [
+          {
+            "course_lector_name": "Darrell Lee",
+            "course_lector_position": "Director of TIVACO Experts in Singapore ",
+            "course_lector_description": "His lectures are full of relevant information, practical examples and interactive elements that involve students in the learning process."
+          },
+          {
+            "course_lector_name": "Geoff Wong",
+            "course_lector_position": "Director of TIVACO Experts in Singapore 2",
+            "course_lector_description": "His lectures are full of relevant information, practical examples and interactive elements that involve students in the learning process.2"
+          },
+          {
+            "course_lector_name": "Darrell Lee",
+            "course_lector_position": "Director of TIVACO Experts in Singapore 3",
+            "course_lector_description": "His lectures are full of relevant information, practical examples and interactive elements that involve students in the learning process.2"
+          },
+          {
+            "course_lector_name": "Geoff Wong",
+            "course_lector_position": "Director of TIVACO Experts in Singapore 4",
+            "course_lector_description": "His lectures are full of relevant information, practical examples and interactive elements that involve students in the learning process.2"
+          },
+          {
+            "course_lector_name": "Darrell Lee",
+            "course_lector_position": "Director of TIVACO Experts in Singapore 5",
+            "course_lector_description": "His lectures are full of relevant information, practical examples and interactive elements that involve students in the learning process.2"
+          }
+        ],
+        "course_materials": [
+          {
+            "course_lecture_name": "Lecture 1",
+            "course_lecture_files": [
+              {
+                "course_lecture_file": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/pdf-test.pdf",
+                "course_lecture_file_name": "test1"
+              }
+            ]
+          },
+          {
+            "course_lecture_name": "Lecture 2",
+            "course_lecture_files": [
+              {
+                "course_lecture_file": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/pdf-test.pdf",
+                "course_lecture_file_name": "test2"
+              }
+            ]
+          },
+          {
+            "course_lecture_name": "Lecture 3",
+            "course_lecture_files": [
+              {
+                "course_lecture_file": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/pdf-test.pdf",
+                "course_lecture_file_name": "test3"
+              }
+            ]
+          },
+          {
+            "course_lecture_name": "Lecture 4",
+            "course_lecture_files": [
+              {
+                "course_lecture_file": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/pdf-test.pdf",
+                "course_lecture_file_name": "test4"
+              }
+            ]
+          },
+          {
+            "course_lecture_name": "Lecture 5",
+            "course_lecture_files": [
+              {
+                "course_lecture_file": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/pdf-test.pdf",
+                "course_lecture_file_name": "test5"
+              }
+            ]
+          },
+          {
+            "course_lecture_name": "Lecture 6",
+            "course_lecture_files": [
+              {
+                "course_lecture_file": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/pdf-test.pdf",
+                "course_lecture_file_name": "test6"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "news-list": {
+    "tribunal-appointed-vs-party-appointed-experts-in-international-arbitration-an-analytical-perspective": {
+      "title": "Tribunal-Appointed vs Party-Appointed Experts in International Arbitration: An Analytical Perspective",
+      "content": "<h2><strong>Introduction</strong></h2>\n<p>Expert evidence is often the backbone of international arbitration. From asset valuation to complex technical assessments in construction disputes, arbitral tribunals rely extensively on experts to clarify the factual and methodological underpinnings of a case. But the question remains: <strong>who appoints the expert</strong>—the tribunal or the parties?</p>\n<p>This distinction between <strong>party-appointed experts</strong> and <strong>tribunal-appointed experts</strong> may have profound implications for cost, timeline, and procedural structure of expert evidence. Leading arbitral institutions (e.g. SIAC, ICC, LCIA, ICSID) have developed practices around both models, yet it seems that the party-appointment approach dominates globally.</p>\n<h2><strong>Party-Appointed Experts: Advocacy and Control</strong></h2>\n<h3><strong>Definition</strong></h3>\n<p>Each party selects its own expert to prepare a report, ideally supporting its position. The expert might work closely with counsel, especially in cases where quantum of damages depends heavily on the disputed factual and legal issues and counsel’s input is required to formulate certain assumptions (e.g. as to the counterfactual scenario).</p>\n<h3><strong>Advantages</strong></h3>\n<ul>\n<li><strong>Strategic alignment:</strong> the report may fit better into the party’s overall case theory, given that same party has discretion to choose its own expert witness.</li>\n<li><strong>Freedom of choice:</strong> parties can retain niche specialists (valuation experts, engineers, industry professionals) based on their own criteria.</li>\n<li><strong>Greater control:</strong> counsel can to some extent influence scope, methodology, and focus of the expert’s analysis via means of its instructions to the expert.</li>\n</ul>\n<h3><strong>Drawbacks</strong></h3>\n<ul>\n<li><strong>Perception of bias:</strong> experts may be seen as “hired guns” or “quantum advocates”</li>\n<li><strong>Expert battles:</strong> tribunals may often face diametrically opposed expert reports, sometimes driven by the non-reconciling factual or legal basis adopted in the opposing experts’ instructions.</li>\n<li><strong>Higher costs:</strong> both parties pay for their own experts, sometimes several at once (e.g. a damages expert relying on certain inputs from an industry expert).</li>\n</ul>\n<p><em>Case note:</em> In many ICSID cases, party-appointed experts presented completely divergent discounted cash flow (DCF) valuation models, leaving tribunals struggling to reconcile somewhat “parallel realities”</p>\n<h2><strong>Tribunal-Appointed Experts: Neutrality and Efficiency</strong></h2>\n<h3><strong>Definition</strong></h3>\n<p>The tribunal itself appoints an expert, usually where highly technical or financial issues must be resolved.</p>\n<h3><strong>Advantages</strong></h3>\n<ul>\n<li><strong>Greater perceived credibility:</strong> tribunal-appointed experts are presumed more neutral.</li>\n<li><strong>Efficiency:</strong> a single expert can streamline proceedings and reduce costs.</li>\n<li><strong>Clarity:</strong> tribunals receive direct answers to questions they consider critical.</li>\n</ul>\n<h3><strong>Drawbacks</strong></h3>\n<ul>\n<li><strong>Less party control:</strong> counsel cannot tailor the methodology to their client’s case.</li>\n<li><strong>Risk of misalignment:</strong> if the tribunal-appointed expert chooses assumptions unfavourable to a party, it may undermine that party’s case.</li>\n<li><strong>Procedural tensions:</strong> cross-examining an “expert of the tribunal” can be delicate, as arbitrators may treat the expert as their own adviser.</li>\n<li><strong>Cost inefficiencies:</strong> parties are generally not prohibited from appointing their own experts in addition to the tribunal-appointed one. Therefore, one might end up in a scenario of three experts being appointed instead of two, leading to increased costs of arbitration.</li>\n</ul>\n<p><em>Case note:</em> The SIAC Rules expressly empower tribunals to appoint experts. In such cases, the tribunal’s expert often acts as a “technical bridge” between lawyers and arbitrators.</p>\n<h2><strong>Hybrid Approaches</strong></h2>\n<p>Sometimes, tribunals adopt <strong>hybrid models</strong>:</p>\n<ol>\n<li>Each party submits its own expert report.</li>\n<li>The tribunal appoints an independent expert to evaluate the differences and highlight the methodological gaps.</li>\n<li>Alternatively, the tribunal asks party-appointed experts to work together (e.g. on a joint damages valuation model) before or after the hearing.</li>\n<li>As a further alternative, the tribunal may ask the party-appointed experts to meet before they start their analysis to discuss (and potentially agree on) the methodology and/or information requirements.</li>\n</ol>\n<p>This approach reduces perceptions of bias while maintaining the adversarial balance.</p>\n<h2><strong>Practical Implications</strong></h2>\n<ul>\n<li><strong>For parties and counsel:</strong> a party-appointed model potentially allows full advocacy, but credibility must be carefully preserved—as tribunals may distrust partisan experts.</li>\n<li><strong>For tribunals:</strong> tribunal-appointed experts enhance neutrality but require proactive case management to avoid perceptions of “outsourcing” the decision.</li>\n<li><strong>For legitimacy of arbitration:</strong> hybrid models may represent the most balanced path, especially in high-stakes, technically complex cases.</li>\n</ul>\n<h2><strong>Conclusion</strong></h2>\n<p>The choice between <strong>party-appointed</strong> and <strong>tribunal-appointed</strong> experts reflects a deeper tension in arbitration: the balance between <strong>party autonomy</strong> and <strong>procedural integrity</strong>.</p>\n<ul>\n<li>Party-appointed experts might empower the parties but may be perceived as “hired guns”.</li>\n<li>Tribunal-appointed experts foster neutrality but limit party autonomy.</li>\n<li>Hybrid solutions often combine the strengths of both.</li>\n</ul>\n<p>As disputes grow more technical and valuations more complex, expert evidence will likely remain decisive. The model chosen can shape not only the tribunal’s reasoning but also how the process itself is perceived in terms of fairness and efficiency.</p>\n",
+      "acf": {
+        "news_image": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/tivaco-zagl.png",
+        "news_descr_preview": "Expert evidence is often the backbone of international arbitration. From asset valuation to complex technical assessments in construction disputes, arbitral tribunals rely extensively on experts to clarify..."
+      }
+    },
+    "cross-examination-vs-tribunal-led-expert-evidence-cultural-perspectives-in-international-arbitration": {
+      "title": "Cross-Examination vs Tribunal-Led Expert Evidence: Cultural Perspectives in International Arbitration",
+      "content": "<h2>Introduction</h2>\n<p>Expert evidence lies at the heart of many international arbitration proceedings. From damages calculations to complex engineering issues, experts provide the technical foundation on which tribunals build their awards. Yet the way expert evidence is tested and presented varies significantly across legal cultures.</p>\n<p>Two approaches dominate:<br />\n• Cross-examination, rooted in common law traditions.<br />\n• Tribunal-led questioning and hot-tubbing, reflecting civil law influences.</p>\n<p>Understanding these cultural perspectives is key to navigating modern arbitration, where parties, counsel, and arbitrators often come from very different legal backgrounds.</p>\n<h2>Cross-Examination: The Common Law Tradition</h2>\n<p>Cross-examination is adversarial by design. Counsel challenges the opposing party’s expert with (somewhat often) leading questions to expose weaknesses, inconsistencies, or bias.</p>\n<p>Strengths:</p>\n<ul>\n<li>Advocacy control: Counsel shapes the narrative.</li>\n<li>Transparency: Tribunal sees the expert under direct pressure.</li>\n<li>Familiarity: Widely accepted in common law arbitration practice.</li>\n</ul>\n<p>Limitations:</p>\n<ul>\n<li>Adversarial bias: Experts may become defensive rather than explanatory.</li>\n<li>Time-consuming: Prolongs hearings, especially under “no stone unturned” approach.</li>\n<li>Effectiveness depends on counsel: A skilled advocate might “win the battle” regardless of the science behind the expert’s report.</li>\n</ul>\n<p>Case note: In our experience of many commercial arbitrations across the globe, cross-examination remains the default, even when technical issues might benefit from a more tribunal-led format.</p>\n<h2>Tribunal-Led Questioning and Hot-Tubbing: The Civil Law Perspective</h2>\n<p>In civil law traditions, the tribunal takes a more active role in questioning experts. Tribunal-led hot-tubbing (concurrent expert evidence or witness conferencing) is a variation: experts present their views side by side, guided by the tribunal’s questions.</p>\n<p>Strengths:</p>\n<ul>\n<li>Direct clarity: Arbitrators get immediate answers to what they consider decisive and/or most material when it comes to damages.</li>\n<li>Efficiency: Reduces duplication and adversarial “battles”</li>\n<li>Collaborative tone: Encourages experts to focus on substance, not advocacy.</li>\n</ul>\n<p>Limitations:</p>\n<ul>\n<li>Unfamiliarity for counsel: Less control over the narrative.</li>\n<li>Risk of imbalance: A dominant personality may overshadow a quieter but more rigorous expert.</li>\n<li>Tribunal dependency: Quality depends on how proactively and effectively arbitrators moderate the process.</li>\n</ul>\n<p>Case note: ICSID and other investor-state arbitration tribunals might be more acceptive of tribunal-led expert sessions, especially in complex damages cases, reflecting the civil law influence of many arbitrators in such disputes.</p>\n<h2>Cultural Frictions in Mixed Proceedings</h2>\n<p>International arbitration is, by definition, cross-cultural. A Singapore-based tribunal may include civil law arbitrators, while parties may expect procedures aligned with their own traditions.</p>\n<p>Typical frictions in such multi-cultural proceedings may include:<br />\n• Counsel from common law backgrounds insisting on extensive cross-examination.<br />\n• Civil law arbitrators pushing for tribunal-led sessions to maintain efficiency.<br />\n• Experts themselves struggling to adapt to formats outside their “domestic” experience .</p>\n<p>These differences can shape not only the flow of the hearing but also the perceived fairness of the process.</p>\n<h1>Trends and Hybrid Models</h1>\n<p>Modern arbitral practice increasingly blends the two traditions:<br />\n• “Sequential” model: Cross-examination followed by tribunal-led hot-tubbing.<br />\n• Pre-hearing questionnaires: Arbitrators send experts written questions and/or list of key issues to be tested before oral evidence, or require experts to prepare at least a short joint statement.<br />\n• Focused hot-tubbing: Experts are only questioned concurrently on specific (and/or most material) points of disagreement.</p>\n<p>This hybridization reflects the global nature of arbitration—an attempt to reconcile advocacy with efficiency.</p>\n<h2>Conclusion</h2>\n<p>The choice between cross-examination and tribunal-led expert evidence reflects deep cultural differences in how truth is tested.</p>\n<p>• Common law advocates value party control and adversarial testing.<br />\n• Civil law traditions emphasize tribunal-led clarification and efficiency.<br />\n• Hybrid models are increasingly seen as the best of both worlds.</p>\n<p>For practitioners, awareness of these cultural dynamics is not merely procedural—it is strategic. The way expert evidence is managed can determine not only how facts are perceived but also how fair the arbitration feels to all participants.</p>\n<p>Reference: Global Arbitration Review, &#8216;Approaches to Evidence Across Legal Cultures&#8217;, The Guide to Evidence in International Arbitration (3rd edition), 9 September 2025. Available at: <a href=\"https://globalarbitrationreview.com/guide/the-guide-evidence-in-international-arbitration/3rd-edition/article/approaches-evidence-across-legal-cultures\">https://globalarbitrationreview.com/guide/the-guide-evidence-in-international-arbitration/3rd-edition/article/approaches-evidence-across-legal-cultures</a></p>\n",
+      "acf": {
+        "news_image": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/jeans-ynxyFId93Ws-unsplash-1.jpg",
+        "news_descr_preview": "Specialists with extensive industry experience and knowledge, providing clients with insights "
+      }
+    }
+  },
+  "services-list": {
+    "training-and-development": {
+      "title": "Training and Development",
+      "content": "",
+      "acf": {
+        "service_tabs": [
+          {
+            "tab_name": "Training /  CPD Workshops",
+            "tab_desscription": "We deliver online and offline workshops for lawyers, financial professionals, and experts on topics including:",
+            "tab_points_list": [
+              {
+                "tab_points_item": "Business valuation and damages assessment"
+              },
+              {
+                "tab_points_item": "Working with experts and cross-examination"
+              },
+              {
+                "tab_points_item": "Shareholder and M&A disputes"
+              },
+              {
+                "tab_points_item": "Custom workshops tailored to industry, practice or case specifics"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "transactions-and-insurance": {
+      "title": "Transactions  and Insurance",
+      "content": "",
+      "acf": {
+        "service_tabs": [
+          {
+            "tab_name": "M&A / JV Advisory",
+            "tab_desscription": "We help in formulating financial parameters in SPAs and SHAs: call/put options, buy-out mechanisms, and value protection clauses.\r\n\r\nOur input is especially valuable in complex transactions with multiple stakeholders and sophisticated pricing structures.",
+            "tab_points_list": false
+          },
+          {
+            "tab_name": "Insurance Claims",
+            "tab_desscription": "We advise on business interruption (BI) losses and provide independent expert reports throughout the claims process, including testimony in arbitration.",
+            "tab_points_list": false
+          }
+        ]
+      }
+    },
+    "valuation-and-strategic-financial-analysis": {
+      "title": "Valuation and Strategic Financial Analysis",
+      "content": "",
+      "acf": {
+        "service_tabs": [
+          {
+            "tab_name": "Business Valuation",
+            "tab_desscription": "We support both contentious and non-contentious valuations for:",
+            "tab_points_list": [
+              {
+                "tab_points_item": "M&A and business planning"
+              },
+              {
+                "tab_points_item": " Strategic analysis and restructuring"
+              },
+              {
+                "tab_points_item": "Financial reporting and taxation"
+              },
+              {
+                "tab_points_item": " Fairness opinions"
+              },
+              {
+                "tab_points_item": "Management incentive schemes (ESOPs)"
+              }
+            ]
+          },
+          {
+            "tab_name": "Forensic Accounting",
+            "tab_desscription": "We investigate fraud, assess the impact of accounting errors on business value, and advise in insolvency-related matters. \r\n\r\nOur strength lies in the combination of deep accounting expertise and understanding of the dispute process.\r\n",
+            "tab_points_list": false
+          },
+          {
+            "tab_name": "Third-Party Funding  Valuations",
+            "tab_desscription": "We provide preliminary, independent damages assessments to support litigation funding applications. \r\n\r\nOur reports are trusted by leading funders and legal counsel.",
+            "tab_points_list": false
+          }
+        ],
+        "theme_color": "Светлая"
+      }
+    },
+    "expert-work-in-international-disputes": {
+      "title": "Expert Work in International Disputes",
+      "content": "",
+      "acf": {
+        "service_tabs": [
+          {
+            "tab_name": "Expert Witness",
+            "tab_desscription": "We provide independent expert opinions on business valuation, damages, and financial matters for use in:",
+            "tab_points_list": [
+              {
+                "tab_points_item": "International commercial arbitration (SIAC, ICC, LCIA, HKIAC, etc.)"
+              },
+              {
+                "tab_points_item": "Investor-state disputes (ICSID, UNCITRAL etc.)"
+              },
+              {
+                "tab_points_item": "Court litigation (Singapore, Australia, UK etc.)"
+              },
+              {
+                "tab_points_item": "Mediation and pre-dispute negotiations"
+              },
+              {
+                "tab_points_item": "Expert determination"
+              }
+            ]
+          },
+          {
+            "tab_name": "Expert Advisor",
+            "tab_desscription": "We act as strategic expert advisors when appointing an expert witness is not required, or an independent second opinion is valuable – especially during a pre-dispute stage or potential buyout negotiations.",
+            "tab_points_list": false
+          }
+        ]
+      }
+    }
+  },
+  "portfolio-list": {
+    "a-long-portfolio-case-title-in-one-or-two-or-three-lines-2": {
+      "title": "A long portfolio case title in one or two or three lines",
+      "content": "<h2>Problem</h2>\n<ul>\n<li>Bias and Objectivity</li>\n<li>Communication Barriers</li>\n<li>Cultural Differences</li>\n</ul>\n<h2>Our solution</h2>\n<p>Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies. Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies.</p>\n<h2>Results</h2>\n<p>Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies. Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies.</p>\n",
+      "acf": {
+        "portfolio_short_description": "Expert work is an integral component of resolving international disputes. By providing specialized knowledge, objective analysis, and credible insights, experts help facilitate fair outcomes in complex situations. ",
+        "portfolio_date": "06/2025",
+        "portfolio_author": {
+          "portfolio_author_photo": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Photo_Darrell_Lee-1.jpg",
+          "portfolio_author_name": "Darrell Lee",
+          "portfolio_author_position": "Director of TIVACO Experts in Singapore "
+        },
+        "portfolio_image": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/saul-bucio-P5YN73KrUAA-unsplash-1.jpg"
+      }
+    },
+    "a-long-portfolio-case-title-in-one-or-two-lines-2": {
+      "title": "A long portfolio case title in one or two lines",
+      "content": "<h2>Problem</h2>\n<ul>\n<li>Bias and Objectivity</li>\n<li>Communication Barriers</li>\n<li>Cultural Differences</li>\n</ul>\n<h2>Our solution</h2>\n<p>Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies. Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies.</p>\n<h2>Results</h2>\n<p>Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies. Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies.</p>\n",
+      "acf": {
+        "portfolio_short_description": "Expert work is an integral component of resolving international disputes. By providing specialized knowledge, objective analysis, and credible insights, experts help facilitate fair outcomes in complex situations. 2",
+        "portfolio_date": "08/2025",
+        "portfolio_author": {
+          "portfolio_author_photo": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Tigran_Headshot-1.jpg",
+          "portfolio_author_name": "Jason",
+          "portfolio_author_position": "Director of TIVACO Experts in Singapore "
+        },
+        "portfolio_image": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/saul-bucio-P5YN73KrUAA-unsplash-1.jpg"
+      }
+    },
+    "a-long-portfolio-case-title-in-one-or-two-or-three-lines": {
+      "title": "A long portfolio case title in one or two or three lines",
+      "content": "<h2>Problem</h2>\n<ul>\n<li>Bias and Objectivity</li>\n<li>Communication Barriers</li>\n<li>Cultural Differences</li>\n</ul>\n<h2>Our solution</h2>\n<p>Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies. Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies.</p>\n<h2>Results</h2>\n<p>Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies. Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies.</p>\n",
+      "acf": {
+        "portfolio_short_description": "Expert work is an integral component of resolving international disputes. By providing specialized knowledge, objective analysis, and credible insights, experts help facilitate fair outcomes in complex situations. 3",
+        "portfolio_date": "08/2025",
+        "portfolio_author": {
+          "portfolio_author_photo": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Photo_Darrell_Lee-1.jpg",
+          "portfolio_author_name": "Jackie",
+          "portfolio_author_position": "Director of TIVACO Experts in Singapore "
+        },
+        "portfolio_image": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/saul-bucio-P5YN73KrUAA-unsplash-1.jpg"
+      }
+    },
+    "a-long-portfolio-case-title-in-one-or-two-lines": {
+      "title": "A long portfolio case title in one or two lines",
+      "content": "<h2>Problem</h2>\n<ul>\n<li>Bias and Objectivity</li>\n<li>Communication Barriers</li>\n<li>Cultural Differences</li>\n</ul>\n<h2>Our solution</h2>\n<p>Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies. Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies.</p>\n<h2>Results</h2>\n<p>Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies. Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies.</p>\n",
+      "acf": {
+        "portfolio_short_description": "Expert work is an integral component of resolving international disputes. By providing specialized knowledge, objective analysis, and credible insights, experts help facilitate fair outcomes in complex situations. ",
+        "portfolio_date": "08/2025",
+        "portfolio_author": {
+          "portfolio_author_photo": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Tigran_Headshot-1-1.jpg",
+          "portfolio_author_name": "Vin diesel",
+          "portfolio_author_position": "Director of TIVACO Experts in Singapore "
+        },
+        "portfolio_image": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/saul-bucio-P5YN73KrUAA-unsplash-1.jpg"
+      }
+    },
+    "a-long-portfolio-case-title-in-one-two-or-three-lines-in-one-two-or-three-lines": {
+      "title": "A long portfolio case title in one, two or three lines. In one, two or three lines",
+      "content": "<h2>Problem</h2>\n<ul>\n<li>Bias and Objectivity</li>\n<li>Communication Barriers</li>\n<li>Cultural Differences</li>\n</ul>\n<h2>Our solution</h2>\n<p>Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies. Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies.</p>\n<h2>Results</h2>\n<p>Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies. Experts conduct thorough research to gather relevant data and evidence. This may include reviewing documents, analyzing statistics, or conducting field studies.</p>\n",
+      "acf": {
+        "portfolio_short_description": "Expert work is an integral component of resolving international disputes. By providing specialized knowledge, objective analysis, and credible insights, experts help facilitate fair outcomes in complex situations. ",
+        "portfolio_date": "08/2025",
+        "portfolio_author": {
+          "portfolio_author_photo": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Photo_Darrell_Lee-1.jpg",
+          "portfolio_author_name": "Batman",
+          "portfolio_author_position": "Director of TIVACO Experts in Singapore "
+        },
+        "portfolio_image": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/saul-bucio-P5YN73KrUAA-unsplash-1.jpg"
+      }
+    }
+  },
+  "events-list": {
+    "a-long-portfolio-case-title-in-one-two-or-three-lines-in-one-two-or-three-lines3": {
+      "title": "A long portfolio case title in one, two or three lines. In one, two or three lines3",
+      "content": "<p>International disputes often arise from complex relationships between states, corporations, and individuals across borders. These disputes can involve issues such as trade disagreements, territorial claims, investment conflicts, and human rights violations. In such contexts, expert work plays a crucial role in resolving disputes effectively and fairly.</p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-medium wp-image-208\" src=\"http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1-300x151.jpg\" alt=\"\" width=\"300\" height=\"151\" srcset=\"http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1-300x151.jpg 300w, http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1-768x386.jpg 768w, http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1.jpg 980w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></p>\n<div></div>\n<h2>Methodologies Employed by Experts</h2>\n<p>International disputes often arise from complex relationships between states, corporations, and individuals across borders. These disputes can involve issues such as trade disagreements, territorial claims, investment conflicts, and human rights violations. In such contexts, expert work plays a crucial role in resolving disputes effectively and fairly.<br />\nInternational disputes often arise from complex relationships between states, corporations, and individuals across borders. These disputes can involve issues such as trade disagreements, territorial claims, investment conflicts, and human rights violations. In such contexts, expert work plays a crucial role in resolving disputes effectively and fairly.</p>\n",
+      "acf": {
+        "event_date": "16.08",
+        "event_time": "10:00-12:00",
+        "event_location": "Location of the event",
+        "short_ppreview": "Specialists with extensive industry experience and knowledge, providing clients with insights ",
+        "event_speakers": [
+          {
+            "event_speacker_photo": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Photo_Darrell_Lee-1.jpg",
+            "event_speacker_name": "Darrell Lee",
+            "event_speacker_position": "Director of TIVACO Experts in Singapore "
+          },
+          {
+            "event_speacker_photo": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Tigran_Headshot-1-1.jpg",
+            "event_speacker_name": "Darrell Lee",
+            "event_speacker_position": "Director of TIVACO Experts in Singapore "
+          }
+        ]
+      }
+    },
+    "a-long-portfolio-case-title-in-one-two-or-three-lines-in-one-two-or-three-lines2": {
+      "title": "A long portfolio case title in one, two or three lines. In one, two or three lines2",
+      "content": "<p>International disputes often arise from complex relationships between states, corporations, and individuals across borders. These disputes can involve issues such as trade disagreements, territorial claims, investment conflicts, and human rights violations. In such contexts, expert work plays a crucial role in resolving disputes effectively and fairly.</p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-medium wp-image-208\" src=\"http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1-300x151.jpg\" alt=\"\" width=\"300\" height=\"151\" srcset=\"http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1-300x151.jpg 300w, http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1-768x386.jpg 768w, http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1.jpg 980w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></p>\n<div></div>\n<h2>Methodologies Employed by Experts</h2>\n<p>International disputes often arise from complex relationships between states, corporations, and individuals across borders. These disputes can involve issues such as trade disagreements, territorial claims, investment conflicts, and human rights violations. In such contexts, expert work plays a crucial role in resolving disputes effectively and fairly.<br />\nInternational disputes often arise from complex relationships between states, corporations, and individuals across borders. These disputes can involve issues such as trade disagreements, territorial claims, investment conflicts, and human rights violations. In such contexts, expert work plays a crucial role in resolving disputes effectively and fairly.</p>\n",
+      "acf": {
+        "event_date": "22.08",
+        "event_time": "10:00-12:00",
+        "event_location": "Location of the event",
+        "short_ppreview": "Specialists with extensive industry experience and knowledge, providing clients with insights ",
+        "event_speakers": [
+          {
+            "event_speacker_photo": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Tigran_Headshot-1.jpg",
+            "event_speacker_name": "Darrell Lee",
+            "event_speacker_position": "Director of TIVACO Experts in Singapore "
+          }
+        ]
+      }
+    },
+    "a-portfolio-case-title": {
+      "title": "A portfolio case title.",
+      "content": "<p>International disputes often arise from complex relationships between states, corporations, and individuals across borders. These disputes can involve issues such as trade disagreements, territorial claims, investment conflicts, and human rights violations. In such contexts, expert work plays a crucial role in resolving disputes effectively and fairly.</p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-medium wp-image-208\" src=\"http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1-300x151.jpg\" alt=\"\" width=\"300\" height=\"151\" srcset=\"http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1-300x151.jpg 300w, http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1-768x386.jpg 768w, http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1.jpg 980w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></p>\n<div></div>\n<h2>Methodologies Employed by Experts</h2>\n<p>International disputes often arise from complex relationships between states, corporations, and individuals across borders. These disputes can involve issues such as trade disagreements, territorial claims, investment conflicts, and human rights violations. In such contexts, expert work plays a crucial role in resolving disputes effectively and fairly.<br />\nInternational disputes often arise from complex relationships between states, corporations, and individuals across borders. These disputes can involve issues such as trade disagreements, territorial claims, investment conflicts, and human rights violations. In such contexts, expert work plays a crucial role in resolving disputes effectively and fairly.</p>\n",
+      "acf": {
+        "event_date": "30.08",
+        "event_time": "10:00-12:00",
+        "event_location": "Location of the event",
+        "short_ppreview": "Specialists with extensive industry experience and knowledge, providing clients with insights",
+        "event_speakers": [
+          {
+            "event_speacker_photo": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Photo_Darrell_Lee-1.jpg",
+            "event_speacker_name": "Darrell Lee",
+            "event_speacker_position": "Director of TIVACO Experts in Singapore "
+          }
+        ]
+      }
+    },
+    "a-long-portfolio-case-title-in-one-two-or-three-lines": {
+      "title": "A long portfolio case title in one, two or three lines.",
+      "content": "<p>International disputes often arise from complex relationships between states, corporations, and individuals across borders. These disputes can involve issues such as trade disagreements, territorial claims, investment conflicts, and human rights violations. In such contexts, expert work plays a crucial role in resolving disputes effectively and fairly.</p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-medium wp-image-208\" src=\"http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1-300x151.jpg\" alt=\"\" width=\"300\" height=\"151\" srcset=\"http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1-300x151.jpg 300w, http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1-768x386.jpg 768w, http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1.jpg 980w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></p>\n<div></div>\n<h2>Methodologies Employed by Experts</h2>\n<p>International disputes often arise from complex relationships between states, corporations, and individuals across borders. These disputes can involve issues such as trade disagreements, territorial claims, investment conflicts, and human rights violations. In such contexts, expert work plays a crucial role in resolving disputes effectively and fairly.<br />\nInternational disputes often arise from complex relationships between states, corporations, and individuals across borders. These disputes can involve issues such as trade disagreements, territorial claims, investment conflicts, and human rights violations. In such contexts, expert work plays a crucial role in resolving disputes effectively and fairly.</p>\n",
+      "acf": {
+        "event_date": "18.08",
+        "event_time": "10:00-12:00",
+        "event_location": "Location of the event",
+        "short_ppreview": "Specialists with extensive industry experience and knowledge, providing clients with insights ",
+        "event_speakers": [
+          {
+            "event_speacker_photo": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Photo_Darrell_Lee-1.jpg",
+            "event_speacker_name": "Darrell Lee",
+            "event_speacker_position": "Director of TIVACO Experts in Singapore "
+          }
+        ]
+      }
+    },
+    "a-long-portfolio-case-title-in-one-two-or-three-lines-in-one-two-or-three-lines": {
+      "title": "A long portfolio case title in one, two or three lines. In one, two or three lines",
+      "content": "<p>International disputes often arise from complex relationships between states, corporations, and individuals across borders. These disputes can involve issues such as trade disagreements, territorial claims, investment conflicts, and human rights violations. In such contexts, expert work plays a crucial role in resolving disputes effectively and fairly.</p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-medium wp-image-208\" src=\"http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1-300x151.jpg\" alt=\"\" width=\"300\" height=\"151\" srcset=\"http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1-300x151.jpg 300w, http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1-768x386.jpg 768w, http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/08/headway-F2KRf_QfCqw-unsplash-1-1.jpg 980w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></p>\n<div></div>\n<h2>Methodologies Employed by Experts</h2>\n<p>International disputes often arise from complex relationships between states, corporations, and individuals across borders. These disputes can involve issues such as trade disagreements, territorial claims, investment conflicts, and human rights violations. In such contexts, expert work plays a crucial role in resolving disputes effectively and fairly.<br />\nInternational disputes often arise from complex relationships between states, corporations, and individuals across borders. These disputes can involve issues such as trade disagreements, territorial claims, investment conflicts, and human rights violations. In such contexts, expert work plays a crucial role in resolving disputes effectively and fairly.</p>\n",
+      "acf": {
+        "event_date": "11.08",
+        "event_time": "10:00-12:00",
+        "event_location": "Location of the event",
+        "short_ppreview": "Specialists with extensive industry experience and knowledge, providing clients with insights ",
+        "event_speakers": [
+          {
+            "event_speacker_photo": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Photo_Darrell_Lee-1.jpg",
+            "event_speacker_name": "Darrell Lee",
+            "event_speacker_position": "Director of TIVACO Experts in Singapore "
+          }
+        ]
+      }
+    }
+  },
+  "team-list": {
+    "geoff-wong": {
+      "title": "Geoff Wong",
+      "content": "",
+      "acf": {
+        "team_photo": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Photo_Geoff_Wong-1.jpg",
+        "position": "Consultant of TIVACO Experts based in Milan, Italy",
+        "team_tabs": [
+          {
+            "team_tab_title": "Experience",
+            "team_tab_lg_descr": "",
+            "team_tab_col_descr": [
+              {
+                "team_tab_col_single": "More than 4 years of experience in litigation, valuations, determining lost profits and conducting financial expertise."
+              },
+              {
+                "team_tab_col_single": "Industry experience covers manufacturing, energy, automotive, petrochemical, real estate, shipping, and other industries."
+              }
+            ]
+          },
+          {
+            "team_tab_title": "Education",
+            "team_tab_lg_descr": "Geoff graduated from the Rotterdam School of Management (RSM) with a\r\nMaster in Finance and Investments, focusing on corporate finance. He also\r\nholds a Bachelor of Social Science in Economics from the National\r\nUniversity of Singapore (NUS), specialising in monetary and financial\r\neconomics.",
+            "team_tab_col_descr": false
+          }
+        ],
+        "theme_color": "Темная"
+      }
+    },
+    "tigran-headshot": {
+      "title": "Tigran Headshot",
+      "content": "",
+      "acf": {
+        "team_photo": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Tigran_Headshot-1.jpg",
+        "position": "Director of TIVACO",
+        "team_tabs": [
+          {
+            "team_tab_title": "Experience",
+            "team_tab_lg_descr": "Tigran Ter-Martirosyan is a Partner at TIVACO Experts in Singapore with over 15 years of experience in Singapore, London, and Moscow. He specializes in business, share and option valuation, intangible assets, damages, and accounting issues in international arbitration and litigation.\r\n<br><br>\r\nHe has acted as an expert witness and adviser in cases under SIAC, HKIAC, ICC, LCIA, SCC, UNCITRAL, and ICSID rules, and in litigation across Singapore, the UK, Australia, Hong Kong, Cyprus, Bermuda, and the Cayman Islands, providing both written and oral testimony.\r\n<br><br>\r\nHis expertise includes shareholder and joint venture disputes, post-M&A and private equity matters, IP infringements, contract terminations, warranty breaches, reputational damages, and investor–state arbitration. Beyond dispute work, Tigran has carried out valuations for M&A, mediation, restructuring, financial reporting, tax, and management incentive schemes across Asia-Pacific, Europe, the Middle East, Africa, and the Americas.\r\n<br><br>\r\nHe has advised clients in diverse sectors such as mining, telecoms, technology, finance, oil and gas, power, aviation, semiconductors, manufacturing, consumer markets, pharmaceuticals, healthcare, real estate, and hospitality. Recognized as a Global Elite Thought Leader in Lexology’s Expert Witness rankings, Tigran speaks English and Russian and is learning Korean.",
+            "team_tab_col_descr": false
+          },
+          {
+            "team_tab_title": "Education",
+            "team_tab_lg_descr": "Tigran is a fellow of the Association of Chartered Certified Accountants (UK) and received his degrees in Applied Mathematics and Finance from the Moscow Engineering Physics Institute.",
+            "team_tab_col_descr": false
+          }
+        ],
+        "theme_color": "Темная"
+      }
+    },
+    "jackie-chan": {
+      "title": "Darrell Lee",
+      "content": "",
+      "acf": {
+        "team_photo": "http://tivaco.borodadigital.com/wordpress/wp-content/uploads/2025/07/Photo_Darrell_Lee-1.jpg",
+        "position": "Director of TIVACO Experts in Singapore ",
+        "team_tabs": [
+          {
+            "team_tab_title": "Experience",
+            "team_tab_lg_descr": "",
+            "team_tab_col_descr": [
+              {
+                "team_tab_col_single": "Chartered accountant with over 13 years of professional experience, most of which focuses on quantifying economic damage in various contexts."
+              },
+              {
+                "team_tab_col_single": "Experience in a wide variety of industries, including tourism, hospitality, manufacturing, energy, and retail."
+              },
+              {
+                "team_tab_col_single": "Active participation in disputes related to lost profits, breaches of contracts, intellectual property disputes and share repurchases by shareholders."
+              },
+              {
+                "team_tab_col_single": "Coverage of assessment in both contentious and non-contentious situations, forensic accounting, and business interruption loss assessment in insurance disputes."
+              }
+            ]
+          },
+          {
+            "team_tab_title": "Education",
+            "team_tab_lg_descr": "Darrell graduated from the University of Melbourne with a Bachelor of Commerce (Accounting and Finance) and is also a Member of the Institute of Chartered Accountants in England and Wales. He is currently pursuing the Chartered Valuer and Appraiser designation.",
+            "team_tab_col_descr": false
+          }
+        ],
+        "theme_color": "Темная"
+      }
+    }
+  }
+}

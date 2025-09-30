@@ -69,7 +69,7 @@ export default async function CoursePage({
         <div className="w-bg">
           <Image src="/w-bg.png" width={4000} height={4000} alt="bg" />
         </div>
-        <div className="container">
+        <div className="container padding-0">
           <div className="single-service__inner portfolio-page__inner events-page__inner">
             <Breadcrumbs current={event.title.rendered} />
             <div className="detail-events__inner">

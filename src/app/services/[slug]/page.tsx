@@ -83,7 +83,7 @@ export default async function ServicePage({
             </div>
           )}
 
-          <div className="container">
+          <div className="container padding-0">
             <div className="single-service__inner">
               <Breadcrumbs current={service.title.rendered} />
               <div className="hero-block__title">

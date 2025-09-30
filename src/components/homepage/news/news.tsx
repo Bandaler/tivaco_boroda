@@ -25,7 +25,7 @@ export default async function NewsScreen() {
         <div className="w-bg">
           <Image src={'/w-bg.png'} width={4000} height={4000} alt="bg" />
         </div>
-        <div className="container">
+        <div className="container padding-0">
           <div className="news-block">
             <MotionSection animation="zoom-in">
               <div className="news-block__head">
