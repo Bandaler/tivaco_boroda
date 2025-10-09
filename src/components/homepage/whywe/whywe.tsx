@@ -1,89 +1,42 @@
-import MotionSection from "@/hooks/MotionSection";
-import Image from "next/image";
+import WhySliderClient from "./WhySliderClient";
 
-interface WhyIcon {
-  url: string;
-  alt?: string;
+
+interface WhySliderPoint {
+  why_slider_point: string;
 }
 
-interface WhySublistItem {
-  hm_why_sublist_item: string;
-}
-
-interface WhyItem {
-  hm_why_icon?: WhyIcon;
-  hm_why_title: string;
-  hm_why_sublist?: WhySublistItem[];
-  hm_why_sublist_link?: string;
-  hm_why_sublist_link_text?: string;
-}
-
-interface PageACF {
-  hm_why_small?: string;
-  hm_why_list?: WhyItem[];
+interface WhySliderItem {
+  why_slider_under_title_text: string;
+  why_slider_title: string;
+  why_slider_points?: WhySliderPoint[];
+  why_slider_link?: string;
+  why_slider_link_text?: string;
 }
 
 interface PageData {
-  acf?: PageACF;
+  acf?: {
+    why_slider?: WhySliderItem[];
+    hm_why_small?: string; // добавляем сюда
+  };
 }
 
-export default async function WhyWe() {
-  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/pages/9', { cache: 'force-cache' });
-  const page: PageData = await res.json();
+export default async function WhySliderServer() {
+  const res = await fetch("http://tivaco.borodadigital.com/wp-json/wp/v2/pages/9", { cache: 'force-cache' });
 
-  return (
-    <>
-      <div className="main-bg dark"></div>
-      <div className="secondary-bg light-bg"></div>
-      <div className="page-content why">
-        <div className="w-bg">
-          <Image src={'/w-bg.png'} width={4000} height={4000} alt="bg" />
-        </div>
-        <div className="container padding-0">
-          <div className="why-block">
-            <MotionSection animation="fade-up">
-              <div className="why-block__small">
-                {page.acf?.hm_why_small}
-              </div>
-            </MotionSection>
-            <MotionSection animation="zoom-in">
-              <div className="why-tems">
-                {page.acf?.hm_why_list?.map((item, idx) => (
-                  <div key={idx} className="why-item">
-                    <div className="why-item__head">
-                      <div className="why-item__icon">
-                        {item.hm_why_icon?.url && (
-                          <Image
-                            src={item.hm_why_icon.url}
-                            alt={item.hm_why_icon.alt || item.hm_why_title}
-                            width={40}
-                            height={40}
-                          />
-                        )}
-                      </div>
-                      <div className="why-item__title">
-                        {item.hm_why_title}
-                      </div>
-                    </div>
-                    <div className="why-item__sublist">
-                      {item.hm_why_sublist?.map((subitem, subidx) => (
-                        <div key={subidx} className="why-item__sublist-item">
-                          {subitem.hm_why_sublist_item}
-                        </div>
-                      ))}
-                      {item.hm_why_sublist_link && item.hm_why_sublist_link_text && (
-                        <a href={item.hm_why_sublist_link} className="why-item__sublist-link">
-                          {item.hm_why_sublist_link_text}
-                        </a>
-                      )}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </MotionSection>
-          </div>
-        </div>
-      </div>
-    </>
-  );
+  if (!res.ok) {
+    console.error("Ошибка загрузки данных:", res.status);
+    return null;
+  }
+
+  const page: PageData = await res.json();
+  const sliderData = page.acf?.why_slider || [];
+  const hmWhySmall = page.acf?.hm_why_small || "";
+
+  if (!sliderData.length) {
+    console.warn("Слайдер пуст");
+    return null;
+  }
+
+  // прокидываем hmWhySmall в клиентский компонент
+  return <WhySliderClient data={sliderData} hmWhySmall={hmWhySmall} />;
 }

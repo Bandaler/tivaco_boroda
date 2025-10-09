@@ -1,62 +1,40 @@
-// import Link from "next/link";
-import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
-import PortfolioTabs from "./PortfolioTabs/PortfolioTabs";
-// import Image from "next/image";
-// import MotionSection from "@/hooks/MotionSection";
+import PortfolioSliderClient from "./PortfolioSliderClient";
+
 
 interface Portfolio {
   id: number;
   slug: string;
-  title: {
-    rendered: string;
-  };
-  content: {
-    rendered: string;
-  };
   acf: {
-    portfolio_short_description?: string;
-    portfolio_date?: string;
-    portfolio_author?: {
-      portfolio_author_photo?: string;
-      portfolio_author_name?: string;
-      portfolio_author_position?: string;
-    };
+    portfolio_slider_upper_title?: string;
+    portfolio_slider_title?: string;
+    portfolio_slider_subtitle?: string;
+    portfolio_slider_description?: string;
+    portfolio_slider_tag?: string;
   };
 }
 
 export default async function Mainscreen() {
   const res = await fetch(
     "http://tivaco.borodadigital.com/wp-json/wp/v2/portfolio-list?per_page=100",
-    { cache: "force-cache" }
+   { cache: 'force-cache' }
   );
 
-  const portfolio: Portfolio[] = await res.json();
+  if (!res.ok) {
+    console.error("Ошибка загрузки данных:", res.status);
+    return null;
+  }
 
-  return (
-    <>
-      <div className="main-bg light"></div>
-      <div className="secondary-bg"></div>
-      <div className="page-content">
-        <div className="container">
-          <div className="services-page__inner portfolio-page__inner">
-            <Breadcrumbs />
-            {/* <MotionSection animation="fade-up"> */}
-              <div className="hero-block__title portfolio-title">
-                <h1 className="h1">Portfolio</h1>
-                {/* <Link href={'/portfolio/partners'}>
-                  <span>
-                    view partners
-                  </span>
-                  <Image src={'/next-nav.svg'} width={34} height={34} alt='img' />
-                </Link> */}
-              </div>
-            {/* </MotionSection> */}
-            {/* <MotionSection animation="zoom-out"> */}
-              <PortfolioTabs tabs={portfolio} />
-            {/* </MotionSection> */}
-          </div>
-        </div>
-      </div>
-    </>
-  );
+  const data: Portfolio[] = await res.json();
+
+  // Преобразуем массив к нужной структуре, включая slug
+  const sliderData = data.map((item) => ({
+    upperTitle: item.acf?.portfolio_slider_upper_title || "",
+    title: item.acf?.portfolio_slider_title || "",
+    subtitle: item.acf?.portfolio_slider_subtitle || "",
+    description: item.acf?.portfolio_slider_description || "",
+    tag: item.acf?.portfolio_slider_tag || "",
+    slug: item.slug || "", // 👈 добавляем slug
+  }));
+
+  return <PortfolioSliderClient data={sliderData} />;
 }

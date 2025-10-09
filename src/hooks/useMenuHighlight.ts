@@ -14,8 +14,10 @@ export default function useMenuHighlight(mounted: boolean) {
     const isNewsArticle = /^\/news-articles\/[^/]+$/.test(cleanPath);
     const isEvent = /^\/events\/[^/]+$/.test(cleanPath);
     const isPortfolioPartner = /^\/portfolio\/partners$/.test(cleanPath);
+    const isPortfolio = /^\/portfolio(\/[^/]+)?\/?$/.test(cleanPath);
 
-    if (isNewsArticle || isEvent) {
+
+    if (isNewsArticle || isEvent || isPortfolio) {
       setIsLight(true);
       return;
     }
@@ -23,6 +25,7 @@ export default function useMenuHighlight(mounted: boolean) {
       setIsLight(false);
       return;
     }
+
 
     // const checkSections = () => {
     //   const sections = Array.from(document.querySelectorAll<HTMLElement>('section.light'));
