@@ -12,7 +12,7 @@ export default async function Workflow() {
 
   return (
     <>
-      <div className="main-bg white"></div>
+      <div className="main-bg sec-bg"></div>
       <div className="secondary-bg"></div>
       <div className="page-content">
         <div className="workflow-block">
@@ -20,7 +20,7 @@ export default async function Workflow() {
             <div className="workflow-block__inner">
               <MotionSection animation="fade-up">
                 <div className="workflow-small">{smallText}</div>
-                <div className="workflow-block__title">{title}</div>
+                {/* <div className="workflow-block__title">{title}</div> */}
               </MotionSection>
               <MotionSection animation="fade-left">
                 <WorkflowTabs tabs={tabs} />

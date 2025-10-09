@@ -233,14 +233,14 @@ export default async function PortfolioPage({
 
   return (
     <section className="section portfolio-section">
-      <div className="main-bg"></div>
-      <div className="secondary-bg"></div>
+      <div className="main-bg white"></div>
+      <div className="secondary-bg light-bg"></div>
       <div className="page-content">
-        <div className="container">
+        <div className="container padding-0">
           <div className="single-service__inner portfolio-page__inner">
             <Breadcrumbs current={portfolio.title.rendered} />
             <div className="portfolio-page__content">
-              <div className="hero-block__title">
+              <div className="hero-block__title portfolio-detail-content">
                 <h1
                   className="h1"
                   dangerouslySetInnerHTML={{ __html: portfolio.title.rendered }}
