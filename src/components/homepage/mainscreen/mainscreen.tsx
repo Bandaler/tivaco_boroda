@@ -1,13 +1,20 @@
 import Image from "next/image";
 import LottieArrow from "./littiearrow/LottieArrow";
 
+interface Advantage {
+  ms_advantages_title: string;
+  ms_advantages_description: string;
+  ms_advantages_link?: string;
+  ms_advantages_link_text?: string;
+}
+
 export default async function Mainscreen() {
   const res = await fetch("http://tivaco.borodadigital.com/wp-json/wp/v2/pages/9", {
     cache: "force-cache",
   });
   const page = await res.json();
 
-  const advantages = page.acf?.ms_advantages || [];
+  const advantages: Advantage[] = page.acf?.ms_advantages || [];
 
   return (
     <>
@@ -46,10 +53,9 @@ export default async function Mainscreen() {
             {page.acf?.hm_description}
           </div>
 
-          {/* Новый блок — вывод ms_advantages */}
           {advantages.length > 0 && (
             <div className="ms-advantages" data-aos="fade-up" data-aos-delay="1200">
-              {advantages.map((item: any, index: number) => (
+              {advantages.map((item, index) => (
                 <div key={index} className="ms-advantage-item">
                   <div className="ms-advantage-title">{item.ms_advantages_title}</div>
                   <div className="ms-advantage-description">

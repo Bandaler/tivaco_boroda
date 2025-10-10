@@ -8,7 +8,7 @@ export default async function Workflow() {
 
   const tabs = page.acf?.hm_workflow_tabs || [];
   const smallText = page.acf?.hm_workflow_small || '';
-  const title = page.acf?.hm_workflow_title || '';
+  // const title = page.acf?.hm_workflow_title || '';
 
   return (
     <>
