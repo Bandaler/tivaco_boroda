@@ -764,6 +764,7 @@ div:has(.service-btns) {
 
   @media(max-width: 992px) {
     bottom: 45px;
+
     & img {
       width: 24px;
       height: 24px;
@@ -1926,6 +1927,10 @@ div:has(.service-btns) {
       align-items: center;
       justify-content: center;
 
+      @media(min-width: 1800px) {
+        min-width: 650px;
+      }
+
       @media(max-width: 1700px) {
         height: 420px;
         max-width: 450px;
@@ -1949,7 +1954,9 @@ div:has(.service-btns) {
       }
 
       & .team-card {
-
+        @media(min-width: 1800px) {
+          width: 100%;
+        }
 
         & a {
           max-width: 650px;
@@ -2917,6 +2924,7 @@ div:has(.service-btns) {
     .tab-content__item.active {
       display: flex;
       gap: 62px;
+
       @media(max-width: 1150px) {
         flex-direction: column;
         gap: 10px;
@@ -4514,13 +4522,23 @@ html {
     }
 
     & h2 {
-      color: var(--Violet-dark, #8581CB);
+      color: var(--Violet-dark, #160E82);
       font-size: 40px;
       font-style: normal;
       font-weight: 700;
       line-height: 120%;
       text-transform: uppercase;
-      margin-bottom: 20px;
+      margin-bottom: 40px;
+
+      & strong {
+        color: var(--Violet-dark, #160E82);
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
 
       @media(max-width: 1150px) {
         font-size: 24px;
@@ -4528,13 +4546,23 @@ html {
     }
 
     & h3 {
-      color: var(--Violet-dark, #8581CB);
+      color: var(--Violet-dark, #160E82);
       font-size: 32px;
       font-style: normal;
       font-weight: 700;
       line-height: 120%;
       text-transform: uppercase;
-      margin-bottom: 20px;
+      margin-bottom: 40px;
+
+      & strong {
+        color: var(--Violet-dark, #160E82);
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
 
       @media(max-width: 1150px) {
         font-size: 20px;
@@ -4542,13 +4570,23 @@ html {
     }
 
     & h4 {
-      color: var(--Violet-dark, #8581CB);
+      color: var(--Violet-dark, #160E82);
       font-size: 22px;
       font-style: normal;
       font-weight: 700;
       line-height: 120%;
       text-transform: uppercase;
-      margin-bottom: 20px;
+      margin-bottom: 40px;
+
+      & strong {
+        color: var(--Violet-dark, #160E82);
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
 
       @media(max-width: 1150px) {
         font-size: 16px;
@@ -5493,9 +5531,9 @@ ol {
   right: 0;
   bottom: 4rem;
 
-  @media(max-width: 700px) {
+  /* @media(max-width: 700px) {
     transform: translateX(-16px);
-  }
+  } */
 
   & .custom-swiper-navigation__arrow {
     cursor: pointer;
@@ -5522,6 +5560,13 @@ ol {
       background-color: #03002A;
     }
 
+  }
+}
+
+.why-block {
+  & .custom-swiper-navigation {
+    margin-left: 0;
+    transform: translateX(0px);
   }
 }
 
@@ -5663,6 +5708,7 @@ ol {
 
         @media(max-width: 992px) {
           min-width: initial;
+          max-width: 90vw;
         }
       }
     }
@@ -5811,6 +5857,31 @@ ol {
       line-height: 140%;
       margin-bottom: 20px;
       display: none;
+
+      @media(max-width: 700px) {
+        max-height: 147px;
+        overflow-y: auto;
+        scrollbar-width: thin;
+        /* Firefox */
+        scrollbar-color: #031285 transparent;
+
+        /* цвет ползунка и фона */
+        &::-webkit-scrollbar {
+          height: 4px;
+          /* высота полосы при горизонтальном скролле */
+        }
+
+        &::-webkit-scrollbar-track {
+          background: transparent;
+          /* фон под треком */
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background-color: #999;
+          /* цвет полосы */
+          border-radius: 2px;
+        }
+      }
     }
 
     & .portfolio-swiper_tag {
@@ -5940,6 +6011,7 @@ ol {
     flex-direction: column;
     gap: 15px;
     max-width: 206px;
+    width: 100%;
 
     @media(Max-width: 1050px) {
       gap: 10px;
@@ -5969,5 +6041,11 @@ ol {
       font-weight: 400;
       line-height: 120%;
     }
+  }
+}
+
+.portfolio-section {
+  & .breadcrumbs {
+    display: none;
   }
 }

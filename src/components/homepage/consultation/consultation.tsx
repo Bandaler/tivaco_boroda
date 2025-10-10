@@ -11,7 +11,7 @@ export default async function Consultation() {
 
   return (
     <>
-      <div className="main-bg light"></div>
+      <div className="main-bg sec-bg"></div>
       <div className="secondary-bg"></div>
       <div className="page-content">
 

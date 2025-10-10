@@ -19,7 +19,7 @@ export default async function NewsScreen() {
 
   return (
     <>
-      <div className="main-bg dark"></div>
+      <div className="main-bg white"></div>
       <div className="secondary-bg light-bg"></div>
       <div className="page-content news-section">
         <div className="w-bg">

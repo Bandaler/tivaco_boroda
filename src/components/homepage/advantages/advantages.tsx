@@ -14,7 +14,7 @@ export default async function Advantages() {
 
   return (
     <>
-      <div className="main-bg light"></div>
+      <div className="main-bg white"></div>
       <div className="secondary-bg light-bg"></div>
       <div className="page-content">
         <div className="w-bg">

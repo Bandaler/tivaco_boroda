@@ -2,7 +2,7 @@
 
 import { useRef, useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
@@ -38,11 +38,14 @@ export default function PortfolioSliderClient({ data }: { data: SlideData[] }) {
           <div className="services-page__inner portfolio-page__inner">
             <Breadcrumbs />
             <div className="h1">Portfolio</div>
-
             {swiperReady && (
               <Swiper
-                modules={[Navigation, Pagination]}
+                modules={[Navigation, Pagination, Autoplay]}
                 grabCursor
+                // autoplay={{
+                //   delay: 5000,
+                //   disableOnInteraction: false,
+                // }}
                 centeredSlides
                 slidesPerView={3}
                 spaceBetween={45}
@@ -119,7 +122,7 @@ export default function PortfolioSliderClient({ data }: { data: SlideData[] }) {
             </div>
           </div>
         </div>
-      </div>
+      </div >
     </>
   );
 }

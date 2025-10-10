@@ -94,7 +94,7 @@ export default async function PortfolioPage({
   return (
     <>
       <section className={`section portfolio-section news-section light`}>
-        <div className={`main-bg`}></div>
+        <div className={`main-bg white`}></div>
         <div className={`secondary-bg light-bg`}></div>
         <div className="page-content">
 

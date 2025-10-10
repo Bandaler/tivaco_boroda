@@ -8,7 +8,7 @@ export default async function TeamHomepage() {
 
   return (
     <>
-      <div className="main-bg"></div>
+      <div className="main-bg sec-bg"></div>
       <div className="secondary-bg"></div>
       <div className="page-content">
         <div className="container team-container">

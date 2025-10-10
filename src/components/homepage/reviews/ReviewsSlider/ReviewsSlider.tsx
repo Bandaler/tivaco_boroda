@@ -4,10 +4,10 @@ import { useRef, useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+// import 'swiper/css/pagination';
 import Image from 'next/image';
 
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 type ReviewSlide = {
   slider_review_text: string;
@@ -35,8 +35,12 @@ export default function ReviewsSlider({ slides }: { slides: ReviewSlide[] }) {
   return (
     <div className="reviews-slider-wrapper">
       <Swiper
-        modules={[Navigation, Pagination]}
+        modules={[Navigation, Pagination, Autoplay]}
         loop
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
         spaceBetween={30}
         slidesPerView={2}
         navigation={{

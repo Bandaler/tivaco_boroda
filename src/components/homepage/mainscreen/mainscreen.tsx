@@ -18,7 +18,7 @@ export default async function Mainscreen() {
 
   return (
     <>
-      <div className="main-bg"></div>
+      <div className="main-bg sec-bg"></div>
       <div className="secondary-bg"></div>
 
       <div className="arrow">

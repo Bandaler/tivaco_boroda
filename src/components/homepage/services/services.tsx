@@ -8,7 +8,7 @@ export default async function Services() {
   const page = await res.json();
   return (
     <>
-      <div className="main-bg light"></div>
+      <div className="main-bg sec-bg"></div>
       <div className="secondary-bg"></div>
       <div className="page-content">
         <div className="hero-block services-block">

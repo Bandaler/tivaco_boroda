@@ -25,7 +25,7 @@ export default async function Mainscreen() {
 
   return (
     <>
-      <div className="main-bg light"></div>
+      <div className="main-bg white"></div>
       <div className="secondary-bg light-bg"></div>
       <div className="page-content">
 

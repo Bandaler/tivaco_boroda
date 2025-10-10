@@ -2,10 +2,10 @@
 
 import { useRef, useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+// import 'swiper/css/pagination';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -93,24 +93,28 @@ export default function SliderTeam({ teamList }: { teamList: TeamMember[] }) {
       </div>
 
       <Swiper
-        modules={[Navigation, Pagination]}
+        modules={[Navigation, Pagination, Autoplay]}
+        // autoplay={{
+        //   delay: 5000,
+        //   disableOnInteraction: false,
+        // }}
         spaceBetween={30}
         slidesPerView={3}
         loop={showControls} // loop только если >= 4
         navigation={
           showControls
             ? {
-                prevEl: navigationPrevEl,
-                nextEl: navigationNextEl,
-              }
+              prevEl: navigationPrevEl,
+              nextEl: navigationNextEl,
+            }
             : undefined
         }
         pagination={
           showControls
             ? {
-                el: paginationEl,
-                clickable: true,
-              }
+              el: paginationEl,
+              clickable: true,
+            }
             : undefined
         }
         breakpoints={{

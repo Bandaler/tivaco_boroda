@@ -20,7 +20,7 @@ export default async function Reviews() {
 
   return (
     <>
-      <div className="main-bg dark"></div>
+      <div className="main-bg white"></div>
       <div className="secondary-bg light-bg"></div>
       <div className="page-content">
         <div className="w-bg">
