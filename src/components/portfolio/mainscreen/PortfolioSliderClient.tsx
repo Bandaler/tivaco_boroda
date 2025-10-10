@@ -42,10 +42,10 @@ export default function PortfolioSliderClient({ data }: { data: SlideData[] }) {
               <Swiper
                 modules={[Navigation, Pagination, Autoplay]}
                 grabCursor
-                // autoplay={{
-                //   delay: 5000,
-                //   disableOnInteraction: false,
-                // }}
+                autoplay={{
+                  delay: 5000,
+                  disableOnInteraction: false,
+                }}
                 centeredSlides
                 slidesPerView={3}
                 spaceBetween={45}
