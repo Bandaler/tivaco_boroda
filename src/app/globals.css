@@ -2916,13 +2916,12 @@ div:has(.service-btns) {
 
     .tab-content__item.active {
       display: flex;
-
+      gap: 62px;
       @media(max-width: 1150px) {
         flex-direction: column;
         gap: 10px;
       }
 
-      gap: 62px;
     }
   }
 }
