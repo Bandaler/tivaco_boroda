@@ -1,7 +1,7 @@
 // app/services/page.tsx
 
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 
 import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
 import Marquee from "../marquee/Marquee";
