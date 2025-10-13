@@ -23,9 +23,9 @@ export default async function Reviews() {
       <div className="main-bg white"></div>
       <div className="secondary-bg light-bg"></div>
       <div className="page-content">
-        <div className="w-bg">
+        {/* <div className="w-bg">
           <Image src={'/w-bg.png'} width={4000} height={4000} alt="bg" />
-        </div>
+        </div> */}
         <div className="mark-decor">
           <Image src={'/mark.svg'} width={4000} height={4000} alt="bg" />
         </div>

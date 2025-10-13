@@ -2,7 +2,7 @@ import SliderTeam from '@/components/homepage/team/SliderTeam/SliderTeam';
 // import './style.css'
 
 export default async function TeamHomepage() {
-  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/team-list?_embed', { cache: 'force-cache' });
+  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/team-list?orderby=menu_order&order=asc&_embed', { cache: 'force-cache' });
 
   const teamList = await res.json();
 

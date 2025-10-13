@@ -1273,8 +1273,11 @@ div:has(.service-btns) {
           display: flex;
           align-items: center;
           gap: 57px;
+          @media(min-width: 1200px) {
+            gap: 250px;
+          }
 
-          @media(Max-width: 1150px) {
+          @media(max-width: 1150px) {
             flex-direction: column;
             align-items: flex-start;
           }
@@ -1927,8 +1930,8 @@ div:has(.service-btns) {
       align-items: center;
       justify-content: center;
 
-      @media(min-width: 1800px) {
-        min-width: 650px;
+      @media(min-width: 1700px) {
+        min-width: 627px;
       }
 
       @media(max-width: 1700px) {
@@ -5529,7 +5532,10 @@ ol {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 4rem;
+  bottom: 2rem;
+  @media(max-width: 700px) {
+    bottom: 1rem;
+  }
 
   /* @media(max-width: 700px) {
     transform: translateX(-16px);
@@ -5565,8 +5571,10 @@ ol {
 
 .why-block {
   & .custom-swiper-navigation {
-    margin-left: 0;
+    @media(max-width: 700px) {
+      margin-left: 0;
     transform: translateX(0px);
+    }
   }
 }
 
@@ -6047,5 +6055,8 @@ ol {
 .portfolio-section {
   & .breadcrumbs {
     display: none;
+  }
+  & a {
+    pointer-events: none;
   }
 }

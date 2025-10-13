@@ -130,7 +130,7 @@ export default async function TeamPage({
 
   return (
     <section className={`section ${team.acf?.theme_color === 'Светлая' ? 'light' : ''}`}>
-      <div className={`main-bg ${team.acf?.theme_color === 'Светлая' ? 'dark' : ''}`}></div>
+      <div className={`main-bg sec-bg`}></div>
       <div className={`secondary-bg ${team.acf?.theme_color === 'Светлая' ? 'light-bg' : ''}`}></div>
       <div className="page-content">
         {team.acf?.theme_color === 'Светлая' && (

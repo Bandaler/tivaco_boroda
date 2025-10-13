@@ -38,7 +38,7 @@ export default function ReviewsSlider({ slides }: { slides: ReviewSlide[] }) {
         modules={[Navigation, Pagination, Autoplay]}
         loop
         autoplay={{
-          delay: 5000,
+          delay: 3000,
           disableOnInteraction: false,
         }}
         spaceBetween={30}

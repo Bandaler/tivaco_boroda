@@ -52,7 +52,7 @@ export default function WhySliderClient({ data, hmWhySmall }: WhySliderProps) {
                 modules={[Navigation, Pagination, Autoplay]}
                 grabCursor
                 autoplay={{
-                  delay: 5000,
+                  delay: 3000,
                   disableOnInteraction: false,
                 }}
                 centeredSlides

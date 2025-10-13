@@ -43,7 +43,7 @@ export default function PortfolioSliderClient({ data }: { data: SlideData[] }) {
                 modules={[Navigation, Pagination, Autoplay]}
                 grabCursor
                 autoplay={{
-                  delay: 5000,
+                  delay: 3000,
                   disableOnInteraction: false,
                 }}
                 centeredSlides
