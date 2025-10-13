@@ -1273,9 +1273,13 @@ div:has(.service-btns) {
           display: flex;
           align-items: center;
           gap: 57px;
-          @media(min-width: 1200px) {
+          @media(min-width: 1700px) {
             gap: 250px;
           }
+            @media(min-width: 1200px) {
+            gap: 180px;
+          }
+
 
           @media(max-width: 1150px) {
             flex-direction: column;
@@ -1328,6 +1332,10 @@ div:has(.service-btns) {
             font-weight: 400;
             line-height: 140%;
             max-width: 608px;
+            width: 100%;
+            @media(min-width: 1200px) {
+              min-width: 600px;
+            }
 
             @media(max-width: 1700px) {
               font-size: 25px;
@@ -6056,7 +6064,11 @@ ol {
   & .breadcrumbs {
     display: none;
   }
-  & a {
+ 
+}
+
+.portfolio-page__inner {
+ & a {
     pointer-events: none;
   }
 }
