@@ -1,7 +1,7 @@
 // app/services/[slug]/page.tsx
 
 import Tabs from '@/components/services/Tabs/Tabs';
-import Image from 'next/image';
+// import Image from 'next/image';
 import Breadcrumbs from '@/components/Breadcrumbs/Breadcrumbs';
 import MotionSection from '@/hooks/MotionSection';
 
@@ -100,14 +100,14 @@ export default async function ServicePage({
   return (
     <>
       <section className={`section ${service.acf?.theme_color === 'Светлая' ? 'light' : ''}`}>
-        <div className={`main-bg ${service.acf?.theme_color === 'Светлая' ? 'dark' : ''}`}></div>
+        <div className={`main-bg white`}></div>
         <div className={`secondary-bg ${service.acf?.theme_color === 'Светлая' ? 'light-bg' : ''}`}></div>
         <div className="page-content">
-          {service.acf?.theme_color === 'Светлая' && (
+          {/* {service.acf?.theme_color === 'Светлая' && (
             <div className="w-bg">
               <Image src="/w-bg.png" width={4000} height={4000} alt="bg" />
             </div>
-          )}
+          )} */}
 
           <div className="container padding-0">
             <div className="single-service__inner">

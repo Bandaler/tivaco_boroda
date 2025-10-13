@@ -2724,7 +2724,7 @@ div:has(.service-btns) {
       max-width: 215px;
 
       @media(max-width: 1750px) {
-        max-width: 167px;
+        max-width: 200px;
       }
 
 
