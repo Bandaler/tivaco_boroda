@@ -1273,12 +1273,15 @@ div:has(.service-btns) {
           display: flex;
           align-items: center;
           gap: 57px;
+
+          @media(min-width: 1200px) {
+            gap: 180px;
+          }
+
           @media(min-width: 1700px) {
             gap: 250px;
           }
-            @media(min-width: 1200px) {
-            gap: 180px;
-          }
+
 
 
           @media(max-width: 1150px) {
@@ -1333,6 +1336,7 @@ div:has(.service-btns) {
             line-height: 140%;
             max-width: 608px;
             width: 100%;
+
             @media(min-width: 1200px) {
               min-width: 600px;
             }
@@ -1939,7 +1943,7 @@ div:has(.service-btns) {
       justify-content: center;
 
       @media(min-width: 1700px) {
-        min-width: 627px;
+        min-width: 613px;
       }
 
       @media(max-width: 1700px) {
@@ -5541,6 +5545,7 @@ ol {
   left: 0;
   right: 0;
   bottom: 2rem;
+
   @media(max-width: 700px) {
     bottom: 1rem;
   }
@@ -5581,7 +5586,7 @@ ol {
   & .custom-swiper-navigation {
     @media(max-width: 700px) {
       margin-left: 0;
-    transform: translateX(0px);
+      transform: translateX(0px);
     }
   }
 }
@@ -6064,11 +6069,11 @@ ol {
   & .breadcrumbs {
     display: none;
   }
- 
+
 }
 
 .portfolio-page__inner {
- & a {
+  & a {
     pointer-events: none;
   }
 }

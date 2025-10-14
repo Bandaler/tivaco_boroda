@@ -100,7 +100,7 @@ export default async function ServicePage({
   return (
     <>
       <section className={`section ${service.acf?.theme_color === 'Светлая' ? 'light' : ''}`}>
-        <div className={`main-bg white`}></div>
+        <div className={`main-bg ${service.acf?.theme_color === 'Светлая' ? 'white' : 'sec-bg'}`}></div>
         <div className={`secondary-bg ${service.acf?.theme_color === 'Светлая' ? 'light-bg' : ''}`}></div>
         <div className="page-content">
           {/* {service.acf?.theme_color === 'Светлая' && (
