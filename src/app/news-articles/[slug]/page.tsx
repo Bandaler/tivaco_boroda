@@ -25,7 +25,7 @@ interface News {
 
 export async function generateStaticParams() {
   const API_URL = process.env.API_SECRET_URL_NEWS;
-  const res = await fetch(`${API_URL}t?per_page=100`);
+  const res = await fetch(`${API_URL}?per_page=100`);
   const data: News[] = await res.json();
 
 
