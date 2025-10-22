@@ -2,7 +2,7 @@ import EventsSlider from "../slider/EventsSlider";
 import Image from "next/image";
 
 export default async function EventsHomepage() {
-  const API_URL = process.env.API_SECRET_URL_EVENTS;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_EVENTS;
   const res = await fetch(`${API_URL}?_embed`, { cache: 'force-cache' });
 
 

@@ -11,7 +11,7 @@ import { Course } from '@/lib/menutypes/types';
 
 
 export async function generateStaticParams() {
-  const API_URL = process.env.API_SECRET_URL_COURSES;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_COURSES;
   const res = await fetch(`${API_URL}?per_page=100`);
   const data: Course[] = await res.json();
 
@@ -26,7 +26,7 @@ export async function generateMetadata({
 }: {
   params: Promise<{ slug: string }>;
 }) {
-  const API_URL = process.env.API_SECRET_URL_COURSES;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_COURSES;
   const { slug } = await params;
 
   const res = await fetch(
@@ -52,7 +52,7 @@ export default async function CoursePage({
 }: {
   params: Promise<{ slug: string }>;
 }) {
-  const API_URL = process.env.API_SECRET_URL_COURSES;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_COURSES;
   const { slug } = await params;
 
   const res = await fetch(`${API_URL}?slug=${slug}`, {

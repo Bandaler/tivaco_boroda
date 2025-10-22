@@ -3,7 +3,7 @@ import CoursesSlider from "../slider/CoursesSlider";
 import Image from "next/image";
 
 export default async function CoursesHomepage() {
-  const API_URL = process.env.API_SECRET_URL_COURSES;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_COURSES;
   const res = await fetch(`${API_URL}?_embed`, { cache: 'force-cache' });
 
   const courseList = await res.json();

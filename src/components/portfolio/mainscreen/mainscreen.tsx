@@ -14,7 +14,7 @@ interface Portfolio {
 }
 
 export default async function Mainscreen() {
-  const API_URL = process.env.API_SECRET_URL_PORTFOLIO
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_PORTFOLIO
   const res = await fetch(
     `${API_URL}?per_page=100`,
    { cache: 'force-cache' }

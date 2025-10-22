@@ -154,7 +154,7 @@ interface Portfolio {
 
 // Генерация статических путей
 export async function generateStaticParams() {
-  const API_URL = process.env.API_SECRET_URL_PORTFOLIO;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_PORTFOLIO;
   const res = await fetch(
     `${API_URL}?per_page=100`,
     { cache: 'force-cache' }
@@ -175,7 +175,7 @@ export async function generateMetadata({
 }: {
   params: Promise<{ slug: string }>;
 }) {
-  const API_URL = process.env.API_SECRET_URL_PORTFOLIO;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_PORTFOLIO;
   const { slug } = await params;
 
   const res = await fetch(
@@ -201,7 +201,7 @@ export default async function PortfolioPage({
 }: {
   params: Promise<{ slug: string }>;
 }) {
-  const API_URL = process.env.API_SECRET_URL_PORTFOLIO;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_PORTFOLIO;
   const { slug } = await params;
 
   const res = await fetch(

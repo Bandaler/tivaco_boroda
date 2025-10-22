@@ -10,7 +10,7 @@ interface Advantage {
 }
 
 export default async function Mainscreen() {
-  const API_URL = process.env.API_SECRET_URL_PAGES;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_PAGES;
 
   const res = await fetch(`${API_URL}/9`, {
     cache: "force-cache",

@@ -30,7 +30,7 @@ interface ServiceTab {
 
 
 export async function generateStaticParams() {
-  const API_URL = process.env.API_SECRET_URL_SERVICES;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_SERVICES;
   const res = await fetch(`${API_URL}?per_page=100`);
   const data: Service[] = await res.json();
 
@@ -44,7 +44,7 @@ export async function generateMetadata({
 }: {
   params: Promise<{ slug: string }>;
 }) {
-  const API_URL = process.env.API_SECRET_URL_SERVICES;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_SERVICES;
   const { slug } = await params;
 
   const res = await fetch(
@@ -70,7 +70,7 @@ export default async function ServicePage({
 }: {
   params: Promise<{ slug: string }>;
 }) {
-  const API_URL = process.env.API_SECRET_URL_SERVICES;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_SERVICES;
   const { slug } = await params;
 
   const res = await fetch(`${API_URL}?slug=${slug}`, {

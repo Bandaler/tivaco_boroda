@@ -109,7 +109,7 @@ export default function PortfolioTabs() {
   // }, []);
   useEffect(() => {
     async function fetchCategoriesWithTabs() {
-      const API_URL_CATS = process.env.API_SECRET_URL_NEWS_CATS;
+      const API_URL_CATS = process.env.NEXT_PUBLIC_API_SECRET_URL_NEWS_CATS;
       try {
         const categoriesRes = await fetch(
           `${API_URL_CATS}`

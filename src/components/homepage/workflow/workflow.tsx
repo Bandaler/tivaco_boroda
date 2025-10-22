@@ -3,7 +3,7 @@ import WorkflowTabs from './WorkflowTabs';
 import MotionSection from '@/hooks/MotionSection';
 
 export default async function Workflow() {
-  const API_URL = process.env.API_SECRET_URL_PAGES;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_PAGES;
   const res = await fetch(`${API_URL}/9`, { cache: 'force-cache' });
   const page = await res.json();
 

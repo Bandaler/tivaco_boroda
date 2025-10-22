@@ -22,7 +22,7 @@ interface Event {
 }
 
 export async function generateStaticParams() {
-  const API_URL = process.env.API_SECRET_URL_EVENTS;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_EVENTS;
   const res = await fetch(`${API_URL}?per_page=100`);
   const data: Event[] = await res.json();
 
@@ -36,7 +36,7 @@ export async function generateMetadata({
 }: {
   params: Promise<{ slug: string }>;
 }) {
-  const API_URL = process.env.API_SECRET_URL_EVENTS;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_EVENTS;
   const { slug } = await params;
 
   const res = await fetch(
@@ -63,7 +63,7 @@ export default async function CoursePage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const API_URL = process.env.API_SECRET_URL_EVENTS;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_EVENTS;
 
   const res = await fetch(`${API_URL}?slug=${slug}`, {
     cache: 'force-cache',

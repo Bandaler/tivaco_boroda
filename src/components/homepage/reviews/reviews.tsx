@@ -8,7 +8,7 @@ type ReviewSlide = {
 };
 
 export default async function Reviews() {
-  const API_URL = process.env.API_SECRET_URL_PAGES;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_PAGES;
   const res = await fetch(`${API_URL}/9`, { cache: 'force-cache' });
   const page = await res.json();
   const reviewSlides: ReviewSlide[] = page.acf?.hm_slider_review || [];

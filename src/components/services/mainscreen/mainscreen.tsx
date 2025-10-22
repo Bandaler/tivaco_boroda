@@ -16,7 +16,7 @@ interface Service {
 }
 
 export default async function Mainscreen() {
-  const API_URL = process.env.API_SECRET_URL_SERVICES;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_SERVICES;
   const res = await fetch(
     `${API_URL}?per_page=100&orderby=date&order=asc`,
     { cache: "force-cache" }

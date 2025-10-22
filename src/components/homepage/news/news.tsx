@@ -13,7 +13,7 @@ type NewsItem = {
 };
 
 export default async function NewsScreen() {
-  const API_URL = process.env.API_SECRET_URL_NEWS;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_NEWS;
   const res = await fetch(`${API_URL}?per_page=3`, { cache: 'force-cache' });
 
   const newsItems: NewsItem[] = await res.json();
