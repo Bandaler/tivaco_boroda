@@ -15,6 +15,7 @@ export default function ContactForm({ courseTitle }: { courseTitle: string }) {
   const [status, setStatus] = useState('');
   const [isAccepted, setIsAccepted] = useState(true);
   const phoneInputRef = useRef<HTMLInputElement | null>(null);
+  const API_URL = process.env.API_SECRET_URL_FORM;
 
   useEffect(() => {
     if (phoneInputRef.current) {
@@ -36,7 +37,7 @@ export default function ContactForm({ courseTitle }: { courseTitle: string }) {
     setStatus('Отправка...');
 
     try {
-      const res = await fetch('http://tivaco.borodadigital.com/wp-json/custom/v1/send-message', {
+      const res = await fetch(`${API_URL}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),

@@ -24,7 +24,8 @@ interface News {
 }
 
 export async function generateStaticParams() {
-  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/news-list?per_page=100');
+  const API_URL = process.env.API_SECRET_URL_NEWS;
+  const res = await fetch(`${API_URL}t?per_page=100`);
   const data: News[] = await res.json();
 
 
@@ -39,10 +40,11 @@ export async function generateMetadata({
 }: {
   params: Promise<{ slug: string }>;
 }) {
+  const API_URL = process.env.API_SECRET_URL_NEWS;
   const { slug } = await params;
 
   const res = await fetch(
-    `http://tivaco.borodadigital.com/wp-json/wp/v2/news-list?slug=${slug}`,
+    `${API_URL}?slug=${slug}`,
     { cache: 'force-cache' }
   );
 
@@ -64,9 +66,10 @@ export default async function PortfolioPage({
 }: {
   params: Promise<{ slug: string }>;
 }) {
+  const API_URL = process.env.API_SECRET_URL_NEWS;
   const { slug } = await params;
 
-  const res = await fetch(`http://tivaco.borodadigital.com/wp-json/wp/v2/news-list?slug=${slug}`, {
+  const res = await fetch(`${API_URL}?slug=${slug}`, {
     cache: 'force-cache',
   });
 
@@ -80,7 +83,7 @@ export default async function PortfolioPage({
 
   // Получаем список всех записей
   const allRes = await fetch(
-    'http://tivaco.borodadigital.com/wp-json/wp/v2/news-list?per_page=100&order=asc&orderby=date',
+    `${API_URL}?per_page=100&order=asc&orderby=date`,
     { cache: 'force-cache' }
   );
   const allData: News[] = await allRes.json();

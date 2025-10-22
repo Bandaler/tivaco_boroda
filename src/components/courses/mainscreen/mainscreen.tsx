@@ -3,7 +3,8 @@ import CoursesSlider from "../slider/CoursesSlider";
 import Image from "next/image";
 
 export default async function CoursesHomepage() {
-  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/courses-list?_embed', { cache: 'force-cache' });
+  const API_URL = process.env.API_SECRET_URL_COURSES;
+  const res = await fetch(`${API_URL}?_embed`, { cache: 'force-cache' });
 
   const courseList = await res.json();
 

@@ -1,11 +1,6 @@
 import MotionSection from "@/hooks/MotionSection";
-import ReviewsSlider from "./ReviewsSlider/ReviewsSlider"; // путь укажи по своей структуре
+import ReviewsSlider from "./ReviewsSlider/ReviewsSlider"; 
 import Image from "next/image";
-
-// type ReviewsItem = {
-//   advantages_list_image: string;
-//   advantages_list_descr: string;
-// };
 
 type ReviewSlide = {
   slider_review_text: string;
@@ -13,9 +8,9 @@ type ReviewSlide = {
 };
 
 export default async function Reviews() {
-  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/pages/9', { cache: 'force-cache' });
+  const API_URL = process.env.API_SECRET_URL_PAGES;
+  const res = await fetch(`${API_URL}/9`, { cache: 'force-cache' });
   const page = await res.json();
-  // const reviews: ReviewsItem[] = page.acf?.advantages_list || [];
   const reviewSlides: ReviewSlide[] = page.acf?.hm_slider_review || [];
 
   return (

@@ -2,8 +2,9 @@ import EventsSlider from "../slider/EventsSlider";
 import Image from "next/image";
 
 export default async function EventsHomepage() {
-  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/events-list?_embed', { cache: 'force-cache' });
-  // { cache: 'force-cache' }
+  const API_URL = process.env.API_SECRET_URL_EVENTS;
+  const res = await fetch(`${API_URL}?_embed`, { cache: 'force-cache' });
+
 
   const eventsList = await res.json();
 

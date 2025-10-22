@@ -16,8 +16,9 @@ interface Service {
 }
 
 export default async function Mainscreen() {
+  const API_URL = process.env.API_SECRET_URL_SERVICES;
   const res = await fetch(
-    "http://tivaco.borodadigital.com/wp-json/wp/v2/services-list?per_page=100&orderby=date&order=asc",
+    `${API_URL}?per_page=100&orderby=date&order=asc`,
     { cache: "force-cache" }
   );
 

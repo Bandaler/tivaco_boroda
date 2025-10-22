@@ -13,7 +13,8 @@ type NewsItem = {
 };
 
 export default async function NewsScreen() {
-  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/news-list?per_page=3', { cache: 'force-cache' });
+  const API_URL = process.env.API_SECRET_URL_NEWS;
+  const res = await fetch(`${API_URL}?per_page=3`, { cache: 'force-cache' });
 
   const newsItems: NewsItem[] = await res.json();
 

@@ -14,8 +14,9 @@ interface Portfolio {
 }
 
 export default async function Mainscreen() {
+  const API_URL = process.env.API_SECRET_URL_PORTFOLIO
   const res = await fetch(
-    "http://tivaco.borodadigital.com/wp-json/wp/v2/portfolio-list?per_page=100",
+    `${API_URL}?per_page=100`,
    { cache: 'force-cache' }
   );
 

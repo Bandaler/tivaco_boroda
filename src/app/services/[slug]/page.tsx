@@ -30,7 +30,8 @@ interface ServiceTab {
 
 
 export async function generateStaticParams() {
-  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/services-list?per_page=100');
+  const API_URL = process.env.API_SECRET_URL_SERVICES;
+  const res = await fetch(`${API_URL}?per_page=100`);
   const data: Service[] = await res.json();
 
   return data.map(service => ({
@@ -43,10 +44,11 @@ export async function generateMetadata({
 }: {
   params: Promise<{ slug: string }>;
 }) {
+  const API_URL = process.env.API_SECRET_URL_SERVICES;
   const { slug } = await params;
 
   const res = await fetch(
-    `http://tivaco.borodadigital.com/wp-json/wp/v2/services-list?slug=${slug}`,
+    `${API_URL}?slug=${slug}`,
     { cache: 'force-cache' }
   );
 
@@ -68,9 +70,10 @@ export default async function ServicePage({
 }: {
   params: Promise<{ slug: string }>;
 }) {
+  const API_URL = process.env.API_SECRET_URL_SERVICES;
   const { slug } = await params;
 
-  const res = await fetch(`http://tivaco.borodadigital.com/wp-json/wp/v2/services-list?slug=${slug}`, {
+  const res = await fetch(`${API_URL}?slug=${slug}`, {
     cache: 'force-cache',
   });
 

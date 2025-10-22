@@ -7,7 +7,8 @@ import Link from 'next/link';
 export default function ContactForm() {
   const [formData, setFormData] = useState({ name: '', phone: '', email: '', message: '' });
   const [status, setStatus] = useState('');
-  const [isAccepted, setIsAccepted] = useState(true); // по умолчанию чекбокс включён
+  const [isAccepted, setIsAccepted] = useState(true); 
+  const API_URL = process.env.API_SECRET_URL_FORM;
 
   const phoneInputRef = useRef<HTMLInputElement | null>(null);
 
@@ -20,6 +21,7 @@ export default function ContactForm() {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
   };
+  
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -31,7 +33,7 @@ export default function ContactForm() {
     setStatus('Отправка...');
 
     try {
-      const res = await fetch('http://tivaco.borodadigital.com/wp-json/custom/v1/send-message', {
+      const res = await fetch(`${API_URL}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),

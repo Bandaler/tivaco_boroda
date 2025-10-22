@@ -2,7 +2,8 @@ import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
 import PartnersSlider from "../slider/PartnersSlider";
 
 export default async function PartnersHomepage() {
-  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/pages/218?_embed', { cache: 'force-cache' });
+  const API_URL = process.env.API_SECRET_URL_PAGES;
+  const res = await fetch(`${API_URL}/218?_embed`, { cache: 'force-cache' });
 
   const pageData = await res.json();
 

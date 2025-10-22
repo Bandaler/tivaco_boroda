@@ -8,8 +8,7 @@ export const metadata: Metadata = {
 
 
 export default async function Team() {
-  // const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/pages/26', { cache: 'force-cache' });
-  // const page = await res.json();
+
 
   return (
     <>

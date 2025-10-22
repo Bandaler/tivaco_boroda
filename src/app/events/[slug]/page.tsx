@@ -22,7 +22,8 @@ interface Event {
 }
 
 export async function generateStaticParams() {
-  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/events-list?per_page=100');
+  const API_URL = process.env.API_SECRET_URL_EVENTS;
+  const res = await fetch(`${API_URL}?per_page=100`);
   const data: Event[] = await res.json();
 
   return data.map(event => ({
@@ -35,10 +36,11 @@ export async function generateMetadata({
 }: {
   params: Promise<{ slug: string }>;
 }) {
+  const API_URL = process.env.API_SECRET_URL_EVENTS;
   const { slug } = await params;
 
   const res = await fetch(
-    `http://tivaco.borodadigital.com/wp-json/wp/v2/events-list?slug=${slug}`,
+    `${API_URL}?slug=${slug}`,
     { cache: 'force-cache' }
   );
 
@@ -61,8 +63,9 @@ export default async function CoursePage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  const API_URL = process.env.API_SECRET_URL_EVENTS;
 
-  const res = await fetch(`http://tivaco.borodadigital.com/wp-json/wp/v2/events-list?slug=${slug}`, {
+  const res = await fetch(`${API_URL}?slug=${slug}`, {
     cache: 'force-cache',
   });
 
@@ -75,7 +78,7 @@ export default async function CoursePage({
 
   // Получаем список всех записей
   const allRes = await fetch(
-    'http://tivaco.borodadigital.com/wp-json/wp/v2/events-list?per_page=100&order=asc&orderby=date',
+    `${API_URL}?per_page=100&order=asc&orderby=date`,
     { cache: 'force-cache' }
   );
   const allData: Event[] = await allRes.json();

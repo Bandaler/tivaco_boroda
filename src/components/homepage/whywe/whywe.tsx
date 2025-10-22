@@ -16,12 +16,13 @@ interface WhySliderItem {
 interface PageData {
   acf?: {
     why_slider?: WhySliderItem[];
-    hm_why_small?: string; // добавляем сюда
+    hm_why_small?: string; 
   };
 }
 
 export default async function WhySliderServer() {
-  const res = await fetch("http://tivaco.borodadigital.com/wp-json/wp/v2/pages/9", { cache: 'force-cache' });
+  const API_URL = process.env.API_SECRET_URL_PAGES;
+  const res = await fetch(`${API_URL}/9`, { cache: 'force-cache' });
 
   if (!res.ok) {
     console.error("Ошибка загрузки данных:", res.status);

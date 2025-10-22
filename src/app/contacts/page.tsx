@@ -18,8 +18,9 @@ interface Contact {
 }
 
 export default async function Consultation() {
+  const API_URL = process.env.API_SECRET_URL_PAGES;
   const res = await fetch(
-    "http://tivaco.borodadigital.com/wp-json/wp/v2/pages/34",
+    `${API_URL}/34`,
     { next: { revalidate: 60 } } // чтобы всегда брать актуальные данные
   )
 

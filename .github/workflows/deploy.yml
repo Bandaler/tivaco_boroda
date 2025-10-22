@@ -41,9 +41,9 @@ jobs:
       - name: Copy files via SCP
         uses: appleboy/scp-action@master
         with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
-          password: ${{ secrets.SSH_PASSWORD }} 
+          host: ${{ secrets.SSH_HOST_HOSTINGEER }}
+          username: ${{ secrets.SSH_USERNAME_HOSTINGER }}
+          password: ${{ secrets.SSH_PASSWORD_HOSTINGER }} 
           source: "./out/*"
           target: "~"
           strip_components: 1

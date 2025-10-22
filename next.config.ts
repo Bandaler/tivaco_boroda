@@ -21,7 +21,7 @@ const nextConfig: NextConfig = {
 
   images: {
     unoptimized: true,
-    domains: ['tivaco.borodadigital.com'],
+    domains: ['tivaco.expert'],
   },
 };
 

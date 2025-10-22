@@ -1,6 +1,7 @@
 import Image from "next/image";
 import LottieArrow from "./littiearrow/LottieArrow";
 
+
 interface Advantage {
   ms_advantages_title: string;
   ms_advantages_description: string;
@@ -9,7 +10,9 @@ interface Advantage {
 }
 
 export default async function Mainscreen() {
-  const res = await fetch("http://tivaco.borodadigital.com/wp-json/wp/v2/pages/9", {
+  const API_URL = process.env.API_SECRET_URL_PAGES;
+
+  const res = await fetch(`${API_URL}/9`, {
     cache: "force-cache",
   });
   const page = await res.json();

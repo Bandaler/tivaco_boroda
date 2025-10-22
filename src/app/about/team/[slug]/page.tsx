@@ -35,7 +35,8 @@ interface TeamTab {
 
 
 export async function generateStaticParams() {
-  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/team-list?per_page=100');
+  const API_URL = process.env.API_SECRET_URL_TEAM;
+  const res = await fetch(`${API_URL}?per_page=100`);
   const data: Team[] = await res.json();
 
   return data.map(team => ({
@@ -48,10 +49,12 @@ export async function generateMetadata({
 }: {
   params: Promise<{ slug: string }>;
 }) {
+  const API_URL = process.env.API_SECRET_URL_TEAM;
   const { slug } = await params;
+  
 
   const res = await fetch(
-    `http://tivaco.borodadigital.com/wp-json/wp/v2/team-list?slug=${slug}`,
+    `${API_URL}?slug=${slug}`,
     { cache: 'force-cache' }
   );
 
@@ -75,11 +78,12 @@ export default async function TeamPage({
 }: {
   params: Promise<{ slug: string }>;
 }) {
+   const API_URL = process.env.API_SECRET_URL_TEAM;
   const { slug } = await params;
 
 
   const res = await fetch(
-    `http://tivaco.borodadigital.com/wp-json/wp/v2/team-list?slug=${slug}`,
+    `${API_URL}?slug=${slug}`,
     { cache: 'force-cache' }
   );
 
@@ -94,7 +98,7 @@ export default async function TeamPage({
 
     // Получаем список всех записей
   const allRes = await fetch(
-    'http://tivaco.borodadigital.com/wp-json/wp/v2/team-list?per_page=100&order=asc&orderby=date',
+    `${API_URL}?per_page=100&order=asc&orderby=date`,
     { cache: 'force-cache' }
   );
   const allData: Team[] = await allRes.json();

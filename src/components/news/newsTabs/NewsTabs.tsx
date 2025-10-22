@@ -109,9 +109,10 @@ export default function PortfolioTabs() {
   // }, []);
   useEffect(() => {
     async function fetchCategoriesWithTabs() {
+      const API_URL_CATS = process.env.API_SECRET_URL_NEWS_CATS;
       try {
         const categoriesRes = await fetch(
-          "http://tivaco.borodadigital.com/wp-json/wp/v2/news-category"
+          `${API_URL_CATS}`
         );
         const categoriesData = await categoriesRes.json();
 
@@ -127,7 +128,7 @@ export default function PortfolioTabs() {
           categoriesData.map(async (cat: CategoryAPI) => {
             try {
               const tabsRes = await fetch(
-                `http://tivaco.borodadigital.com/wp-json/wp/v2/news-list?news-category=${cat.id}`
+                `${API_URL_CATS}=${cat.id}`
               );
               const tabsData = await tabsRes.json();
 

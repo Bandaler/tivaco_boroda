@@ -154,8 +154,9 @@ interface Portfolio {
 
 // Генерация статических путей
 export async function generateStaticParams() {
+  const API_URL = process.env.API_SECRET_URL_PORTFOLIO;
   const res = await fetch(
-    'http://tivaco.borodadigital.com/wp-json/wp/v2/portfolio-list?per_page=100',
+    `${API_URL}?per_page=100`,
     { cache: 'force-cache' }
   );
 
@@ -174,10 +175,11 @@ export async function generateMetadata({
 }: {
   params: Promise<{ slug: string }>;
 }) {
+  const API_URL = process.env.API_SECRET_URL_PORTFOLIO;
   const { slug } = await params;
 
   const res = await fetch(
-    `http://tivaco.borodadigital.com/wp-json/wp/v2/portfolio-list?slug=${slug}`,
+    `${API_URL}?slug=${slug}`,
     { cache: 'force-cache' }
   );
 
@@ -199,10 +201,11 @@ export default async function PortfolioPage({
 }: {
   params: Promise<{ slug: string }>;
 }) {
+  const API_URL = process.env.API_SECRET_URL_PORTFOLIO;
   const { slug } = await params;
 
   const res = await fetch(
-    `http://tivaco.borodadigital.com/wp-json/wp/v2/portfolio-list?slug=${slug}`,
+    `${API_URL}?slug=${slug}`,
     { cache: 'force-cache' }
   );
 
@@ -221,7 +224,7 @@ export default async function PortfolioPage({
 
   // Получаем список всех записей (для пагинации)
   const allRes = await fetch(
-    'http://tivaco.borodadigital.com/wp-json/wp/v2/portfolio-list?per_page=100&order=asc&orderby=date',
+    `${API_URL}?per_page=100&order=asc&orderby=date`,
     { cache: 'force-cache' }
   );
 

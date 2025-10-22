@@ -1,38 +1,12 @@
-// import Link from "next/link";
+
 import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
-// import Image from "next/image";
 import NewsTabs from "../newsTabs/NewsTabs";
 
-
-// interface News {
-//   id: number;
-//   slug: string;
-//   title: {
-//     rendered: string;
-//   };
-//   // content: {
-//   //   rendered: string;
-//   // };
-//   acf: {
-//     news_image?: string;
-//     // portfolio_date?: string;
-//     // portfolio_author?: {
-//     //   portfolio_author_photo?: string;
-//     //   portfolio_author_name?: string;
-//     //   portfolio_author_position?: string;
-//     // };
-//   };
-// }
 
 
 
 export default async function Mainscreen() {
-  // const res = await fetch(
-  //   "http://tivaco.borodadigital.com/wp-json/wp/v2/news-list?per_page=100",
-  //   { cache: "force-cache" }
-  // );
 
-  // const news: News[] = await res.json();
 
   return (
     <>

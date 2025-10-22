@@ -3,12 +3,12 @@ import WorkflowTabs from './WorkflowTabs';
 import MotionSection from '@/hooks/MotionSection';
 
 export default async function Workflow() {
-  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/pages/9', { cache: 'force-cache' });
+  const API_URL = process.env.API_SECRET_URL_PAGES;
+  const res = await fetch(`${API_URL}/9`, { cache: 'force-cache' });
   const page = await res.json();
 
   const tabs = page.acf?.hm_workflow_tabs || [];
   const smallText = page.acf?.hm_workflow_small || '';
-  // const title = page.acf?.hm_workflow_title || '';
 
   return (
     <>

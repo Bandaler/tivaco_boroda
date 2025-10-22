@@ -3,12 +3,6 @@ import ConsultationForm from "./ConsultationForm/ConsultationForm"; // путь 
 import Marquee from "./marquee/Marquee";
 
 export default async function Consultation() {
-  // const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/team-list?_embed', {
-  //   cache: 'no-store',
-  // });
-
-  // const page = await res.json();
-
   return (
     <>
       <div className="main-bg sec-bg"></div>

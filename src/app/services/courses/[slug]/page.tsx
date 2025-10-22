@@ -11,7 +11,8 @@ import { Course } from '@/lib/menutypes/types';
 
 
 export async function generateStaticParams() {
-  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/courses-list?per_page=100');
+  const API_URL = process.env.API_SECRET_URL_COURSES;
+  const res = await fetch(`${API_URL}?per_page=100`);
   const data: Course[] = await res.json();
 
   return data.map(course => ({
@@ -25,10 +26,11 @@ export async function generateMetadata({
 }: {
   params: Promise<{ slug: string }>;
 }) {
+  const API_URL = process.env.API_SECRET_URL_COURSES;
   const { slug } = await params;
 
   const res = await fetch(
-    `http://tivaco.borodadigital.com/wp-json/wp/v2/courses-list?slug=${slug}`,
+    `${API_URL}?slug=${slug}`,
     { cache: 'force-cache' }
   );
 
@@ -50,9 +52,10 @@ export default async function CoursePage({
 }: {
   params: Promise<{ slug: string }>;
 }) {
+  const API_URL = process.env.API_SECRET_URL_COURSES;
   const { slug } = await params;
 
-  const res = await fetch(`http://tivaco.borodadigital.com/wp-json/wp/v2/courses-list?slug=${slug}`, {
+  const res = await fetch(`${API_URL}?slug=${slug}`, {
     cache: 'force-cache',
   });
 

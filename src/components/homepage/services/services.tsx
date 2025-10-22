@@ -4,7 +4,8 @@ import Link from "next/link";
 
 
 export default async function Services() {
-  const res = await fetch('http://tivaco.borodadigital.com/wp-json/wp/v2/pages/9', { cache: 'force-cache' });
+  const API_URL = process.env.API_SECRET_URL_PAGES;
+  const res = await fetch(`${API_URL}/9`, { cache: 'force-cache' });
   const page = await res.json();
   return (
     <>
