@@ -35,7 +35,7 @@ interface TeamTab {
 
 
 export async function generateStaticParams() {
-  const API_URL = process.env.API_SECRET_URL_TEAM;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_TEAM;
   const res = await fetch(`${API_URL}?per_page=100`);
   const data: Team[] = await res.json();
 
@@ -49,7 +49,7 @@ export async function generateMetadata({
 }: {
   params: Promise<{ slug: string }>;
 }) {
-  const API_URL = process.env.API_SECRET_URL_TEAM;
+  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_TEAM;
   const { slug } = await params;
   
 
@@ -78,7 +78,7 @@ export default async function TeamPage({
 }: {
   params: Promise<{ slug: string }>;
 }) {
-   const API_URL = process.env.API_SECRET_URL_TEAM;
+   const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_TEAM;
   const { slug } = await params;
 
 
