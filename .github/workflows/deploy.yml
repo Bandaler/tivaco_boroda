@@ -44,6 +44,7 @@ jobs:
           host: ${{ secrets.SSH_HOST_HOSTINGEER }}
           username: ${{ secrets.SSH_USERNAME_HOSTINGER }}
           password: ${{ secrets.SSH_PASSWORD_HOSTINGER }} 
+          port: 65002
           source: "./out/*"
           target: "~"
           strip_components: 1
