@@ -1,0 +1,142 @@
+1:"$Sreact.fragment"
+2:I[7177,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","177","static/chunks/app/layout-99897d5dd945aab9.js"],"default"]
+4:I[147,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","177","static/chunks/app/layout-99897d5dd945aab9.js"],"default"]
+5:I[7555,[],""]
+6:I[1295,[],""]
+7:I[3063,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","700","static/chunks/app/news-articles/%5Bslug%5D/page-129c9e89318b6282.js"],"Image"]
+8:I[6874,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","700","static/chunks/app/news-articles/%5Bslug%5D/page-129c9e89318b6282.js"],""]
+a:I[9665,[],"OutletBoundary"]
+d:I[4911,[],"AsyncMetadataOutlet"]
+f:I[9665,[],"ViewportBoundary"]
+11:I[9665,[],"MetadataBoundary"]
+13:I[6614,[],""]
+:HL["/_next/static/media/aa924b7c62245c84-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/8e1a63af27050d3b.css","style"]
+:HL["/_next/static/css/9d4f56c757b1630f.css","style"]
+:HL["/_next/static/css/69f81e06845cd7ae.css","style"]
+0:{"P":null,"b":"PkRzatavXZi1nUC2Q7zij","p":"","c":["","news-articles","cross-examination-vs-tribunal-led-expert-evidence-cultural-perspectives-in-international-arbitration",""],"i":false,"f":[[["",{"children":["news-articles",{"children":[["slug","cross-examination-vs-tribunal-led-expert-evidence-cultural-perspectives-in-international-arbitration","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8e1a63af27050d3b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/9d4f56c757b1630f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/69f81e06845cd7ae.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","$L2",null,{"fontClass":"__variable_dd67e1","children":["$L3",["$","$L4",null,{}],["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"scroll-container","children":["$","section",null,{"className":"section light","children":[["$","div",null,{"className":"main-bg light"}],["$","div",null,{"className":"secondary-bg light-bg"}],["$","div",null,{"className":"arrow arrow-nf","children":["$","$L7",null,{"src":"/arrow.png","width":1000,"height":1000,"alt":"image"}]}],["$","div",null,{"className":"page-content nf-content","children":[["$","div",null,{"className":"w-bg","children":["$","$L7",null,{"src":"/w-bg.png","width":4000,"height":4000,"alt":"bg"}]}],["$","div",null,{"className":"container","children":["$","div",null,{"className":"nf-inner","children":[["$","h1",null,{"children":"404"}],["$","p",null,{"children":"Ooops! This page is still in post-production."}],["$","$L8",null,{"className":"nf-back","href":"/","children":"back to main page"}]]}]}]]}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":["news-articles",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","cross-examination-vs-tribunal-led-expert-evidence-cultural-perspectives-in-international-arbitration","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L9",null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","sMBhyBBhJyo5DbQDcZX4Kv",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],["$","$L11",null,{"children":"$L12"}]]}],false]],"m":"$undefined","G":["$13","$undefined"],"s":false,"S":true}
+14:I[734,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","177","static/chunks/app/layout-99897d5dd945aab9.js"],"default"]
+15:I[8702,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","177","static/chunks/app/layout-99897d5dd945aab9.js"],"default"]
+16:"$Sreact.suspense"
+17:I[4911,[],"AsyncMetadata"]
+3:["$","header",null,{"children":["$","$L14",null,{"children":["$","nav",null,{"className":"nav","children":["$","div",null,{"className":"container","children":["$","div",null,{"className":"nav-inner","children":["$","$L15",null,{}]}]}]}]}]}]
+12:["$","div",null,{"hidden":true,"children":["$","$16",null,{"fallback":null,"children":["$","$L17",null,{"promise":"$@18"}]}]}]
+c:null
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+b:null
+19:T1569,<h2>Introduction</h2>
+<p>Expert evidence lies at the heart of many international arbitration proceedings. From damages calculations to complex engineering issues, experts provide the technical foundation on which tribunals build their awards. Yet the way expert evidence is tested and presented varies significantly across legal cultures.</p>
+<p>Two approaches dominate:<br />
+• Cross-examination, rooted in common law traditions.<br />
+• Tribunal-led questioning and hot-tubbing, reflecting civil law influences.</p>
+<p>Understanding these cultural perspectives is key to navigating modern arbitration, where parties, counsel, and arbitrators often come from very different legal backgrounds.</p>
+<h2>Cross-Examination: The Common Law Tradition</h2>
+<p>Cross-examination is adversarial by design. Counsel challenges the opposing party’s expert with (somewhat often) leading questions to expose weaknesses, inconsistencies, or bias.</p>
+<p>Strengths:</p>
+<ul>
+<li>Advocacy control: Counsel shapes the narrative.</li>
+<li>Transparency: Tribunal sees the expert under direct pressure.</li>
+<li>Familiarity: Widely accepted in common law arbitration practice.</li>
+</ul>
+<p>Limitations:</p>
+<ul>
+<li>Adversarial bias: Experts may become defensive rather than explanatory.</li>
+<li>Time-consuming: Prolongs hearings, especially under “no stone unturned” approach.</li>
+<li>Effectiveness depends on counsel: A skilled advocate might “win the battle” regardless of the science behind the expert’s report.</li>
+</ul>
+<p>Case note: In our experience of many commercial arbitrations across the globe, cross-examination remains the default, even when technical issues might benefit from a more tribunal-led format.</p>
+<h2>Tribunal-Led Questioning and Hot-Tubbing: The Civil Law Perspective</h2>
+<p>In civil law traditions, the tribunal takes a more active role in questioning experts. Tribunal-led hot-tubbing (concurrent expert evidence or witness conferencing) is a variation: experts present their views side by side, guided by the tribunal’s questions.</p>
+<p>Strengths:</p>
+<ul>
+<li>Direct clarity: Arbitrators get immediate answers to what they consider decisive and/or most material when it comes to damages.</li>
+<li>Efficiency: Reduces duplication and adversarial “battles”</li>
+<li>Collaborative tone: Encourages experts to focus on substance, not advocacy.</li>
+</ul>
+<p>Limitations:</p>
+<ul>
+<li>Unfamiliarity for counsel: Less control over the narrative.</li>
+<li>Risk of imbalance: A dominant personality may overshadow a quieter but more rigorous expert.</li>
+<li>Tribunal dependency: Quality depends on how proactively and effectively arbitrators moderate the process.</li>
+</ul>
+<p>Case note: ICSID and other investor-state arbitration tribunals might be more acceptive of tribunal-led expert sessions, especially in complex damages cases, reflecting the civil law influence of many arbitrators in such disputes.</p>
+<h2>Cultural Frictions in Mixed Proceedings</h2>
+<p>International arbitration is, by definition, cross-cultural. A Singapore-based tribunal may include civil law arbitrators, while parties may expect procedures aligned with their own traditions.</p>
+<p>Typical frictions in such multi-cultural proceedings may include:<br />
+• Counsel from common law backgrounds insisting on extensive cross-examination.<br />
+• Civil law arbitrators pushing for tribunal-led sessions to maintain efficiency.<br />
+• Experts themselves struggling to adapt to formats outside their “domestic” experience .</p>
+<p>These differences can shape not only the flow of the hearing but also the perceived fairness of the process.</p>
+<h1>Trends and Hybrid Models</h1>
+<p>Modern arbitral practice increasingly blends the two traditions:<br />
+• “Sequential” model: Cross-examination followed by tribunal-led hot-tubbing.<br />
+• Pre-hearing questionnaires: Arbitrators send experts written questions and/or list of key issues to be tested before oral evidence, or require experts to prepare at least a short joint statement.<br />
+• Focused hot-tubbing: Experts are only questioned concurrently on specific (and/or most material) points of disagreement.</p>
+<p>This hybridization reflects the global nature of arbitration—an attempt to reconcile advocacy with efficiency.</p>
+<h2>Conclusion</h2>
+<p>The choice between cross-examination and tribunal-led expert evidence reflects deep cultural differences in how truth is tested.</p>
+<p>• Common law advocates value party control and adversarial testing.<br />
+• Civil law traditions emphasize tribunal-led clarification and efficiency.<br />
+• Hybrid models are increasingly seen as the best of both worlds.</p>
+<p>For practitioners, awareness of these cultural dynamics is not merely procedural—it is strategic. The way expert evidence is managed can determine not only how facts are perceived but also how fair the arbitration feels to all participants.</p>
+<p>Reference: Global Arbitration Review, &#8216;Approaches to Evidence Across Legal Cultures&#8217;, The Guide to Evidence in International Arbitration (3rd edition), 9 September 2025. Available at: <a href="https://globalarbitrationreview.com/guide/the-guide-evidence-in-international-arbitration/3rd-edition/article/approaches-evidence-across-legal-cultures">https://globalarbitrationreview.com/guide/the-guide-evidence-in-international-arbitration/3rd-edition/article/approaches-evidence-across-legal-cultures</a></p>
+e:{"metadata":[["$","title","0",{"children":"Cross-Examination vs Tribunal-Led Expert Evidence: Cultural Perspectives in International Arbitration | Tivaco"}],["$","meta","1",{"name":"description","content":"$19"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]],"error":null,"digest":"$undefined"}
+18:{"metadata":"$e:metadata","error":null,"digest":"$undefined"}
+1a:I[1009,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","700","static/chunks/app/news-articles/%5Bslug%5D/page-129c9e89318b6282.js"],"default"]
+1b:T1569,<h2>Introduction</h2>
+<p>Expert evidence lies at the heart of many international arbitration proceedings. From damages calculations to complex engineering issues, experts provide the technical foundation on which tribunals build their awards. Yet the way expert evidence is tested and presented varies significantly across legal cultures.</p>
+<p>Two approaches dominate:<br />
+• Cross-examination, rooted in common law traditions.<br />
+• Tribunal-led questioning and hot-tubbing, reflecting civil law influences.</p>
+<p>Understanding these cultural perspectives is key to navigating modern arbitration, where parties, counsel, and arbitrators often come from very different legal backgrounds.</p>
+<h2>Cross-Examination: The Common Law Tradition</h2>
+<p>Cross-examination is adversarial by design. Counsel challenges the opposing party’s expert with (somewhat often) leading questions to expose weaknesses, inconsistencies, or bias.</p>
+<p>Strengths:</p>
+<ul>
+<li>Advocacy control: Counsel shapes the narrative.</li>
+<li>Transparency: Tribunal sees the expert under direct pressure.</li>
+<li>Familiarity: Widely accepted in common law arbitration practice.</li>
+</ul>
+<p>Limitations:</p>
+<ul>
+<li>Adversarial bias: Experts may become defensive rather than explanatory.</li>
+<li>Time-consuming: Prolongs hearings, especially under “no stone unturned” approach.</li>
+<li>Effectiveness depends on counsel: A skilled advocate might “win the battle” regardless of the science behind the expert’s report.</li>
+</ul>
+<p>Case note: In our experience of many commercial arbitrations across the globe, cross-examination remains the default, even when technical issues might benefit from a more tribunal-led format.</p>
+<h2>Tribunal-Led Questioning and Hot-Tubbing: The Civil Law Perspective</h2>
+<p>In civil law traditions, the tribunal takes a more active role in questioning experts. Tribunal-led hot-tubbing (concurrent expert evidence or witness conferencing) is a variation: experts present their views side by side, guided by the tribunal’s questions.</p>
+<p>Strengths:</p>
+<ul>
+<li>Direct clarity: Arbitrators get immediate answers to what they consider decisive and/or most material when it comes to damages.</li>
+<li>Efficiency: Reduces duplication and adversarial “battles”</li>
+<li>Collaborative tone: Encourages experts to focus on substance, not advocacy.</li>
+</ul>
+<p>Limitations:</p>
+<ul>
+<li>Unfamiliarity for counsel: Less control over the narrative.</li>
+<li>Risk of imbalance: A dominant personality may overshadow a quieter but more rigorous expert.</li>
+<li>Tribunal dependency: Quality depends on how proactively and effectively arbitrators moderate the process.</li>
+</ul>
+<p>Case note: ICSID and other investor-state arbitration tribunals might be more acceptive of tribunal-led expert sessions, especially in complex damages cases, reflecting the civil law influence of many arbitrators in such disputes.</p>
+<h2>Cultural Frictions in Mixed Proceedings</h2>
+<p>International arbitration is, by definition, cross-cultural. A Singapore-based tribunal may include civil law arbitrators, while parties may expect procedures aligned with their own traditions.</p>
+<p>Typical frictions in such multi-cultural proceedings may include:<br />
+• Counsel from common law backgrounds insisting on extensive cross-examination.<br />
+• Civil law arbitrators pushing for tribunal-led sessions to maintain efficiency.<br />
+• Experts themselves struggling to adapt to formats outside their “domestic” experience .</p>
+<p>These differences can shape not only the flow of the hearing but also the perceived fairness of the process.</p>
+<h1>Trends and Hybrid Models</h1>
+<p>Modern arbitral practice increasingly blends the two traditions:<br />
+• “Sequential” model: Cross-examination followed by tribunal-led hot-tubbing.<br />
+• Pre-hearing questionnaires: Arbitrators send experts written questions and/or list of key issues to be tested before oral evidence, or require experts to prepare at least a short joint statement.<br />
+• Focused hot-tubbing: Experts are only questioned concurrently on specific (and/or most material) points of disagreement.</p>
+<p>This hybridization reflects the global nature of arbitration—an attempt to reconcile advocacy with efficiency.</p>
+<h2>Conclusion</h2>
+<p>The choice between cross-examination and tribunal-led expert evidence reflects deep cultural differences in how truth is tested.</p>
+<p>• Common law advocates value party control and adversarial testing.<br />
+• Civil law traditions emphasize tribunal-led clarification and efficiency.<br />
+• Hybrid models are increasingly seen as the best of both worlds.</p>
+<p>For practitioners, awareness of these cultural dynamics is not merely procedural—it is strategic. The way expert evidence is managed can determine not only how facts are perceived but also how fair the arbitration feels to all participants.</p>
+<p>Reference: Global Arbitration Review, &#8216;Approaches to Evidence Across Legal Cultures&#8217;, The Guide to Evidence in International Arbitration (3rd edition), 9 September 2025. Available at: <a href="https://globalarbitrationreview.com/guide/the-guide-evidence-in-international-arbitration/3rd-edition/article/approaches-evidence-across-legal-cultures">https://globalarbitrationreview.com/guide/the-guide-evidence-in-international-arbitration/3rd-edition/article/approaches-evidence-across-legal-cultures</a></p>
+9:["$","section",null,{"className":"section portfolio-section news-section light","children":[["$","div",null,{"className":"main-bg white"}],["$","div",null,{"className":"secondary-bg light-bg"}],["$","div",null,{"className":"page-content","children":["$","div",null,{"className":"container padding-0","children":[["$","div",null,{"className":"single-service__inner portfolio-page__inner news-page__inner detail-page-news","children":[["$","$L1a",null,{"current":"Cross-Examination vs Tribunal-Led Expert Evidence: Cultural Perspectives in International Arbitration"}],["$","div",null,{"className":"news-page__content","children":[["$","div",null,{"className":"hero-block__title","children":["$","h1",null,{"className":"h1","dangerouslySetInnerHTML":{"__html":"Cross-Examination vs Tribunal-Led Expert Evidence: Cultural Perspectives in International Arbitration"}}]}],["$","div",null,{"className":"news-description__area","dangerouslySetInnerHTML":{"__html":"$1b"}}]]}]]}],["$","div",null,{"className":"news-pagination","children":[null,["$","$L8",null,{"href":"/news-articles/tribunal-appointed-vs-party-appointed-experts-in-international-arbitration-an-analytical-perspective","children":[["$","span",null,{"children":"Next article"}],["$","$L7",null,{"src":"/next-nav.svg","width":34,"height":34,"alt":"img"}]]}]]}]]}]}]]}]

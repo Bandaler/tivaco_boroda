@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[7177,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","177","static/chunks/app/layout-99897d5dd945aab9.js"],"default"]
+4:I[147,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","177","static/chunks/app/layout-99897d5dd945aab9.js"],"default"]
+5:I[7555,[],""]
+6:I[1295,[],""]
+7:I[3063,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","897","static/chunks/897-b5d729194fd4a29f.js","914","static/chunks/914-1057d1077e1b61ad.js","974","static/chunks/app/page-5ecf01da0dee1daa.js"],"Image"]
+8:I[6874,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","897","static/chunks/897-b5d729194fd4a29f.js","914","static/chunks/914-1057d1077e1b61ad.js","974","static/chunks/app/page-5ecf01da0dee1daa.js"],""]
+a:I[9665,[],"OutletBoundary"]
+d:I[4911,[],"AsyncMetadataOutlet"]
+f:I[9665,[],"ViewportBoundary"]
+11:I[9665,[],"MetadataBoundary"]
+13:I[6614,[],""]
+:HL["/_next/static/media/aa924b7c62245c84-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/8e1a63af27050d3b.css","style"]
+:HL["/_next/static/css/9d4f56c757b1630f.css","style"]
+:HL["/_next/static/css/69f81e06845cd7ae.css","style"]
+0:{"P":null,"b":"PkRzatavXZi1nUC2Q7zij","p":"","c":["","news-articles",""],"i":false,"f":[[["",{"children":["news-articles",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8e1a63af27050d3b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/9d4f56c757b1630f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/69f81e06845cd7ae.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","$L2",null,{"fontClass":"__variable_dd67e1","children":["$L3",["$","$L4",null,{}],["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"scroll-container","children":["$","section",null,{"className":"section light","children":[["$","div",null,{"className":"main-bg light"}],["$","div",null,{"className":"secondary-bg light-bg"}],["$","div",null,{"className":"arrow arrow-nf","children":["$","$L7",null,{"src":"/arrow.png","width":1000,"height":1000,"alt":"image"}]}],["$","div",null,{"className":"page-content nf-content","children":[["$","div",null,{"className":"w-bg","children":["$","$L7",null,{"src":"/w-bg.png","width":4000,"height":4000,"alt":"bg"}]}],["$","div",null,{"className":"container","children":["$","div",null,{"className":"nf-inner","children":[["$","h1",null,{"children":"404"}],["$","p",null,{"children":"Ooops! This page is still in post-production."}],["$","$L8",null,{"className":"nf-back","href":"/","children":"back to main page"}]]}]}]]}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":["news-articles",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L9",null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","xotdoSr64s5mgwJ6ONlt-v",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],["$","$L11",null,{"children":"$L12"}]]}],false]],"m":"$undefined","G":["$13","$undefined"],"s":false,"S":true}
+14:I[734,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","177","static/chunks/app/layout-99897d5dd945aab9.js"],"default"]
+15:I[8702,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","177","static/chunks/app/layout-99897d5dd945aab9.js"],"default"]
+17:"$Sreact.suspense"
+18:I[4911,[],"AsyncMetadata"]
+3:["$","header",null,{"children":["$","$L14",null,{"children":["$","nav",null,{"className":"nav","children":["$","div",null,{"className":"container","children":["$","div",null,{"className":"nav-inner","children":["$","$L15",null,{}]}]}]}]}]}]
+9:["$","main",null,{"className":"scroll-container","children":["$","section",null,{"className":"section light portfolio-section__parent","children":"$L16"}]}]
+12:["$","div",null,{"hidden":true,"children":["$","$17",null,{"fallback":null,"children":["$","$L18",null,{"promise":"$@19"}]}]}]
+1a:I[1009,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","936","static/chunks/app/news-articles/page-897efc156c24c79b.js"],"default"]
+1b:I[3957,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","936","static/chunks/app/news-articles/page-897efc156c24c79b.js"],"default"]
+c:null
+16:[["$","div",null,{"className":"main-bg white"}],["$","div",null,{"className":"secondary-bg light-bg"}],["$","div",null,{"className":"page-content","children":["$","div",null,{"className":"container padding-0","children":["$","div",null,{"className":"services-page__inner news-page__inner","children":[["$","$L1a",null,{}],["$","div",null,{"className":"hero-block__title","children":["$","h1",null,{"className":"h1","children":"News & ARTICLES"}]}],["$","$L1b",null,{}]]}]}]}]]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+b:null
+e:{"metadata":[["$","title","0",{"children":"News & Articles | Tivaco"}],["$","meta","1",{"name":"description","content":"page news"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]],"error":null,"digest":"$undefined"}
+19:{"metadata":"$e:metadata","error":null,"digest":"$undefined"}
