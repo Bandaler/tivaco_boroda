@@ -16,6 +16,7 @@ export default async function News() {
       <main className="scroll-container">
         <section className="section light portfolio-section__parent">
           <Mainscreen />
+          
         </section>
       </main>
     </>
