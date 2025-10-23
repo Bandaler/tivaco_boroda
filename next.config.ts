@@ -16,13 +16,10 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   output: 'export',
-
-  trailingSlash: true, // 👈 заставляет создавать /папка/index.html
-
+  trailingSlash: true,
   images: {
     unoptimized: true,
-    domains: ['tivaco.expert'],
+    domains: ['tivaco.expert', 'tivaco.borodadigital.com'], // <- добавляем второй домен
   },
 };
 
-export default nextConfig;
