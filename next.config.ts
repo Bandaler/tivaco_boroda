@@ -19,8 +19,8 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true,
-    domains: ['tivaco.borodadigital.com', 'tivaco.borodadigital.com'], // <- добавляем второй домен
+    domains: ['tivaco.borodadigital.com'],
   },
 };
 
-
+export default nextConfig;
