@@ -37,7 +37,7 @@ export default function PortfolioSliderClient({ data }: { data: SlideData[] }) {
         <div className="container padding-0">
           <div className="services-page__inner portfolio-page__inner">
             <Breadcrumbs />
-            <div className="h1">Portfolio</div>
+            <div className="h1">Cases</div>
             {swiperReady && (
               <Swiper
                 modules={[Navigation, Pagination, Autoplay]}

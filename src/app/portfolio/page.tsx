@@ -2,7 +2,7 @@ import Mainscreen from "@/components/portfolio/mainscreen/mainscreen";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Portfolio | Tivaco",
+  title: "Portfolio | TIVACO experts",
   description: "page events",
 };
 

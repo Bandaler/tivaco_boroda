@@ -1,10 +1,10 @@
 1:"$Sreact.fragment"
-2:I[7177,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","177","static/chunks/app/layout-99897d5dd945aab9.js"],"default"]
-4:I[147,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","177","static/chunks/app/layout-99897d5dd945aab9.js"],"default"]
+2:I[7177,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","177","static/chunks/app/layout-ba2c99eaa6209f9e.js"],"default"]
+4:I[147,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","177","static/chunks/app/layout-ba2c99eaa6209f9e.js"],"default"]
 5:I[7555,[],""]
 6:I[1295,[],""]
-7:I[3063,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","700","static/chunks/app/news-articles/%5Bslug%5D/page-129c9e89318b6282.js"],"Image"]
-8:I[6874,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","700","static/chunks/app/news-articles/%5Bslug%5D/page-129c9e89318b6282.js"],""]
+7:I[3063,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","700","static/chunks/app/news-articles/%5Bslug%5D/page-0fcecd835718cfff.js"],"Image"]
+8:I[6874,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","700","static/chunks/app/news-articles/%5Bslug%5D/page-0fcecd835718cfff.js"],""]
 a:I[9665,[],"OutletBoundary"]
 d:I[4911,[],"AsyncMetadataOutlet"]
 f:I[9665,[],"ViewportBoundary"]
@@ -12,11 +12,11 @@ f:I[9665,[],"ViewportBoundary"]
 13:I[6614,[],""]
 :HL["/_next/static/media/aa924b7c62245c84-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/css/8e1a63af27050d3b.css","style"]
-:HL["/_next/static/css/9d4f56c757b1630f.css","style"]
+:HL["/_next/static/css/9d7650aea832532d.css","style"]
 :HL["/_next/static/css/69f81e06845cd7ae.css","style"]
-0:{"P":null,"b":"PkRzatavXZi1nUC2Q7zij","p":"","c":["","news-articles","tribunal-appointed-vs-party-appointed-experts-in-international-arbitration-an-analytical-perspective",""],"i":false,"f":[[["",{"children":["news-articles",{"children":[["slug","tribunal-appointed-vs-party-appointed-experts-in-international-arbitration-an-analytical-perspective","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8e1a63af27050d3b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/9d4f56c757b1630f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/69f81e06845cd7ae.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","$L2",null,{"fontClass":"__variable_dd67e1","children":["$L3",["$","$L4",null,{}],["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"scroll-container","children":["$","section",null,{"className":"section light","children":[["$","div",null,{"className":"main-bg light"}],["$","div",null,{"className":"secondary-bg light-bg"}],["$","div",null,{"className":"arrow arrow-nf","children":["$","$L7",null,{"src":"/arrow.png","width":1000,"height":1000,"alt":"image"}]}],["$","div",null,{"className":"page-content nf-content","children":[["$","div",null,{"className":"w-bg","children":["$","$L7",null,{"src":"/w-bg.png","width":4000,"height":4000,"alt":"bg"}]}],["$","div",null,{"className":"container","children":["$","div",null,{"className":"nf-inner","children":[["$","h1",null,{"children":"404"}],["$","p",null,{"children":"Ooops! This page is still in post-production."}],["$","$L8",null,{"className":"nf-back","href":"/","children":"back to main page"}]]}]}]]}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":["news-articles",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","tribunal-appointed-vs-party-appointed-experts-in-international-arbitration-an-analytical-perspective","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L9",null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","CxVbrTLfusHGO8AGPfRNAv",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],["$","$L11",null,{"children":"$L12"}]]}],false]],"m":"$undefined","G":["$13","$undefined"],"s":false,"S":true}
-14:I[734,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","177","static/chunks/app/layout-99897d5dd945aab9.js"],"default"]
-15:I[8702,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","177","static/chunks/app/layout-99897d5dd945aab9.js"],"default"]
+0:{"P":null,"b":"8C0cgm71EOHjZyooQkyys","p":"","c":["","news-articles","tribunal-appointed-vs-party-appointed-experts-in-international-arbitration-an-analytical-perspective",""],"i":false,"f":[[["",{"children":["news-articles",{"children":[["slug","tribunal-appointed-vs-party-appointed-experts-in-international-arbitration-an-analytical-perspective","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8e1a63af27050d3b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/9d7650aea832532d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/69f81e06845cd7ae.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","$L2",null,{"fontClass":"__variable_dd67e1","children":["$L3",["$","$L4",null,{}],["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"scroll-container","children":["$","section",null,{"className":"section light","children":[["$","div",null,{"className":"main-bg light"}],["$","div",null,{"className":"secondary-bg light-bg"}],["$","div",null,{"className":"arrow arrow-nf","children":["$","$L7",null,{"src":"/arrow.png","width":1000,"height":1000,"alt":"image"}]}],["$","div",null,{"className":"page-content nf-content","children":[["$","div",null,{"className":"w-bg","children":["$","$L7",null,{"src":"/w-bg.png","width":4000,"height":4000,"alt":"bg"}]}],["$","div",null,{"className":"container","children":["$","div",null,{"className":"nf-inner","children":[["$","h1",null,{"children":"404"}],["$","p",null,{"children":"Ooops! This page is still in post-production."}],["$","$L8",null,{"className":"nf-back","href":"/","children":"back to main page"}]]}]}]]}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]]}],{"children":["news-articles",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","tribunal-appointed-vs-party-appointed-experts-in-international-arbitration-an-analytical-perspective","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L9",null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","mQE6qBuEtTV7rNRFedAOUv",{"children":[["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],["$","$L11",null,{"children":"$L12"}]]}],false]],"m":"$undefined","G":["$13","$undefined"],"s":false,"S":true}
+14:I[734,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","177","static/chunks/app/layout-ba2c99eaa6209f9e.js"],"default"]
+15:I[8702,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","177","static/chunks/app/layout-ba2c99eaa6209f9e.js"],"default"]
 16:"$Sreact.suspense"
 17:I[4911,[],"AsyncMetadata"]
 3:["$","header",null,{"children":["$","$L14",null,{"children":["$","nav",null,{"className":"nav","children":["$","div",null,{"className":"container","children":["$","div",null,{"className":"nav-inner","children":["$","$L15",null,{}]}]}]}]}]}]
@@ -24,35 +24,35 @@ f:I[9665,[],"ViewportBoundary"]
 c:null
 10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 b:null
-19:T1821,<h2>Introduction</h2>
+19:T18ed,<h2><strong>Introduction</strong></h2>
 <p>Expert evidence is often the backbone of international arbitration. From asset valuation to complex technical assessments in construction disputes, arbitral tribunals rely extensively on experts to clarify the factual and methodological underpinnings of a case. But the question remains: <strong>who appoints the expert</strong>—the tribunal or the parties?</p>
 <p>This distinction between <strong>party-appointed experts</strong> and <strong>tribunal-appointed experts</strong> may have profound implications for cost, timeline, and procedural structure of expert evidence. Leading arbitral institutions (e.g. SIAC, ICC, LCIA, ICSID) have developed practices around both models, yet it seems that the party-appointment approach dominates globally.</p>
-<h2>Party-Appointed Experts: Advocacy and Control</h2>
-<h3>Definition</h3>
+<h2><strong>Party-Appointed Experts: Advocacy and Control</strong></h2>
+<h3><strong>Definition</strong></h3>
 <p>Each party selects its own expert to prepare a report, ideally supporting its position. The expert might work closely with counsel, especially in cases where quantum of damages depends heavily on the disputed factual and legal issues and counsel’s input is required to formulate certain assumptions (e.g. as to the counterfactual scenario).</p>
-<h3>Advantages</h3>
+<h3><strong>Advantages</strong></h3>
 <ul>
 <li><strong>Strategic alignment:</strong> the report may fit better into the party’s overall case theory, given that same party has discretion to choose its own expert witness.</li>
 <li><strong>Freedom of choice:</strong> parties can retain niche specialists (valuation experts, engineers, industry professionals) based on their own criteria.</li>
 <li><strong>Greater control:</strong> counsel can to some extent influence scope, methodology, and focus of the expert’s analysis via means of its instructions to the expert.</li>
 </ul>
-<h3>Drawbacks</h3>
+<h3><strong>Drawbacks</strong></h3>
 <ul>
 <li><strong>Perception of bias:</strong> experts may be seen as “hired guns” or “quantum advocates”</li>
 <li><strong>Expert battles:</strong> tribunals may often face diametrically opposed expert reports, sometimes driven by the non-reconciling factual or legal basis adopted in the opposing experts’ instructions.</li>
 <li><strong>Higher costs:</strong> both parties pay for their own experts, sometimes several at once (e.g. a damages expert relying on certain inputs from an industry expert).</li>
 </ul>
 <p><em>Case note:</em> In many ICSID cases, party-appointed experts presented completely divergent discounted cash flow (DCF) valuation models, leaving tribunals struggling to reconcile somewhat “parallel realities”</p>
-<h2>Tribunal-Appointed Experts: Neutrality and Efficiency</h2>
-<h3>Definition</h3>
+<h2><strong>Tribunal-Appointed Experts: Neutrality and Efficiency</strong></h2>
+<h3><strong>Definition</strong></h3>
 <p>The tribunal itself appoints an expert, usually where highly technical or financial issues must be resolved.</p>
-<h3>Advantages</h3>
+<h3><strong>Advantages</strong></h3>
 <ul>
 <li><strong>Greater perceived credibility:</strong> tribunal-appointed experts are presumed more neutral.</li>
 <li><strong>Efficiency:</strong> a single expert can streamline proceedings and reduce costs.</li>
 <li><strong>Clarity:</strong> tribunals receive direct answers to questions they consider critical.</li>
 </ul>
-<h3>Drawbacks</h3>
+<h3><strong>Drawbacks</strong></h3>
 <ul>
 <li><strong>Less party control:</strong> counsel cannot tailor the methodology to their client’s case.</li>
 <li><strong>Risk of misalignment:</strong> if the tribunal-appointed expert chooses assumptions unfavourable to a party, it may undermine that party’s case.</li>
@@ -60,7 +60,7 @@ b:null
 <li><strong>Cost inefficiencies:</strong> parties are generally not prohibited from appointing their own experts in addition to the tribunal-appointed one. Therefore, one might end up in a scenario of three experts being appointed instead of two, leading to increased costs of arbitration.</li>
 </ul>
 <p><em>Case note:</em> The SIAC Rules expressly empower tribunals to appoint experts. In such cases, the tribunal’s expert often acts as a “technical bridge” between lawyers and arbitrators.</p>
-<h2>Hybrid Approaches</h2>
+<h2><strong>Hybrid Approaches</strong></h2>
 <p>Sometimes, tribunals adopt <strong>hybrid models</strong>:</p>
 <ol>
 <li>Each party submits its own expert report.</li>
@@ -69,13 +69,13 @@ b:null
 <li>As a further alternative, the tribunal may ask the party-appointed experts to meet before they start their analysis to discuss (and potentially agree on) the methodology and/or information requirements.</li>
 </ol>
 <p>This approach reduces perceptions of bias while maintaining the adversarial balance.</p>
-<h2>Practical Implications</h2>
+<h2><strong>Practical Implications</strong></h2>
 <ul>
 <li><strong>For parties and counsel:</strong> a party-appointed model potentially allows full advocacy, but credibility must be carefully preserved—as tribunals may distrust partisan experts.</li>
 <li><strong>For tribunals:</strong> tribunal-appointed experts enhance neutrality but require proactive case management to avoid perceptions of “outsourcing” the decision.</li>
 <li><strong>For legitimacy of arbitration:</strong> hybrid models may represent the most balanced path, especially in high-stakes, technically complex cases.</li>
 </ul>
-<h2>Conclusion</h2>
+<h2><strong>Conclusion</strong></h2>
 <p>The choice between <strong>party-appointed</strong> and <strong>tribunal-appointed</strong> experts reflects a deeper tension in arbitration: the balance between <strong>party autonomy</strong> and <strong>procedural integrity</strong>.</p>
 <ul>
 <li>Party-appointed experts might empower the parties but may be perceived as “hired guns”.</li>
@@ -83,38 +83,38 @@ b:null
 <li>Hybrid solutions often combine the strengths of both.</li>
 </ul>
 <p>As disputes grow more technical and valuations more complex, expert evidence will likely remain decisive. The model chosen can shape not only the tribunal’s reasoning but also how the process itself is perceived in terms of fairness and efficiency.</p>
-e:{"metadata":[["$","title","0",{"children":"Tribunal-Appointed vs Party-Appointed Experts in International Arbitration: An Analytical Perspective | Tivaco"}],["$","meta","1",{"name":"description","content":"$19"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]],"error":null,"digest":"$undefined"}
+e:{"metadata":[["$","title","0",{"children":"Tribunal-Appointed vs Party-Appointed Experts in International Arbitration: An Analytical Perspective | TIVACO experts"}],["$","meta","1",{"name":"description","content":"$19"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]],"error":null,"digest":"$undefined"}
 18:{"metadata":"$e:metadata","error":null,"digest":"$undefined"}
-1a:I[1009,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","700","static/chunks/app/news-articles/%5Bslug%5D/page-129c9e89318b6282.js"],"default"]
-1b:T1821,<h2>Introduction</h2>
+1a:I[1009,["874","static/chunks/874-cb6d4bad4394df37.js","63","static/chunks/63-70a5f023f83a3172.js","700","static/chunks/app/news-articles/%5Bslug%5D/page-0fcecd835718cfff.js"],"default"]
+1b:T18ed,<h2><strong>Introduction</strong></h2>
 <p>Expert evidence is often the backbone of international arbitration. From asset valuation to complex technical assessments in construction disputes, arbitral tribunals rely extensively on experts to clarify the factual and methodological underpinnings of a case. But the question remains: <strong>who appoints the expert</strong>—the tribunal or the parties?</p>
 <p>This distinction between <strong>party-appointed experts</strong> and <strong>tribunal-appointed experts</strong> may have profound implications for cost, timeline, and procedural structure of expert evidence. Leading arbitral institutions (e.g. SIAC, ICC, LCIA, ICSID) have developed practices around both models, yet it seems that the party-appointment approach dominates globally.</p>
-<h2>Party-Appointed Experts: Advocacy and Control</h2>
-<h3>Definition</h3>
+<h2><strong>Party-Appointed Experts: Advocacy and Control</strong></h2>
+<h3><strong>Definition</strong></h3>
 <p>Each party selects its own expert to prepare a report, ideally supporting its position. The expert might work closely with counsel, especially in cases where quantum of damages depends heavily on the disputed factual and legal issues and counsel’s input is required to formulate certain assumptions (e.g. as to the counterfactual scenario).</p>
-<h3>Advantages</h3>
+<h3><strong>Advantages</strong></h3>
 <ul>
 <li><strong>Strategic alignment:</strong> the report may fit better into the party’s overall case theory, given that same party has discretion to choose its own expert witness.</li>
 <li><strong>Freedom of choice:</strong> parties can retain niche specialists (valuation experts, engineers, industry professionals) based on their own criteria.</li>
 <li><strong>Greater control:</strong> counsel can to some extent influence scope, methodology, and focus of the expert’s analysis via means of its instructions to the expert.</li>
 </ul>
-<h3>Drawbacks</h3>
+<h3><strong>Drawbacks</strong></h3>
 <ul>
 <li><strong>Perception of bias:</strong> experts may be seen as “hired guns” or “quantum advocates”</li>
 <li><strong>Expert battles:</strong> tribunals may often face diametrically opposed expert reports, sometimes driven by the non-reconciling factual or legal basis adopted in the opposing experts’ instructions.</li>
 <li><strong>Higher costs:</strong> both parties pay for their own experts, sometimes several at once (e.g. a damages expert relying on certain inputs from an industry expert).</li>
 </ul>
 <p><em>Case note:</em> In many ICSID cases, party-appointed experts presented completely divergent discounted cash flow (DCF) valuation models, leaving tribunals struggling to reconcile somewhat “parallel realities”</p>
-<h2>Tribunal-Appointed Experts: Neutrality and Efficiency</h2>
-<h3>Definition</h3>
+<h2><strong>Tribunal-Appointed Experts: Neutrality and Efficiency</strong></h2>
+<h3><strong>Definition</strong></h3>
 <p>The tribunal itself appoints an expert, usually where highly technical or financial issues must be resolved.</p>
-<h3>Advantages</h3>
+<h3><strong>Advantages</strong></h3>
 <ul>
 <li><strong>Greater perceived credibility:</strong> tribunal-appointed experts are presumed more neutral.</li>
 <li><strong>Efficiency:</strong> a single expert can streamline proceedings and reduce costs.</li>
 <li><strong>Clarity:</strong> tribunals receive direct answers to questions they consider critical.</li>
 </ul>
-<h3>Drawbacks</h3>
+<h3><strong>Drawbacks</strong></h3>
 <ul>
 <li><strong>Less party control:</strong> counsel cannot tailor the methodology to their client’s case.</li>
 <li><strong>Risk of misalignment:</strong> if the tribunal-appointed expert chooses assumptions unfavourable to a party, it may undermine that party’s case.</li>
@@ -122,7 +122,7 @@ e:{"metadata":[["$","title","0",{"children":"Tribunal-Appointed vs Party-Appoint
 <li><strong>Cost inefficiencies:</strong> parties are generally not prohibited from appointing their own experts in addition to the tribunal-appointed one. Therefore, one might end up in a scenario of three experts being appointed instead of two, leading to increased costs of arbitration.</li>
 </ul>
 <p><em>Case note:</em> The SIAC Rules expressly empower tribunals to appoint experts. In such cases, the tribunal’s expert often acts as a “technical bridge” between lawyers and arbitrators.</p>
-<h2>Hybrid Approaches</h2>
+<h2><strong>Hybrid Approaches</strong></h2>
 <p>Sometimes, tribunals adopt <strong>hybrid models</strong>:</p>
 <ol>
 <li>Each party submits its own expert report.</li>
@@ -131,13 +131,13 @@ e:{"metadata":[["$","title","0",{"children":"Tribunal-Appointed vs Party-Appoint
 <li>As a further alternative, the tribunal may ask the party-appointed experts to meet before they start their analysis to discuss (and potentially agree on) the methodology and/or information requirements.</li>
 </ol>
 <p>This approach reduces perceptions of bias while maintaining the adversarial balance.</p>
-<h2>Practical Implications</h2>
+<h2><strong>Practical Implications</strong></h2>
 <ul>
 <li><strong>For parties and counsel:</strong> a party-appointed model potentially allows full advocacy, but credibility must be carefully preserved—as tribunals may distrust partisan experts.</li>
 <li><strong>For tribunals:</strong> tribunal-appointed experts enhance neutrality but require proactive case management to avoid perceptions of “outsourcing” the decision.</li>
 <li><strong>For legitimacy of arbitration:</strong> hybrid models may represent the most balanced path, especially in high-stakes, technically complex cases.</li>
 </ul>
-<h2>Conclusion</h2>
+<h2><strong>Conclusion</strong></h2>
 <p>The choice between <strong>party-appointed</strong> and <strong>tribunal-appointed</strong> experts reflects a deeper tension in arbitration: the balance between <strong>party autonomy</strong> and <strong>procedural integrity</strong>.</p>
 <ul>
 <li>Party-appointed experts might empower the parties but may be perceived as “hired guns”.</li>

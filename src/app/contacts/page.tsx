@@ -4,7 +4,7 @@ import Link from "next/link"
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contacts | Tivaco",
+  title: "Contacts | TIVACO experts",
   description: "our contacts",
 };
 
@@ -40,7 +40,7 @@ export default async function Consultation() {
           
           <div className="contacts-inner">
             <Breadcrumbs />
-            <h1 className="h1">{data.acf?.hm_title || "Contact us"}</h1>
+            <h1 className="h1">CONTACTS</h1>
 
             <div className="contacts-items">
               {contacts.map((contact, index) => (

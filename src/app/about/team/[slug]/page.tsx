@@ -58,15 +58,15 @@ export async function generateMetadata({
     { cache: 'force-cache' }
   );
 
-  if (!res.ok) return { title: "Team | Tivaco" };
+  if (!res.ok) return { title: "Team | TIVACO experts" };
 
   const data: Team[] = await res.json();
   const team = data[0];
 
-  if (!team) return { title: "Team not found | Tivaco" };
+  if (!team) return { title: "Team not found | TIVACO experts" };
 
   return {
-    title: `${team.title.rendered} | Tivaco`,
+    title: `${team.title.rendered} | TIVACO experts`,
     description: team.acf?.position || "Team page",
   };
 }

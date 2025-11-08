@@ -30,7 +30,7 @@ export default async function Consultation() {
 
   return (
     <section className="section contacts-section policy-section">
-      <div className="main-bg light"></div>
+      <div className="main-bg sec-bg"></div>
       <div className="secondary-bg"></div>
       <div className="page-content">
         <div className="container">

@@ -48,7 +48,7 @@ const CommissionertSans = Commissioner({
 });
 
 export const metadata: Metadata = {
-  title: "TIVACO OFFICIAL SITE",
+  title: "TIVACO experts",
   description: "FValuations that hold up in court — and stand out in disputes",
 };
 

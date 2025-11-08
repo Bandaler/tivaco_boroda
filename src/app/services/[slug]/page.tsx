@@ -52,15 +52,15 @@ export async function generateMetadata({
     { cache: 'force-cache' }
   );
 
-  if (!res.ok) return { title: "Team | Tivaco" };
+  if (!res.ok) return { title: "Team | TIVACO experts" };
 
   const data: Service[] = await res.json();
   const service = data[0];
 
-  if (!service) return { title: "Team not found | Tivaco" };
+  if (!service) return { title: "Team not found | TIVACO experts" };
 
   return {
-    title: `${service.title.rendered} | Tivaco`,
+    title: `${service.title.rendered} | TIVACO experts`,
     description: service.content.rendered || "Event page",
   };
 }

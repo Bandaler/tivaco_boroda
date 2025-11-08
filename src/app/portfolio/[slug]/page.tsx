@@ -183,16 +183,16 @@ export async function generateMetadata({
     { cache: 'force-cache' }
   );
 
-  if (!res.ok) return { title: "Team | Tivaco" };
+  if (!res.ok) return { title: "Team | TIVACO experts" };
 
   const data: Portfolio[] = await res.json();
   const portfolio = data[0];
 
-  if (!portfolio) return { title: "Team not found | Tivaco" };
+  if (!portfolio) return { title: "Team not found | TIVACO experts" };
 
   return {
-    title: `${portfolio.title.rendered} | Tivaco`,
-    description: portfolio.content.rendered || "Event page",
+    title: `${portfolio.title.rendered} | TIVACO experts`,
+    description: portfolio.content.rendered || "Portfolio page",
   };
 }
 

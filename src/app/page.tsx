@@ -61,7 +61,7 @@ import { Metadata } from "next";
 import PortfolioSection from "@/components/homepage/portfolio/portfolioSection";
 
 export const metadata: Metadata = {
-  title: "Oficcial site | Tivaco",
+  title: "TIVACO experts",
   description: "page 404",
 };
 
@@ -72,7 +72,7 @@ export default async function Home() {
     <FullPageScrollWrapper>
       <section className="section"><Mainscreen /></section>
       <section className="section"><Services /></section>
-      <section className="section light"><Advantages /></section>
+      <section className="section light" id="advantages"><Advantages /></section>
       <section className="section"><Workflow /></section>
       <section className="section light"><Reviews /></section>
       <section className="section light"><WhyWe /></section>
