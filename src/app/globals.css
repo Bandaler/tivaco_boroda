@@ -2367,6 +2367,7 @@ div:has(.service-btns) {
     }
   }
   & .consultation-inner--left-info.mobile{
+    display: none;
     @media(max-width: 992px) {
       display: block;
     }
@@ -2417,6 +2418,10 @@ div:has(.service-btns) {
   width: 100%;
   display: flex;
   flex-direction: column;
+  & p {
+    color: #fff;
+    margin-top: 10px;
+  }
 
   & .input-wrap {
     width: 100%;
@@ -2453,7 +2458,7 @@ div:has(.service-btns) {
       line-height: 120%;
 
       &::placeholder {
-        color: #2C248E;
+        color: #524c97;
       }
     }
 
@@ -2474,7 +2479,7 @@ div:has(.service-btns) {
       }
 
       &::placeholder {
-        color: #2C248E;
+        color: #524c97;
       }
     }
   }

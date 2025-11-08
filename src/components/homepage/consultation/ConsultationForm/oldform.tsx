@@ -1,18 +1,28 @@
 "use client";
 
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
+import { applyPhoneMaskToInput } from '@/utils/phoneMask';
 import Link from 'next/link';
 
 export default function ContactForm() {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  const [formData, setFormData] = useState({ name: '', phone: '', email: '', message: '' });
   const [status, setStatus] = useState('');
   const [isAccepted, setIsAccepted] = useState(true); 
-  const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_FORM;
+  const API_URL = process.env.API_SECRET_URL_FORM;
+
+  const phoneInputRef = useRef<HTMLInputElement | null>(null);
+
+  useEffect(() => {
+    if (phoneInputRef.current) {
+      applyPhoneMaskToInput(phoneInputRef.current);
+    }
+  }, []);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
   };
   
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!isAccepted) {
@@ -33,7 +43,7 @@ export default function ContactForm() {
 
       if (res.ok && json.success) {
         setStatus(json.message || 'Спасибо! Сообщение отправлено.');
-        setFormData({ name: '', email: '', message: '' });
+        setFormData({ name: '', phone: '', email: '', message: '' });
       } else {
         setStatus(json.error || 'Ошибка при отправке формы');
       }
@@ -53,32 +63,41 @@ export default function ContactForm() {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          placeholder="Name*"
+          placeholder="Name"
           required
         />
       </div>
-
+      {/* <div className="input-wrap phone-input">
+        <input
+          name="phone"
+          ref={phoneInputRef}
+          value={formData.phone}
+          onChange={handleChange}
+          placeholder="Phone"
+          required
+        />
+      </div> */}
       <div className="input-wrap email-input">
         <input
           name="email"
           type="email"
           value={formData.email}
           onChange={handleChange}
-          placeholder="Email*"
+          placeholder="Email"
           required
         />
       </div>
-
       <div className="input-wrap message-input">
         <textarea
           name="message"
           value={formData.message}
           onChange={handleChange}
-          placeholder="Your Message*"
+          placeholder="Your Comment"
           required
         />
       </div>
 
+      {/* Кастомный чекбокс согласия */}
       <div className="input-wrap checkbox-wrap">
         <label className="custom-checkbox">
           <input
@@ -87,9 +106,7 @@ export default function ContactForm() {
             onChange={(e: React.ChangeEvent<HTMLInputElement>) => setIsAccepted(e.target.checked)}
           />
           <span className="checkbox-mark"></span>
-          <span className="checkbox-label">
-            consent to the terms of the <Link href={'/policy'}>privacy Policy</Link>
-          </span>
+          <span className="checkbox-label">consent to the terms of the <Link href={'/policy'}>privacy Policy</Link></span>
         </label>
       </div>
 

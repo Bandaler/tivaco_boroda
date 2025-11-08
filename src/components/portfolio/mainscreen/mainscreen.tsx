@@ -16,9 +16,10 @@ interface Portfolio {
 export default async function Mainscreen() {
   const API_URL = process.env.NEXT_PUBLIC_API_SECRET_URL_PORTFOLIO
   const res = await fetch(
-    `${API_URL}?per_page=100`,
+    `${API_URL}?per_page=100&orderby=menu_order&order=asc&_embed`,
    { cache: 'force-cache' }
   );
+  
 
   if (!res.ok) {
     console.error("Ошибка загрузки данных:", res.status);
@@ -34,7 +35,7 @@ export default async function Mainscreen() {
     subtitle: item.acf?.portfolio_slider_subtitle || "",
     description: item.acf?.portfolio_slider_description || "",
     tag: item.acf?.portfolio_slider_tag || "",
-    slug: item.slug || "", // 👈 добавляем slug
+    slug: item.slug || "", 
   }));
 
   return <PortfolioSliderClient data={sliderData} />;
