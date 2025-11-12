@@ -1820,9 +1820,9 @@ div:has(.service-btns) {
 
 .team-container {
   @media(min-width:992px) {
-    max-width: 100%;
+    /* max-width: 100%;
     margin-left: initial;
-    margin-right: initial;
+    margin-right: initial; */
     padding-top: 3rem;
   }
 
@@ -1943,17 +1943,17 @@ div:has(.service-btns) {
       justify-content: center;
 
       @media(min-width: 1700px) {
-        min-width: 613px;
+        min-width: 546px;
       }
 
       @media(max-width: 1700px) {
         height: 420px;
-        max-width: 450px;
-        min-width: 450px;
+        max-width: 358px;
+        min-width: 358px;
       }
 
       @media(max-width: 1500px) {
-        min-width: 374px;
+        min-width: 358px;
       }
 
       @media(max-width: 992px) {
@@ -1986,7 +1986,8 @@ div:has(.service-btns) {
 
           @media(max-width: 1700px) {
             height: 418px;
-            min-width: 450px;
+            min-width: 358px;
+            max-width: 358px;
           }
 
           @media(max-width: 992px) {
@@ -2361,13 +2362,16 @@ div:has(.service-btns) {
 
 
   }
+
   & .consultation-inner--left-info.desktop {
     @media(max-width: 992px) {
       display: none;
     }
   }
-  & .consultation-inner--left-info.mobile{
+
+  & .consultation-inner--left-info.mobile {
     display: none;
+
     @media(max-width: 992px) {
       display: block;
     }
@@ -2418,6 +2422,7 @@ div:has(.service-btns) {
   width: 100%;
   display: flex;
   flex-direction: column;
+
   & p {
     color: #fff;
     margin-top: 10px;
@@ -2715,6 +2720,12 @@ div:has(.service-btns) {
   /* @media(min-width: 1600px) {
     padding-top: 11rem;
   } */
+  @media(min-width: 992px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+  }
 
   @media(max-width: 1150px) {
     padding-top: 10rem;
@@ -3074,6 +3085,13 @@ div:has(.service-btns) {
   z-index: 3;
   height: 100dvh;
   padding-top: 11rem;
+
+  @media(min-width: 992px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+  }
 
   @media(max-width: 700px) {
     padding-top: 8rem;
@@ -5221,6 +5239,13 @@ html {
   & .container {
     height: 100%;
     padding-top: 10rem;
+
+    @media(min-width: 992px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 0;
+    }
 
     @media(max-width: 992px) {
       padding-top: 8rem;
