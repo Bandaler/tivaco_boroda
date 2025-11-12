@@ -1624,6 +1624,9 @@ div:has(.service-btns) {
 
 .why-block {
   padding-top: 10rem;
+ @media(min-width: 992px) {
+    padding-top: 28dvh;
+  }
 
 
 
@@ -3075,6 +3078,10 @@ div:has(.service-btns) {
 .services-page__inner.portfolio-page__inner {
   padding-top: 10rem;
 
+  @media(min-width: 992px) {
+    padding-top: 28dvh;
+  }
+
   @media(max-width: 992px) {
     padding-top: 8rem;
   }
@@ -3087,10 +3094,7 @@ div:has(.service-btns) {
   padding-top: 11rem;
 
   @media(min-width: 992px) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 0;
+    padding-top: 28dvh;
   }
 
   @media(max-width: 700px) {
