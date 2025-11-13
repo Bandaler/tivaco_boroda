@@ -3107,8 +3107,10 @@ div:has(.service-btns) {
   padding-top: 11rem;
 
   @media(min-width: 992px) {
-    padding-top: 28dvh;
+    padding-top: 25dvh;
   }
+
+
 
   @media(max-width: 700px) {
     padding-top: 8rem;
@@ -4170,7 +4172,7 @@ html {
 
     @media(max-width: 1750px) {
       margin-bottom: 20px;
-      font-size: 50px;
+      font-size: 47px;
     }
 
     @media(max-width: 1150px) {
@@ -4734,7 +4736,7 @@ html {
 
     & p {
       color: var(--Dark, #03002A);
-      font-size: 16px;
+      font-size: 18px;
       font-style: normal;
       font-weight: 400;
       line-height: 150%;

@@ -31,7 +31,7 @@ export default async function Consultation() {
           <div className="consultation-inner--left-info mobile">
             <div className="consultation-inner--left-info__links">
               <Link href={'/policy'}>
-                privacy policy
+                Privacy policy
               </Link>
               <Link href={'/terms'}>
                 Terms Of Use
