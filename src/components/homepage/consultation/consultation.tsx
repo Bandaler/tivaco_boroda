@@ -12,7 +12,7 @@ export default async function Consultation() {
 
         <div className="consultation-inner">
           <div className="consultation-inner--left">
-            <h1>Request a consultation</h1>
+            <h1>REQUEST EXPERT ADVICE</h1>
             <div className="consultation-inner--left-info desktop">
               <div className="consultation-inner--left-info__links">
                 <Link href={'/policy'}>

@@ -165,7 +165,7 @@ export default async function TeamPage({
               <Link href={'/about/team/'} className='navigation-team-arr navigation-team__prev'>
                 <Image src={'/prev-m.svg'} width={34} height={34} alt='img' />
                 <span>
-                  Member list
+                  our team
                 </span>
               </Link>
               {nextTeam && (

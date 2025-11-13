@@ -61,7 +61,7 @@ import { Metadata } from "next";
 import PortfolioSection from "@/components/homepage/portfolio/portfolioSection";
 
 export const metadata: Metadata = {
-  title: "TIVACO experts",
+  title: "TIVACO Experts",
   description: "page 404",
 };
 

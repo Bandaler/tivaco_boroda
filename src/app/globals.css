@@ -2712,7 +2712,19 @@ div:has(.service-btns) {
   transform: rotate(45deg);
 }
 
+.single-service__inner.team-inner {
+  & .breadcrumbs {
+    margin-top: auto;
+  }
+}
 
+.single-service__inner.detail-page-news {
+    @media(min-width: 992px) {
+    flex-direction: initial;
+    padding-top: 10rem;
+    justify-content: initial;
+  }
+}
 
 .single-service__inner {
   display: flex;
@@ -2740,7 +2752,7 @@ div:has(.service-btns) {
 
   & .h1 {
     color: var(--White, #FFF);
-    font-size: clamp(32px, 5vw, 60px);
+    font-size: clamp(32px, 5vw, 47px);
     font-style: normal;
     font-weight: 700;
     line-height: 110%;
@@ -3078,7 +3090,7 @@ div:has(.service-btns) {
 .services-page__inner.portfolio-page__inner {
   padding-top: 10rem;
 
-  @media(min-width: 992px) {
+  @media(min-width: 1600px) {
     padding-top: 28dvh;
   }
 
@@ -4219,7 +4231,7 @@ html {
 
   & p {
     color: var(--White, #03002A);
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
@@ -4609,7 +4621,7 @@ html {
 
     & h2 {
       color: var(--Violet-dark, #160E82);
-      font-size: 40px;
+      font-size: 34px;
       font-style: normal;
       font-weight: 700;
       line-height: 120%;
@@ -4618,7 +4630,7 @@ html {
 
       & strong {
         color: var(--Violet-dark, #160E82);
-        font-size: 40px;
+        font-size: 34px;
         font-style: normal;
         font-weight: 700;
         line-height: 120%;
@@ -5244,12 +5256,12 @@ html {
     height: 100%;
     padding-top: 10rem;
 
-    @media(min-width: 992px) {
+    /* @media(min-width: 992px) {
       display: flex;
       flex-direction: column;
       justify-content: center;
       padding-top: 0;
-    }
+    } */
 
     @media(max-width: 992px) {
       padding-top: 8rem;
