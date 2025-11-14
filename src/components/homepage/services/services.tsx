@@ -21,7 +21,11 @@ export default async function Services() {
               <div className="hero-block__title">{page.acf?.hm_serv_title}</div>
             </MotionSection>
             <MotionSection animation="fade-right">
-              <div className="hero-block__description small">{page.acf?.hm_serv_small_descr}</div>
+              <div
+                className="hero-block__description small"
+                dangerouslySetInnerHTML={{ __html: page.acf?.hm_serv_small_descr }}
+              ></div>
+
             </MotionSection>
           </div>
           <MotionSection animation="fade-right">
@@ -30,7 +34,7 @@ export default async function Services() {
           <MotionSection animation="fade-up">
             <div className="service-btns">
               <Link className="learn-more green-btn" href={'javascript:void(0)'} >Learn more</Link>
-              <Link className="consultation blue-btn" href="#consult"> request a consultation </Link>
+              <Link className="consultation blue-btn" href="#consult"> REQUEST EXPERT ADVICE </Link>
             </div>
           </MotionSection>
         </div>

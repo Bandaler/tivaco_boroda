@@ -16,7 +16,7 @@ export default async function Consultation() {
             <div className="consultation-inner--left-info desktop">
               <div className="consultation-inner--left-info__links">
                 <Link href={'/policy'}>
-                  Privacy policy
+                  Privacy Policy
                 </Link>
                 <Link href={'/terms'}>
                   Terms Of Use
@@ -31,7 +31,7 @@ export default async function Consultation() {
           <div className="consultation-inner--left-info mobile">
             <div className="consultation-inner--left-info__links">
               <Link href={'/policy'}>
-                Privacy policy
+                Privacy Policy
               </Link>
               <Link href={'/terms'}>
                 Terms Of Use
