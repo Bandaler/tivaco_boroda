@@ -50,8 +50,7 @@ export default async function Advantages() {
                 ))}
               </ul>
               <div className="advantages-btns">
-                <Link className="green-btn" href={'javascript:void(0)'} >Learn more</Link>
-                <Link className="blue-btn" href="#consult"> request a consultation </Link>
+                <Link className="blue-btn" href="#consult"> REQUEST EXPERT ADVICE </Link>
               </div>
             </MotionSection>
           </div>

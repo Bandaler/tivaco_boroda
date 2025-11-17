@@ -103,7 +103,7 @@ export default function NavMenu() {
       </ul>
 
       <div className="nav-right">
-        <button className={`header-btn ${isLight ? 'nav-light' : ''}`}>AI assistant</button>
+        {/* <button className={`header-btn ${isLight ? 'nav-light' : ''}`}>AI assistant</button> */}
         <button className={`lang-switcher ${isLight ? 'nav-light' : ''}`}>
           <Image src={'/globe2.svg'} width={34} height={34} alt='img' /><span>ENG</span>
         </button>

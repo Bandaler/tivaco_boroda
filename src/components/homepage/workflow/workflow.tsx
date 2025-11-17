@@ -25,7 +25,7 @@ export default async function Workflow() {
               <MotionSection animation="fade-left">
                 <WorkflowTabs tabs={tabs} />
 
-                <Link className="blue-btn" href="#consult">request a consultation</Link>
+                <Link className="blue-btn" href="#consult">REQUEST EXPERT ADVICE</Link>
               </MotionSection>
             </div>
           </div>

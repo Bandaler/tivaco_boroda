@@ -33,7 +33,7 @@ export default async function Services() {
           </MotionSection>
           <MotionSection animation="fade-up">
             <div className="service-btns">
-              <Link className="learn-more green-btn" href={'javascript:void(0)'} >Learn more</Link>
+              <Link className="learn-more green-btn" href={'/services/'} >Learn more</Link>
               <Link className="consultation blue-btn" href="#consult"> REQUEST EXPERT ADVICE </Link>
             </div>
           </MotionSection>

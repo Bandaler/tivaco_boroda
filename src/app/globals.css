@@ -210,7 +210,8 @@ button {
 }
 
 header {
-  position: fixed;
+  /* position: fixed; */
+  position: absolute;
   z-index: 10;
   top: 25px;
   width: 100%;
@@ -5424,6 +5425,11 @@ body.lock {
     line-height: 100%;
     margin-bottom: 15px;
     margin-top: 15px;
+  }
+
+  & ul {
+    padding-left: 25px;
+    list-style-type: disc;
   }
 
 }
