@@ -55,7 +55,7 @@ export default async function Consultation() {
 
             <div className="service-btns events-btns">
               <Link className="consultation blue-btn" href="/#consult">
-                request a consultation
+                REQUEST EXPERT ADVICE
               </Link>
             </div>
           </div>
