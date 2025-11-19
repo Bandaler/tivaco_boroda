@@ -3024,6 +3024,11 @@ div:has(.service-btns) {
 
     }
   }
+  & .tabs-services.dark {
+    @media(min-width: 1200px) {
+      min-height: 296px;
+    }
+  }
 }
 
 .single-service__inner.team-inner {
