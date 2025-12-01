@@ -13,3 +13,4 @@ export async function getTours(lang: string) {
 export async function getPages(lang: string) {
   return await fetchFromWP('pages', lang);
 }
+
