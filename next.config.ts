@@ -30,6 +30,6 @@ const nextConfig = {
   trailingSlash: false,
   images: {
     unoptimized: true,
-    domains: ['tivaco.borodadigital.com'],
+    domains: ['tivaco-test.live'],
   },
 };
