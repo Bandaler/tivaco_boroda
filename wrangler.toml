@@ -1,6 +1,2 @@
-name = "tivaco-boroda" 
-compatibility_date = "2025-12-04" 
-# Удалите или закомментируйте строку main = "workers-site/index.js"
-
-[site]
-bucket = "./out"
+name = "tivaco-boroda"
+compatibility_date = "2025-12-04"
