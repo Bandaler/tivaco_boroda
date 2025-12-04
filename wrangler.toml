@@ -1,6 +1,6 @@
-name = "tivaco_boroda"
+name = "tivaco-boroda" 
 compatibility_date = "2025-12-04" 
-main = "workers-site/index.js"
+# Удалите или закомментируйте строку main = "workers-site/index.js"
 
 [site]
-bucket = "./out" # Это указывает Wrangler, что папка с вашим билдом называется out
+bucket = "./out"
