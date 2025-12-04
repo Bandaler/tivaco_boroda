@@ -1,5 +1,6 @@
-name = "tivaco boroda" # Замените на уникальное имя вашего проекта
-compatibility_date = "2025-12-04" # Используйте текущую или более позднюю дату
+name = "tivaco boroda"
+compatibility_date = "2025-12-04" 
+main = "workers-site/index.js"
 
 [site]
 bucket = "./out" # Это указывает Wrangler, что папка с вашим билдом называется out
